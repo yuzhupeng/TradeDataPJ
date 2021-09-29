@@ -1,0 +1,8 @@
+C:\Users\admin\Desktop\programs\websocket-sharp-core\bin\Release\netstandard2.0\websocket-sharp-core.deps.json
+C:\Users\admin\Desktop\programs\websocket-sharp-core\bin\Release\netstandard2.0\websocket-sharp-core.dll
+C:\Users\admin\Desktop\programs\websocket-sharp-core\bin\Release\netstandard2.0\websocket-sharp-core.pdb
+C:\Users\admin\Desktop\programs\websocket-sharp-core\obj\Release\netstandard2.0\websocket-sharp-core.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\programs\websocket-sharp-core\obj\Release\netstandard2.0\websocket-sharp-core.AssemblyInfo.cs
+C:\Users\admin\Desktop\programs\websocket-sharp-core\obj\Release\netstandard2.0\websocket-sharp-core.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\programs\websocket-sharp-core\obj\Release\netstandard2.0\websocket-sharp-core.dll
+C:\Users\admin\Desktop\programs\websocket-sharp-core\obj\Release\netstandard2.0\websocket-sharp-core.pdb

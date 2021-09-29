@@ -1,0 +1,12 @@
+﻿記錄時間：2021-04-13 13:24:17,764 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：根据redsi 数据 存储数据：开始和结束时间：2021/4/13 11:24:17to2021/4/13 12:24:17
+記錄時間：2021-04-13 13:25:50,089 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：根据redsi 数据 存储数据：开始和结束时间：2021/4/13 10:25:43to2021/4/13 13:25:44
+記錄時間：2021-04-13 13:26:15,505 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：删除key成功：2021-04-13 11UPermanentFutures
+記錄時間：2021-04-13 13:28:24,969 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：根据redsi 数据 存储数据：开始和结束时间：2021/4/13 10:28:24to2021/4/13 13:28:24
+記錄時間：2021-04-13 13:28:27,324 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：删除key成功：2021-04-13 11UPermanentFutures
+記錄時間：2021-04-13 13:31:46,036 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：根据redsi 数据 存储数据：开始和结束时间：2021/4/13 10:31:45to2021/4/13 13:31:45
+記錄時間：2021-04-13 13:31:47,225 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：数据为空，跳过：2021-04-13 11UDeliveryFutures
+記錄時間：2021-04-13 13:36:01,712 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:列名 'timecode' 无效。
+列名 'contractcode' 无效。
+記錄時間：2021-04-13 13:38:44,980 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：根据redsi 数据 存储数据：开始和结束时间：2021/4/13 10:38:44to2021/4/13 13:38:44
+記錄時間：2021-04-13 13:38:46,204 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：数据为空，跳过：2021-04-13 11UDeliveryFutures
+記錄時間：2021-04-13 13:38:51,772 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：删除key成功：2021-04-13 12UDeliveryFutures

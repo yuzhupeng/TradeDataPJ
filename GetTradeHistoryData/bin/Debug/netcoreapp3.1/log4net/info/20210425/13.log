@@ -1,0 +1,9 @@
+
+ {     "system": "Meowv.Blog",     "datetime": "2021-04-25 13:50:24,427",     "description": " websocket_Opened",   "level": "INFO",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-04-25 13:50:24,958",     "description": "coinbase 现货Open-----True2021/4/25 13:50:24",   "level": "INFO",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-04-25 13:50:45,068",     "description": "coinbase 现货Open-----True2021/4/25 13:50:45",   "level": "INFO",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-04-25 13:51:00,426",     "description": "coinbase 现货Open-----True2021/4/25 13:51:00",   "level": "INFO",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-04-25 13:51:08,759",     "description": "coinbase 现货Open-----True2021/4/25 13:51:08",   "level": "INFO",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-04-25 13:54:15,800",     "description": " websocket_Opened",   "level": "INFO",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-04-25 13:54:16,337",     "description": "coinbase 现货Open-----True2021/4/25 13:54:16",   "level": "INFO",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-04-25 13:55:07,615",     "description": " coinbase现货websocket_Closed：WebSocketSharp.CloseEventArgs",   "level": "INFO",     "info": "" }

@@ -1,0 +1,8 @@
+﻿記錄時間：2021-07-08 18:11:06,720 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-07-08 18:11:07,959 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-07-08 18:11:11,226 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-07-08 18:13:36,343 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-07-08 18:13:36,895 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-07-08 18:13:50,244 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-07-08 18:13:54,475 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1587330000000/1587344200000/60000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-07-08 18:14:26,832 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束获取价格数据

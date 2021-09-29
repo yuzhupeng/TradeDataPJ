@@ -1,0 +1,407 @@
+E:\opensource\HasbroTestDMS\src\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe.config
+E:\opensource\HasbroTestDMS\src\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe
+E:\opensource\HasbroTestDMS\src\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.pdb
+E:\opensource\HasbroTestDMS\src\CoinWin.DataGeneration\bin\Debug\Dapper.dll
+E:\opensource\HasbroTestDMS\src\CoinWin.DataGeneration\bin\Debug\DapperExtensions.dll
+E:\opensource\HasbroTestDMS\src\CoinWin.DataGeneration\bin\Debug\EmitMapper.dll
+E:\opensource\HasbroTestDMS\src\CoinWin.DataGeneration\bin\Debug\log4net.dll
+E:\opensource\HasbroTestDMS\src\CoinWin.DataGeneration\bin\Debug\MySql.Data.dll
+E:\opensource\HasbroTestDMS\src\CoinWin.DataGeneration\bin\Debug\Newtonsoft.Json.dll
+E:\opensource\HasbroTestDMS\src\CoinWin.DataGeneration\bin\Debug\Dapper.xml
+E:\opensource\HasbroTestDMS\src\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CoreCompileInputs.cache
+E:\opensource\HasbroTestDMS\src\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CopyComplete
+E:\opensource\HasbroTestDMS\src\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.exe
+E:\opensource\HasbroTestDMS\src\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.pdb
+E:\opensource\HasbroTestDMS\src\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csprojAssemblyReference.cache
+E:\opensource\HasbroTestDMS\src\CoinWin.DataGeneration\bin\Debug\HtmlAgilityPack.dll
+E:\opensource\HasbroTestDMS\src\CoinWin.DataGeneration\bin\Debug\QPP.Core.dll
+E:\opensource\HasbroTestDMS\src\CoinWin.DataGeneration\bin\Debug\QPP.dll
+E:\opensource\HasbroTestDMS\src\CoinWin.DataGeneration\bin\Debug\Spring.Core.dll
+E:\opensource\HasbroTestDMS\src\CoinWin.DataGeneration\bin\Debug\Common.Logging.Core.dll
+E:\opensource\HasbroTestDMS\src\CoinWin.DataGeneration\bin\Debug\Common.Logging.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe.config
+C:\Users\Administrator\Desktop\新建文件夹 (6)\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe
+C:\Users\Administrator\Desktop\新建文件夹 (6)\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (6)\CoinWin.DataGeneration\bin\Debug\Dapper.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\CoinWin.DataGeneration\bin\Debug\DapperExtensions.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\CoinWin.DataGeneration\bin\Debug\EmitMapper.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\CoinWin.DataGeneration\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\CoinWin.DataGeneration\bin\Debug\log4net.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\CoinWin.DataGeneration\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\CoinWin.DataGeneration\bin\Debug\QPP.Core.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\CoinWin.DataGeneration\bin\Debug\QPP.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\CoinWin.DataGeneration\bin\Debug\Spring.Core.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\CoinWin.DataGeneration\bin\Debug\Common.Logging.Core.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\CoinWin.DataGeneration\bin\Debug\Common.Logging.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\CoinWin.DataGeneration\bin\Debug\Dapper.xml
+C:\Users\Administrator\Desktop\新建文件夹 (6)\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹 (6)\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CopyComplete
+C:\Users\Administrator\Desktop\新建文件夹 (6)\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.exe
+C:\Users\Administrator\Desktop\新建文件夹 (6)\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.pdb
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe.config
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.pdb
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\Dapper.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\DapperExtensions.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\HtmlAgilityPack.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\log4net.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\QPP.Core.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\QPP.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\Spring.Core.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\Common.Logging.Core.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\Common.Logging.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\Dapper.xml
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CopyComplete
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.exe
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.pdb
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\SuperSocket.ClientEngine.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\System.Buffers.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\WebSocket4Net.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\System.Buffers.xml
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\FreeRedis.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\CoinWin.DataGeneration\bin\Debug\FreeRedis.xml
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe.config
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.pdb
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\Dapper.dll
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\DapperExtensions.dll
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\FreeRedis.dll
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\HtmlAgilityPack.dll
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\log4net.dll
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\QPP.Core.dll
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\SuperSocket.ClientEngine.dll
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\System.Buffers.dll
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\WebSocket4Net.dll
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\QPP.dll
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\Spring.Core.dll
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\Common.Logging.Core.dll
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\Common.Logging.dll
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\Dapper.xml
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\FreeRedis.xml
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\System.Buffers.xml
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CopyComplete
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.exe
+C:\Users\admin\Desktop\集成\1\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.pdb
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe.config
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.pdb
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\Dapper.dll
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\DapperExtensions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\FreeRedis.dll
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\HtmlAgilityPack.dll
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\log4net.dll
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\QPP.Core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\SuperSocket.ClientEngine.dll
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\System.Buffers.dll
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\WebSocket4Net.dll
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\QPP.dll
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\Spring.Core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\Common.Logging.Core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\Common.Logging.dll
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\Dapper.xml
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\FreeRedis.xml
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\System.Buffers.xml
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CopyComplete
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.exe
+C:\Users\admin\Desktop\EXCHANGESQL\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.pdb
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe.config
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.pdb
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\Dapper.dll
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\DapperExtensions.dll
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\EmitMapper.dll
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\FreeRedis.dll
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\HtmlAgilityPack.dll
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\log4net.dll
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\QPP.Core.dll
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\SuperSocket.ClientEngine.dll
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\System.Buffers.dll
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\WebSocket4Net.dll
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\QPP.dll
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\Spring.Core.dll
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\Common.Logging.Core.dll
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\Common.Logging.dll
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\Dapper.xml
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\FreeRedis.xml
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\System.Buffers.xml
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CopyComplete
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.exe
+C:\Users\admin\Desktop\programs\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.pdb
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe.config
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.pdb
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\Dapper.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\DapperExtensions.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\EmitMapper.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\FreeRedis.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\log4net.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\QPP.Core.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\SuperSocket.ClientEngine.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\System.Buffers.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\WebSocket4Net.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\QPP.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\Spring.Core.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\Common.Logging.Core.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\Common.Logging.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\Dapper.xml
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\FreeRedis.xml
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\System.Buffers.xml
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CopyComplete
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.exe
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.pdb
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe.config
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.pdb
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\Dapper.dll
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\DapperExtensions.dll
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\EmitMapper.dll
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\FreeRedis.dll
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\HtmlAgilityPack.dll
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\log4net.dll
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\QPP.Core.dll
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\SuperSocket.ClientEngine.dll
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\System.Buffers.dll
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\WebSocket4Net.dll
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\QPP.dll
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\Spring.Core.dll
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\Common.Logging.Core.dll
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\Common.Logging.dll
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\Dapper.xml
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\FreeRedis.xml
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\System.Buffers.xml
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CopyComplete
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.exe
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.pdb
+C:\Users\admin\Desktop\new\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe.config
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.pdb
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\Dapper.dll
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\DapperExtensions.dll
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\EmitMapper.dll
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\FreeRedis.dll
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\HtmlAgilityPack.dll
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\log4net.dll
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\QPP.Core.dll
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\SuperSocket.ClientEngine.dll
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\System.Buffers.dll
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\WebSocket4Net.dll
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\QPP.dll
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\Spring.Core.dll
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\Common.Logging.Core.dll
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\Common.Logging.dll
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\Dapper.xml
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\FreeRedis.xml
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\System.Buffers.xml
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CopyComplete
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.exe
+C:\Users\admin\Desktop\集成\new202134\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.pdb
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe.config
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.pdb
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\Dapper.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\DapperExtensions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\EmitMapper.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\FreeRedis.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\HtmlAgilityPack.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\log4net.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\QPP.Core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\SuperSocket.ClientEngine.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\System.Buffers.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\WebSocket4Net.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\QPP.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\Spring.Core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\Common.Logging.Core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\Common.Logging.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\Dapper.xml
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\FreeRedis.xml
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\System.Buffers.xml
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CopyComplete
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.exe
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.pdb
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe.config
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.pdb
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\Dapper.dll
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\DapperExtensions.dll
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\EmitMapper.dll
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\FreeRedis.dll
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\HtmlAgilityPack.dll
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\log4net.dll
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\QPP.Core.dll
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\SuperSocket.ClientEngine.dll
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\System.Buffers.dll
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\WebSocket4Net.dll
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\QPP.dll
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\Spring.Core.dll
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\Common.Logging.Core.dll
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\Common.Logging.dll
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\Dapper.xml
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\FreeRedis.xml
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\System.Buffers.xml
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CopyComplete
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.exe
+C:\Users\admin\Desktop\program\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.pdb
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe.config
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.pdb
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\Dapper.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\DapperExtensions.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\EmitMapper.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\FreeRedis.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\HtmlAgilityPack.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\log4net.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\QPP.Core.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\SuperSocket.ClientEngine.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\System.Buffers.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\WebSocket4Net.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\QPP.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\Spring.Core.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\Common.Logging.Core.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\Common.Logging.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\Dapper.xml
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\FreeRedis.xml
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\System.Buffers.xml
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CopyComplete
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.exe
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.pdb
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\DnsClient.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\MongoDB.Bson.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\MongoDB.Driver.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\MongoDB.Libmongocrypt.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\SharpCompress.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\DnsClient.xml
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\MongoDB.Bson.xml
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\MongoDB.Driver.xml
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\DnsClient.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\MongoDB.Bson.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\MongoDB.Driver.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\MongoDB.Libmongocrypt.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\SharpCompress.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\DnsClient.xml
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\MongoDB.Bson.xml
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\MongoDB.Driver.xml
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\admin\Desktop\POR\CoinWin.DataGeneration\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\snappy32.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\snappy64.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\libzstd.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\bin\Debug\mongocrypt.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\DnsClient.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\MongoDB.Bson.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\MongoDB.Driver.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\MongoDB.Libmongocrypt.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\SharpCompress.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\DnsClient.xml
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\MongoDB.Bson.xml
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\MongoDB.Driver.xml
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\chenxu\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe.config
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.exe
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\CoinWin.DataGeneration.pdb
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\Dapper.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\DapperExtensions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\DnsClient.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\EmitMapper.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\FreeRedis.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\HtmlAgilityPack.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\log4net.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\MongoDB.Bson.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\MongoDB.Driver.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\MongoDB.Libmongocrypt.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\QPP.Core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\SharpCompress.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\SuperSocket.ClientEngine.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\System.Buffers.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\WebSocket4Net.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\QPP.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\Spring.Core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\Common.Logging.Core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\Common.Logging.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\Dapper.xml
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\DnsClient.xml
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\FreeRedis.xml
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\MongoDB.Bson.xml
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\MongoDB.Driver.xml
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\System.Buffers.xml
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csproj.CopyComplete
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.exe
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.pdb
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\snappy32.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\snappy64.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\libzstd.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\bin\Debug\mongocrypt.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\obj\Debug\CoinWin.DataGeneration.csprojAssemblyReference.cache

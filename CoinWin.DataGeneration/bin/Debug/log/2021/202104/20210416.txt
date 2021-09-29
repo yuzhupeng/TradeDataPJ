@@ -1,0 +1,4 @@
+﻿記錄時間：2021-04-16 17:14:51,196 線程ID:[1] 日誌級別：INFO  類名： property:[(null)] - 描述：获取hash redis失败,失败的key:PERPRealDealHour2021-04-16 17_BTC失败原因:索引超出了数组界限。
+記錄時間：2021-04-16 17:15:50,658 線程ID:[1] 日誌級別：INFO  類名： property:[(null)] - 描述：获取hash redis失败,失败的key:PERPRealDealHour2021-04-16 17_BTC失败原因:索引超出了数组界限。
+記錄時間：2021-04-16 17:19:03,952 線程ID:[1] 日誌級別：INFO  類名： property:[(null)] - 描述：获取hash redis失败,失败的key:SPOTRealDeal2021-04-16 00_BTC失败原因:索引超出了数组界限。
+記錄時間：2021-04-16 17:19:11,719 線程ID:[1] 日誌級別：INFO  類名： property:[(null)] - 描述：获取hash redis失败,失败的key:SPOTRealDeal2021-04-16 01_BTC失败原因:索引超出了数组界限。

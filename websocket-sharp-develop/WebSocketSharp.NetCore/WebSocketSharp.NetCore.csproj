@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <NeutralLanguage>en-US</NeutralLanguage>
+        <Deterministic>True</Deterministic>
+        <Title>WebSocketSharp .NET Core</Title>
+        <Authors>sta, nozomi-ai</Authors>
+        <Copyright>sta</Copyright>
+        <PackageProjectUrl>https://github.com/nozomi-ai/websocket-sharp</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/nozomi-ai/websocket-sharp</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>websocket</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageVersion>1.0.1-alpha.3</PackageVersion>
+    </PropertyGroup>
+</Project>

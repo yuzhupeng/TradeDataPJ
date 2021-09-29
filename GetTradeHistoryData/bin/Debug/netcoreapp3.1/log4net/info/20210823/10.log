@@ -1,0 +1,9 @@
+
+ {     "system": "Meowv.Blog",     "datetime": "2021-08-23 10:11:37,447",     "description": "开始获取ftx永续和期货数据",   "level": "INFO",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-08-23 10:12:02,595",     "description": " FTX永续合约websocket_Closed：WebSocketSharp.CloseEventArgs",   "level": "INFO",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-08-23 10:12:43,901",     "description": "开始获取ftx永续和期货数据",   "level": "INFO",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-08-23 10:12:49,019",     "description": " websocket_Opened",   "level": "INFO",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-08-23 10:12:49,998",     "description": "开始获取huobi交割数据",   "level": "INFO",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-08-23 10:12:49,998",     "description": "开始获取币本位永续huobi数据",   "level": "INFO",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-08-23 10:12:50,504",     "description": "开始获取USDt永续 huobi数据",   "level": "INFO",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-08-23 10:12:51,040",     "description": "ftx合约Open-----True2021-08-23 10:12:51",   "level": "INFO",     "info": "" }

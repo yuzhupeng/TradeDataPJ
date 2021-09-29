@@ -1,0 +1,7 @@
+﻿記錄時間：2021-06-03 13:03:35,797 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-06-03 13:03:36,442 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-06-03 13:04:36,106 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-06-03 13:04:40,155 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-06-03 13:04:46,770 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/btcusd/historical/1619402400000/1619416600000/60000
+記錄時間：2021-06-03 13:05:25,415 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束获取价格数据
+記錄時間：2021-06-03 13:05:45,052 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束更新通用数据

@@ -1,0 +1,812 @@
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.exe
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.deps.json
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.json
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.dev.json
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\FreeRedis.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp-core.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\DapperExtensions.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapper.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.Core.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Spring.Core.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.Core.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.xml
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfo.cs
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CopyComplete
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.genruntimeconfig.cache
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\CryptoExchange.Net.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\SuperSocket.ClientEngine.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocket4Net.dll
+C:\Users\admin\Desktop\新建文件夹 (2)\other\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.exe
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.deps.json
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.json
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\CryptoExchange.Net.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\FreeRedis.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\SuperSocket.ClientEngine.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocket4Net.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp-core.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\DapperExtensions.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapper.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.Core.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Spring.Core.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.Core.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.xml
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CopyComplete
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\Administrator\Desktop\redis\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.exe
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\appsettings.json
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.config
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.deps.json
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.json
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.dev.json
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\CryptoExchange.Net.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\FreeRedis.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\SuperSocket.ClientEngine.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocket4Net.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp-core.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\DapperExtensions.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapper.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.Core.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Spring.Core.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.Core.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.xml
+E:\Projext\TradeData\Main\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csprojAssemblyReference.cache
+E:\Projext\TradeData\Main\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfoInputs.cache
+E:\Projext\TradeData\Main\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfo.cs
+E:\Projext\TradeData\Main\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CoreCompileInputs.cache
+E:\Projext\TradeData\Main\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CopyComplete
+E:\Projext\TradeData\Main\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+E:\Projext\TradeData\Main\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+E:\Projext\TradeData\Main\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.genruntimeconfig.cache
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.exe
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.deps.json
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.json
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.dev.json
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\CryptoExchange.Net.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\FreeRedis.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\SuperSocket.ClientEngine.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocket4Net.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp-core.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\DapperExtensions.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapper.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.Core.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Spring.Core.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.Core.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.xml
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfo.cs
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CopyComplete
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.genruntimeconfig.cache
+C:\Users\admin\Desktop\集成\1\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.exe
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.deps.json
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.json
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.dev.json
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\FreeRedis.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp-core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\DapperExtensions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapper.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.Core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Spring.Core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.Core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.xml
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfo.cs
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CopyComplete
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.genruntimeconfig.cache
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapperCore.dll
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.exe
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.deps.json
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.json
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\CryptoExchange.Net.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapperCore.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\FreeRedis.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\SuperSocket.ClientEngine.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocket4Net.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp-core.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\DapperExtensions.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.Core.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapper.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Spring.Core.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.Core.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.xml
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CopyComplete
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\Administrator\Desktop\新建文件夹 (6)\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\admin\Desktop\EXCHANGESQL\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp-core.pdb
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.exe
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.deps.json
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.json
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.dev.json
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapperCore.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\FreeRedis.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\DapperExtensions.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.Core.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapper.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Spring.Core.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.Core.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.xml
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfo.cs
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CopyComplete
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.genruntimeconfig.cache
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp.pdb
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.exe
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.deps.json
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.json
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapperCore.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\FreeRedis.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\DapperExtensions.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.Core.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapper.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Spring.Core.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.Core.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.xml
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CopyComplete
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\SuperSocket.ClientEngine.dll
+C:\Users\admin\Desktop\programs\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocket4Net.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\new\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\new\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfo.cs
+C:\Users\admin\Desktop\new\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.exe
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.deps.json
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.json
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.dev.json
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapperCore.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\FreeRedis.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\SuperSocket.ClientEngine.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\DapperExtensions.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.Core.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocket4Net.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocketSharp.NetCore.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapper.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Spring.Core.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.Core.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocketSharp.NetCore.pdb
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp.pdb
+C:\Users\admin\Desktop\new\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.xml
+C:\Users\admin\Desktop\new\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CopyComplete
+C:\Users\admin\Desktop\new\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\admin\Desktop\new\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\admin\Desktop\new\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.genruntimeconfig.cache
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.exe
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.deps.json
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.json
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.dev.json
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapperCore.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\FreeRedis.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\SuperSocket.ClientEngine.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\DapperExtensions.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.Core.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp-core.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocket4Net.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocketSharp.NetCore.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapper.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Spring.Core.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.Core.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp-core.pdb
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocketSharp.NetCore.pdb
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.xml
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfo.cs
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CopyComplete
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\admin\Desktop\集成\new202134\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\SuperSocket.ClientEngine.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp-core.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocket4Net.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocketSharp.NetCore.dll
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp-core.pdb
+C:\Users\Administrator\Desktop\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocketSharp.NetCore.pdb
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.exe
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.deps.json
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.json
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.dev.json
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapperCore.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\FreeRedis.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\SuperSocket.ClientEngine.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\DapperExtensions.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.Core.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp-core.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocket4Net.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocketSharp.NetCore.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapper.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Spring.Core.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.Core.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp-core.pdb
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocketSharp.NetCore.pdb
+C:\Users\admin\Desktop\program\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.xml
+C:\Users\admin\Desktop\program\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\program\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\program\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfo.cs
+C:\Users\admin\Desktop\program\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\program\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CopyComplete
+C:\Users\admin\Desktop\program\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\admin\Desktop\program\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\admin\Desktop\program\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.genruntimeconfig.cache
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.exe
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.deps.json
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.json
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.dev.json
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapperCore.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\FreeRedis.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\SuperSocket.ClientEngine.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\DapperExtensions.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.Core.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp-core.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocket4Net.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocketSharp.NetCore.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapper.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Spring.Core.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.Core.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp-core.pdb
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocketSharp.NetCore.pdb
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.xml
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfo.cs
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CopyComplete
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\admin\Desktop\POR\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.genruntimeconfig.cache
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.exe
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.deps.json
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.json
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.dev.json
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapperCore.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\FreeRedis.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\SuperSocket.ClientEngine.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\DapperExtensions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.Core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp-core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocket4Net.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocketSharp.NetCore.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapper.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Spring.Core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.Core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp-core.pdb
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocketSharp.NetCore.pdb
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.xml
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfo.cs
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CopyComplete
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\admin\Desktop\EXCHANGESQL\chenxu\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.genruntimeconfig.cache
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.exe
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.deps.json
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.json
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.runtimeconfig.dev.json
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapperCore.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\FreeRedis.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\SuperSocket.ClientEngine.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\DapperExtensions.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.Core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp-core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocket4Net.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocketSharp.NetCore.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\QPP.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\EmitMapper.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Spring.Core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.Core.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Common.Logging.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\websocket-sharp-core.pdb
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\WebSocketSharp.NetCore.pdb
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\bin\Debug\netcoreapp3.1\Dapper.xml
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.AssemblyInfo.cs
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.csproj.CopyComplete
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.dll
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.pdb
+C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\GetTradeHistoryData\obj\Debug\netcoreapp3.1\GetTradeHistoryData.genruntimeconfig.cache

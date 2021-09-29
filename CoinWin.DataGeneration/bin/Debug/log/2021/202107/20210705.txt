@@ -1,0 +1,35 @@
+﻿記錄時間：2021-07-05 18:59:56,472 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-07-05 18:59:57,064 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-07-05 18:59:59,648 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-07-05 19:02:28,447 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-07-05 19:02:28,506 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-07-05 19:02:28,777 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-07-05 19:02:31,221 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1579467600000/1625482667000/86400000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-07-05 19:02:51,998 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束获取价格数据
+記錄時間：2021-07-05 19:02:57,895 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:将截断字符串或二进制数据。
+语句已终止。
+記錄時間：2021-07-05 19:02:58,565 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：获取价格数据表异常,错误信息:System.Data.SqlClient.SqlException (0x80131904): 将截断字符串或二进制数据。
+语句已终止。
+   在 CoinWin.DataGeneration.DownExchangeData.SaveListmin(List`1 savelist) 位置 C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\DownData\ALLdata\DownExchangeData.cs:行号 684
+   在 CoinWin.DataGeneration.DownExchangeData.UpdateExchageDataBydate(String type) 位置 C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\DownData\ALLdata\DownExchangeData.cs:行号 834
+ClientConnectionId:98a9c5c3-f76c-4bef-b1b9-d0d0df8f4f0e
+Error Number:8152,State:2,Class:16
+記錄時間：2021-07-05 19:02:58,567 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束更新通用数据
+記錄時間：2021-07-05 19:03:33,749 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-07-05 19:03:33,802 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-07-05 19:03:34,060 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-07-05 19:03:34,669 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1579467600000/1625482667000/86400000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-07-05 19:05:31,003 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-07-05 19:05:31,077 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-07-05 19:05:31,354 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-07-05 19:05:31,926 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1579467600000/1625482667000/86400000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-07-05 19:05:41,628 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束获取价格数据
+記錄時間：2021-07-05 19:05:46,335 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:将截断字符串或二进制数据。
+语句已终止。
+記錄時間：2021-07-05 19:05:46,557 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：获取价格数据表异常,错误信息:System.Data.SqlClient.SqlException (0x80131904): 将截断字符串或二进制数据。
+语句已终止。
+   在 CoinWin.DataGeneration.DownExchangeData.SaveListmin(List`1 savelist) 位置 C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\DownData\ALLdata\DownExchangeData.cs:行号 684
+   在 CoinWin.DataGeneration.DownExchangeData.UpdateExchageDataBydate(String type) 位置 C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\DownData\ALLdata\DownExchangeData.cs:行号 838
+ClientConnectionId:8f59283c-9f07-486b-bc61-027a95e54666
+Error Number:8152,State:2,Class:16
+記錄時間：2021-07-05 19:05:46,559 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束更新通用数据

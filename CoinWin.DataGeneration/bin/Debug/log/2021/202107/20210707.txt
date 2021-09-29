@@ -1,0 +1,173 @@
+﻿記錄時間：2021-07-07 18:40:03,665 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-07-07 18:40:05,035 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-07-07 18:40:09,210 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-07-07 18:40:12,350 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1579467600000/1625482667000/86400000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-07-07 18:41:26,707 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束获取价格数据
+記錄時間：2021-07-07 18:41:47,820 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (04  2 2020  8:00AM, BINANCE:btcusdt)。
+语句已终止。
+記錄時間：2021-07-07 18:44:18,653 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-07-07 18:44:18,782 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-07-07 18:44:21,009 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-07-07 18:48:02,414 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-07-07 18:48:02,628 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-07-07 18:48:05,086 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-07-07 18:48:07,942 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1585764400000/1585785600000/86400000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-07-07 18:48:32,650 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-07-07 18:49:14,033 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-07-07 18:49:14,936 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-07-07 18:49:17,759 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-07-07 18:49:21,687 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1625442600000/1625486400000/86400000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-07-07 18:49:38,857 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束获取价格数据
+記錄時間：2021-07-07 18:52:20,490 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-07-07 18:52:20,609 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-07-07 18:52:21,078 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-07-07 18:52:22,689 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1625442600000/1625486400000/86400000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-07-07 18:52:24,516 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束获取价格数据
+記錄時間：2021-07-07 18:52:27,996 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, BINANCE:btcusdt)。
+语句已终止。
+記錄時間：2021-07-07 18:52:50,334 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:未将对象引用设置到对象的实例。
+記錄時間：2021-07-07 18:52:50,390 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：获取价格数据表异常,错误信息:System.InvalidOperationException: 此 SqlTransaction 已完成；它再也无法使用。
+   在 System.Data.SqlClient.SqlTransaction.ZombieCheck()
+   在 System.Data.SqlClient.SqlTransaction.Rollback()
+   在 CoinWin.DataGeneration.DownExchangeData.SaveListone(List`1 savelist) 位置 C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\DownData\ALLdata\DownExchangeData.cs:行号 782
+   在 CoinWin.DataGeneration.DownExchangeData.UpdateExchageDataBydate(String type) 位置 C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\CoinWin.DataGeneration\DownData\ALLdata\DownExchangeData.cs:行号 945
+記錄時間：2021-07-07 18:52:50,394 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束更新通用数据
+記錄時間：2021-07-07 18:53:42,085 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-07-07 18:53:42,184 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-07-07 18:53:42,597 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-07-07 18:53:43,681 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1625442600000/1625486400000/86400000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-07-07 18:53:45,578 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束获取价格数据
+記錄時間：2021-07-07 18:54:00,742 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, BINANCE:btcusdt)。
+语句已终止。
+記錄時間：2021-07-07 18:55:38,263 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-07-07 18:55:38,355 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-07-07 18:55:38,754 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-07-07 18:55:39,845 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1625442600000/1625486400000/86400000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-07-07 18:55:41,699 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束获取价格数据
+記錄時間：2021-07-07 18:55:55,054 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, BINANCE:btcusdt)。
+语句已终止。
+記錄時間：2021-07-07 18:56:43,103 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-07-07 18:56:43,230 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-07-07 18:56:43,756 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-07-07 18:56:45,001 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1625442600000/1625686400000/86400000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-07-07 18:56:47,264 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束获取价格数据
+記錄時間：2021-07-07 18:57:58,415 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, BINANCE:btcusdt)。
+语句已终止。
+記錄時間：2021-07-07 18:57:59,490 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, POLONIEX:USDT_BTC)。
+语句已终止。
+記錄時間：2021-07-07 18:58:01,422 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, OKEX:BTC-USDT-SWAP)。
+语句已终止。
+記錄時間：2021-07-07 18:58:01,457 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, OKEX:BTC-USDT)。
+语句已终止。
+記錄時間：2021-07-07 18:58:01,496 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, OKEX:BTC-USD-SWAP)。
+语句已终止。
+記錄時間：2021-07-07 18:58:01,532 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, KRAKEN:XBT/USD)。
+语句已终止。
+記錄時間：2021-07-07 18:58:01,568 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, KRAKEN:PI_XBTUSD)。
+语句已终止。
+記錄時間：2021-07-07 18:58:01,608 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, HUOBI:btcusdt)。
+语句已终止。
+記錄時間：2021-07-07 18:58:01,669 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, HUOBI:BTC-USD)。
+语句已终止。
+記錄時間：2021-07-07 18:58:01,708 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, FTX:BTC-PERP)。
+语句已终止。
+記錄時間：2021-07-07 18:58:01,746 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, DERIBIT:BTC-PERPETUAL)。
+语句已终止。
+記錄時間：2021-07-07 18:58:01,782 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, COINBASE:BTC-USD)。
+语句已终止。
+記錄時間：2021-07-07 18:58:01,822 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, BYBIT:BTCUSDT)。
+语句已终止。
+記錄時間：2021-07-07 18:58:01,865 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, BYBIT:BTCUSD)。
+语句已终止。
+記錄時間：2021-07-07 18:58:01,905 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, BITSTAMP:btcusd)。
+语句已终止。
+記錄時間：2021-07-07 18:58:01,947 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, BITMEX:XBTUSD)。
+语句已终止。
+記錄時間：2021-07-07 18:58:01,988 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, BITFINEX:BTCUSD)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,022 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, BITFINEX:BTCF0:USTF0)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,063 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, BINANCE_FUTURES:btcusdt)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,102 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  4 2021  8:00AM, BINANCE_FUTURES:btcusd_perp)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,147 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  5 2021  8:00AM, BINANCE:btcusdt)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,192 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  5 2021  8:00AM, POLONIEX:USDT_BTC)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,230 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  5 2021  8:00AM, BINANCE_FUTURES:btcusd_perp)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,271 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  5 2021  8:00AM, BITFINEX:BTCF0:USTF0)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,311 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  5 2021  8:00AM, BYBIT:BTCUSD)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,347 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  5 2021  8:00AM, KRAKEN:XBT/USD)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,384 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  5 2021  8:00AM, OKEX:BTC-USD-SWAP)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,436 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  5 2021  8:00AM, BYBIT:BTCUSDT)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,488 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  5 2021  8:00AM, OKEX:BTC-USDT)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,544 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  5 2021  8:00AM, OKEX:BTC-USDT-SWAP)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,591 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  5 2021  8:00AM, BITFINEX:BTCUSD)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,633 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  5 2021  8:00AM, COINBASE:BTC-USD)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,682 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  5 2021  8:00AM, DERIBIT:BTC-PERPETUAL)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,726 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  5 2021  8:00AM, BINANCE_FUTURES:btcusdt)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,763 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  5 2021  8:00AM, BITMEX:XBTUSD)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,798 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  5 2021  8:00AM, FTX:BTC-PERP)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,833 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  5 2021  8:00AM, HUOBI:BTC-USD)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,871 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  5 2021  8:00AM, BITSTAMP:btcusd)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,908 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  5 2021  8:00AM, HUOBI:btcusdt)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,944 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (07  5 2021  8:00AM, KRAKEN:PI_XBTUSD)。
+语句已终止。
+記錄時間：2021-07-07 18:58:02,984 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,011 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,034 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,060 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,089 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,114 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,141 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,169 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,194 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,240 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,264 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,305 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,330 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,356 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,381 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,405 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,431 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,450 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,475 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,504 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,539 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,563 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,590 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,614 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,640 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,665 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,717 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,746 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,768 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,793 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,821 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,847 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,881 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,906 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,936 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,962 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:03,985 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:04,011 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:04,038 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”
+記錄時間：2021-07-07 18:58:04,063 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:无法将类型“int”隐式转换为“string”

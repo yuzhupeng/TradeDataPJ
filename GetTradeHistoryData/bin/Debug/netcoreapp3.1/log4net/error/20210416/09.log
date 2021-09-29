@@ -1,0 +1,5 @@
+
+ {     "system": "Meowv.Blog",     "datetime": "2021-04-16 09:15:56,400",     "description": "DERIBIT 信息转化错误，错误信息：Cannot perform runtime binding on a null reference",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-04-16 09:15:56,402",     "description": "DERIBIT 信息转化错误，错误的信息源：{"jsonrpc":"2.0","result":["trades.ETH-PERPETUAL.raw"],"usIn":1618535756519634,"usOut":1618535756519810,"usDiff":176,"testnet":false}",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-04-16 09:15:56,640",     "description": "DERIBIT 信息转化错误，错误信息：Cannot perform runtime binding on a null reference",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-04-16 09:15:56,640",     "description": "DERIBIT 信息转化错误，错误的信息源：{"jsonrpc":"2.0","result":["trades.BTC-PERPETUAL.raw"],"usIn":1618535756788287,"usOut":1618535756788390,"usDiff":103,"testnet":false}",   "level": "ERROR",     "info": "" }

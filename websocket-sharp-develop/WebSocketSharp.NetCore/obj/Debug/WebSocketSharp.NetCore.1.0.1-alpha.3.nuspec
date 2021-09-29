@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>WebSocketSharp.NetCore</id>
+    <version>1.0.1-alpha.3</version>
+    <title>WebSocketSharp .NET Core</title>
+    <authors>sta, nozomi-ai</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/nozomi-ai/websocket-sharp</projectUrl>
+    <description>Package Description</description>
+    <copyright>sta</copyright>
+    <tags>websocket</tags>
+    <repository type="git" url="https://github.com/nozomi-ai/websocket-sharp" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\websocket-sharp-develop\WebSocketSharp.NetCore\bin\Debug\netcoreapp3.1\WebSocketSharp.NetCore.dll" target="lib\netcoreapp3.1\WebSocketSharp.NetCore.dll" />
+  </files>
+</package>

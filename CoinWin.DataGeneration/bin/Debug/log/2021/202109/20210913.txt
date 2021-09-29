@@ -1,0 +1,209 @@
+﻿記錄時間：2021-09-13 08:42:42,393 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-09-13 08:42:42,898 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-09-13 08:42:46,005 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-09-13 08:49:06,128 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1631098680000/1631341880000/60000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-09-13 10:38:04,264 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-09-13 10:38:04,780 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-09-13 10:38:06,719 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-09-13 10:38:08,408 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1631098680000/1631341880000/60000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-09-13 10:50:27,752 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-09-13 10:50:28,055 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-09-13 10:50:29,734 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-09-13 10:50:33,028 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1631098680000/1631341880000/60000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-09-13 11:10:27,797 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-09-13 11:10:29,401 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-09-13 11:10:31,083 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-09-13 11:10:38,630 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1631098680000/1631341880000/60000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-09-13 11:11:52,181 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束获取价格数据
+記錄時間：2021-09-13 11:12:59,112 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束更新通用数据
+記錄時間：2021-09-13 11:16:59,683 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-09-13 11:17:00,551 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-09-13 11:18:26,307 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-09-13 11:18:26,307 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1631341860000/1631585060000/60000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-09-13 11:20:31,624 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-09-13 11:20:32,543 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-09-13 11:20:32,778 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-09-13 11:20:32,781 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1631341860000/1631585060000/60000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-09-13 12:56:51,987 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-09-13 12:56:53,020 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-09-13 12:56:53,173 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-09-13 12:56:53,174 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1631341860000/1631585060000/60000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-09-13 14:24:16,764 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-09-13 14:24:17,914 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-09-13 14:24:18,072 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-09-13 14:24:18,073 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1631341860000/1631585060000/60000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-09-13 14:26:28,424 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-09-13 14:26:29,472 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-09-13 14:26:29,619 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-09-13 14:26:29,621 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1631341860000/1631585060000/60000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-09-13 14:36:48,631 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-09-13 14:36:49,265 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-09-13 14:36:50,518 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-09-13 14:36:52,457 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1631341860000/1631585060000/60000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-09-13 14:40:35,563 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-09-13 14:40:36,412 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-09-13 14:40:36,608 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-09-13 14:40:36,610 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1631341860000/1631585060000/60000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-09-13 14:41:40,979 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：获取价格数据表异常,错误信息:Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: “string”未包含“ToList”的定义
+   在 CallSite.Target(Closure , CallSite , Object )
+   在 System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   在 CoinWin.DataGeneration.DownExchangeData.UpdateExchageDataBymin(String type)
+記錄時間：2021-09-13 14:41:41,072 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束更新通用数据
+記錄時間：2021-09-13 14:41:53,180 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-09-13 14:41:53,944 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-09-13 14:41:54,097 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-09-13 14:41:54,099 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1631341860000/1631585060000/60000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-09-13 14:46:24,553 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-09-13 14:46:25,382 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-09-13 14:46:25,544 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-09-13 14:46:25,545 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1631341860000/1631585060000/60000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-09-13 14:47:33,341 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束获取价格数据
+記錄時間：2021-09-13 14:47:34,583 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  2:31PM, BINANCE:btcusdt)。
+语句已终止。
+記錄時間：2021-09-13 14:47:34,605 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  2:31PM, POLONIEX:USDT_BTC)。
+语句已终止。
+記錄時間：2021-09-13 14:47:34,628 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  2:31PM, BINANCE_FUTURES:btcusd_perp)。
+语句已终止。
+記錄時間：2021-09-13 14:47:34,651 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  2:31PM, BYBIT:BTCUSD)。
+语句已终止。
+記錄時間：2021-09-13 14:47:34,674 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  2:31PM, KRAKEN:XBT/USD)。
+语句已终止。
+記錄時間：2021-09-13 14:47:34,697 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  2:31PM, OKEX:BTC-USD-SWAP)。
+语句已终止。
+記錄時間：2021-09-13 14:47:34,719 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  2:31PM, BYBIT:BTCUSDT)。
+语句已终止。
+記錄時間：2021-09-13 14:47:34,741 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  2:31PM, OKEX:BTC-USDT)。
+语句已终止。
+記錄時間：2021-09-13 14:47:34,762 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  2:31PM, OKEX:BTC-USDT-SWAP)。
+语句已终止。
+記錄時間：2021-09-13 14:47:34,786 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  2:31PM, BITFINEX:BTCUSD)。
+语句已终止。
+記錄時間：2021-09-13 14:47:34,806 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  2:31PM, COINBASE:BTC-USD)。
+语句已终止。
+記錄時間：2021-09-13 14:47:34,828 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  2:31PM, DERIBIT:BTC-PERPETUAL)。
+语句已终止。
+記錄時間：2021-09-13 14:47:34,850 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  2:31PM, BINANCE_FUTURES:btcusdt)。
+语句已终止。
+記錄時間：2021-09-13 14:47:34,872 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  2:31PM, BITMEX:XBTUSD)。
+语句已终止。
+記錄時間：2021-09-13 14:47:34,894 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  2:31PM, FTX:BTC-PERP)。
+语句已终止。
+記錄時間：2021-09-13 14:47:34,915 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  2:31PM, HUOBI:BTC-USD)。
+语句已终止。
+記錄時間：2021-09-13 14:47:34,937 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  2:31PM, BITSTAMP:btcusd)。
+语句已终止。
+記錄時間：2021-09-13 14:47:34,958 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  2:31PM, HUOBI:btcusdt)。
+语句已终止。
+記錄時間：2021-09-13 14:47:34,981 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  2:31PM, KRAKEN:PI_XBTUSD)。
+语句已终止。
+記錄時間：2021-09-13 14:48:45,696 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束更新通用数据
+記錄時間：2021-09-13 14:57:17,311 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-09-13 14:57:18,247 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-09-13 14:57:18,410 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-09-13 14:57:18,412 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1631095200000/1631338400000/60000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-09-13 15:02:39,005 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-09-13 15:02:39,700 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-09-13 15:02:39,864 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-09-13 15:02:39,867 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1631095200000/1631338400000/60000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-09-13 15:05:52,217 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-09-13 15:05:53,417 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-09-13 15:05:53,563 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-09-13 15:05:53,564 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1631095200000/1631338400000/60000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-09-13 15:07:17,434 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束获取价格数据
+記錄時間：2021-09-13 15:07:50,456 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束更新通用数据
+記錄時間：2021-09-13 15:12:33,698 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-09-13 15:12:34,436 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-09-13 15:12:34,599 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-09-13 15:12:34,600 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1631338380000/1631581580000/60000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-09-13 15:13:04,310 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束获取价格数据
+記錄時間：2021-09-13 15:13:05,141 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  1:33PM, BINANCE:btcusdt)。
+语句已终止。
+記錄時間：2021-09-13 15:13:05,161 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  1:33PM, POLONIEX:USDT_BTC)。
+语句已终止。
+記錄時間：2021-09-13 15:13:05,183 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  1:33PM, BINANCE_FUTURES:btcusd_perp)。
+语句已终止。
+記錄時間：2021-09-13 15:13:05,207 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  1:33PM, BITFINEX:BTCF0:USTF0)。
+语句已终止。
+記錄時間：2021-09-13 15:13:05,231 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  1:33PM, BYBIT:BTCUSD)。
+语句已终止。
+記錄時間：2021-09-13 15:13:05,253 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  1:33PM, KRAKEN:XBT/USD)。
+语句已终止。
+記錄時間：2021-09-13 15:13:05,272 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  1:33PM, OKEX:BTC-USD-SWAP)。
+语句已终止。
+記錄時間：2021-09-13 15:13:05,296 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  1:33PM, BYBIT:BTCUSDT)。
+语句已终止。
+記錄時間：2021-09-13 15:13:05,319 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  1:33PM, OKEX:BTC-USDT)。
+语句已终止。
+記錄時間：2021-09-13 15:13:05,340 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  1:33PM, OKEX:BTC-USDT-SWAP)。
+语句已终止。
+記錄時間：2021-09-13 15:13:05,361 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  1:33PM, BITFINEX:BTCUSD)。
+语句已终止。
+記錄時間：2021-09-13 15:13:05,382 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  1:33PM, COINBASE:BTC-USD)。
+语句已终止。
+記錄時間：2021-09-13 15:13:05,403 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  1:33PM, DERIBIT:BTC-PERPETUAL)。
+语句已终止。
+記錄時間：2021-09-13 15:13:05,425 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  1:33PM, BINANCE_FUTURES:btcusdt)。
+语句已终止。
+記錄時間：2021-09-13 15:13:05,447 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  1:33PM, BITMEX:XBTUSD)。
+语句已终止。
+記錄時間：2021-09-13 15:13:05,472 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  1:33PM, FTX:BTC-PERP)。
+语句已终止。
+記錄時間：2021-09-13 15:13:05,493 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  1:33PM, HUOBI:BTC-USD)。
+语句已终止。
+記錄時間：2021-09-13 15:13:05,516 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  1:33PM, BITSTAMP:btcusd)。
+语句已终止。
+記錄時間：2021-09-13 15:13:05,536 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  1:33PM, HUOBI:btcusdt)。
+语句已终止。
+記錄時間：2021-09-13 15:13:05,557 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 11 2021  1:33PM, KRAKEN:PI_XBTUSD)。
+语句已终止。
+記錄時間：2021-09-13 15:17:32,687 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束更新通用数据
+記錄時間：2021-09-13 15:22:50,354 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-09-13 15:22:50,995 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-09-13 15:22:54,077 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-09-13 15:24:52,304 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-09-13 15:24:53,064 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-09-13 15:24:54,789 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-09-13 15:24:57,418 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1630857600000/1631100800000/60000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-09-13 15:33:40,895 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-09-13 15:33:41,647 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-09-13 15:33:41,818 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-09-13 15:33:41,820 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1630857600000/1631100800000/60000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-09-13 15:34:21,718 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始更新通用数据
+記錄時間：2021-09-13 15:34:22,453 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获最后一次获取的数据
+記錄時間：2021-09-13 15:34:22,612 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：开始获取价格数据
+記錄時間：2021-09-13 15:34:22,614 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：https://api.aggr.trade/historical/1631517120000/1631760320000/60000/BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD
+記錄時間：2021-09-13 15:34:31,172 線程ID:[1] 日誌級別：INFO  類名：CoinWin.DataGeneration.DownExchangeData property:[(null)] - 描述：结束获取价格数据
+記錄時間：2021-09-13 15:34:31,969 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 13 2021  3:12PM, BINANCE:btcusdt)。
+语句已终止。
+記錄時間：2021-09-13 15:34:31,995 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 13 2021  3:12PM, BINANCE_FUTURES:btcusd_perp)。
+语句已终止。
+記錄時間：2021-09-13 15:34:32,019 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 13 2021  3:12PM, BYBIT:BTCUSD)。
+语句已终止。
+記錄時間：2021-09-13 15:34:32,042 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 13 2021  3:12PM, OKEX:BTC-USD-SWAP)。
+语句已终止。
+記錄時間：2021-09-13 15:34:32,066 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 13 2021  3:12PM, BYBIT:BTCUSDT)。
+语句已终止。
+記錄時間：2021-09-13 15:34:32,090 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 13 2021  3:12PM, OKEX:BTC-USDT)。
+语句已终止。
+記錄時間：2021-09-13 15:34:32,115 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 13 2021  3:12PM, OKEX:BTC-USDT-SWAP)。
+语句已终止。
+記錄時間：2021-09-13 15:34:32,134 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 13 2021  3:12PM, BITFINEX:BTCUSD)。
+语句已终止。
+記錄時間：2021-09-13 15:34:32,157 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 13 2021  3:12PM, COINBASE:BTC-USD)。
+语句已终止。
+記錄時間：2021-09-13 15:34:32,178 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 13 2021  3:12PM, DERIBIT:BTC-PERPETUAL)。
+语句已终止。
+記錄時間：2021-09-13 15:34:32,200 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 13 2021  3:12PM, BINANCE_FUTURES:btcusdt)。
+语句已终止。
+記錄時間：2021-09-13 15:34:32,221 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 13 2021  3:12PM, BITMEX:XBTUSD)。
+语句已终止。
+記錄時間：2021-09-13 15:34:32,244 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 13 2021  3:12PM, FTX:BTC-PERP)。
+语句已终止。
+記錄時間：2021-09-13 15:34:32,267 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 13 2021  3:12PM, HUOBI:BTC-USD)。
+语句已终止。
+記錄時間：2021-09-13 15:34:32,289 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 13 2021  3:12PM, BITSTAMP:btcusd)。
+语句已终止。
+記錄時間：2021-09-13 15:34:32,311 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 13 2021  3:12PM, HUOBI:btcusdt)。
+语句已终止。
+記錄時間：2021-09-13 15:34:32,331 線程ID:[1] 日誌級別：INFO  類名：System.Object property:[(null)] - 描述：保存价格数据发生错误，错误信息:违反了 UNIQUE KEY 约束“uni_timesunit”。不能在对象“dbo.Coin_ExchageDataByMin”中插入重复键。重复键值为 (09 13 2021  3:12PM, KRAKEN:PI_XBTUSD)。
+语句已终止。
