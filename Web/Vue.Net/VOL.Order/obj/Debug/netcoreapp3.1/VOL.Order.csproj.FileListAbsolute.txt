@@ -1,0 +1,14 @@
+D:\projects\AssetsSystem\Vue.Net\VOL.Order\bin\Debug\netcoreapp3.1\VOL.Order.deps.json
+D:\projects\AssetsSystem\Vue.Net\VOL.Order\bin\Debug\netcoreapp3.1\VOL.Order.dll
+D:\projects\AssetsSystem\Vue.Net\VOL.Order\bin\Debug\netcoreapp3.1\VOL.Order.pdb
+D:\projects\AssetsSystem\Vue.Net\VOL.Order\bin\Debug\netcoreapp3.1\VOL.Core.dll
+D:\projects\AssetsSystem\Vue.Net\VOL.Order\bin\Debug\netcoreapp3.1\VOL.Entity.dll
+D:\projects\AssetsSystem\Vue.Net\VOL.Order\bin\Debug\netcoreapp3.1\VOL.Core.pdb
+D:\projects\AssetsSystem\Vue.Net\VOL.Order\bin\Debug\netcoreapp3.1\VOL.Entity.pdb
+D:\projects\AssetsSystem\Vue.Net\VOL.Order\obj\Debug\netcoreapp3.1\VOL.Order.csprojAssemblyReference.cache
+D:\projects\AssetsSystem\Vue.Net\VOL.Order\obj\Debug\netcoreapp3.1\VOL.Order.AssemblyInfoInputs.cache
+D:\projects\AssetsSystem\Vue.Net\VOL.Order\obj\Debug\netcoreapp3.1\VOL.Order.AssemblyInfo.cs
+D:\projects\AssetsSystem\Vue.Net\VOL.Order\obj\Debug\netcoreapp3.1\VOL.Order.csproj.CoreCompileInputs.cache
+D:\projects\AssetsSystem\Vue.Net\VOL.Order\obj\Debug\netcoreapp3.1\VOL.Order.csproj.CopyComplete
+D:\projects\AssetsSystem\Vue.Net\VOL.Order\obj\Debug\netcoreapp3.1\VOL.Order.dll
+D:\projects\AssetsSystem\Vue.Net\VOL.Order\obj\Debug\netcoreapp3.1\VOL.Order.pdb

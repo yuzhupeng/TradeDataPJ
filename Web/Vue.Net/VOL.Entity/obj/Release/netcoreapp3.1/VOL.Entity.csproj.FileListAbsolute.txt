@@ -1,0 +1,9 @@
+D:\projects\AssetsSystem\Vue.Net\VOL.Entity\bin\Release\netcoreapp3.1\VOL.Entity.deps.json
+D:\projects\AssetsSystem\Vue.Net\VOL.Entity\bin\Release\netcoreapp3.1\VOL.Entity.dll
+D:\projects\AssetsSystem\Vue.Net\VOL.Entity\bin\Release\netcoreapp3.1\VOL.Entity.pdb
+D:\projects\AssetsSystem\Vue.Net\VOL.Entity\obj\Release\netcoreapp3.1\VOL.Entity.csprojAssemblyReference.cache
+D:\projects\AssetsSystem\Vue.Net\VOL.Entity\obj\Release\netcoreapp3.1\VOL.Entity.AssemblyInfoInputs.cache
+D:\projects\AssetsSystem\Vue.Net\VOL.Entity\obj\Release\netcoreapp3.1\VOL.Entity.AssemblyInfo.cs
+D:\projects\AssetsSystem\Vue.Net\VOL.Entity\obj\Release\netcoreapp3.1\VOL.Entity.csproj.CoreCompileInputs.cache
+D:\projects\AssetsSystem\Vue.Net\VOL.Entity\obj\Release\netcoreapp3.1\VOL.Entity.dll
+D:\projects\AssetsSystem\Vue.Net\VOL.Entity\obj\Release\netcoreapp3.1\VOL.Entity.pdb

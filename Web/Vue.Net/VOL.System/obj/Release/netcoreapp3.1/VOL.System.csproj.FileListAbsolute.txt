@@ -1,0 +1,14 @@
+D:\projects\AssetsSystem\Vue.Net\VOL.System\bin\Release\netcoreapp3.1\VOL.System.deps.json
+D:\projects\AssetsSystem\Vue.Net\VOL.System\bin\Release\netcoreapp3.1\VOL.System.dll
+D:\projects\AssetsSystem\Vue.Net\VOL.System\bin\Release\netcoreapp3.1\VOL.System.pdb
+D:\projects\AssetsSystem\Vue.Net\VOL.System\bin\Release\netcoreapp3.1\VOL.Core.dll
+D:\projects\AssetsSystem\Vue.Net\VOL.System\bin\Release\netcoreapp3.1\VOL.Entity.dll
+D:\projects\AssetsSystem\Vue.Net\VOL.System\bin\Release\netcoreapp3.1\VOL.Core.pdb
+D:\projects\AssetsSystem\Vue.Net\VOL.System\bin\Release\netcoreapp3.1\VOL.Entity.pdb
+D:\projects\AssetsSystem\Vue.Net\VOL.System\obj\Release\netcoreapp3.1\VOL.System.csprojAssemblyReference.cache
+D:\projects\AssetsSystem\Vue.Net\VOL.System\obj\Release\netcoreapp3.1\VOL.System.AssemblyInfoInputs.cache
+D:\projects\AssetsSystem\Vue.Net\VOL.System\obj\Release\netcoreapp3.1\VOL.System.AssemblyInfo.cs
+D:\projects\AssetsSystem\Vue.Net\VOL.System\obj\Release\netcoreapp3.1\VOL.System.csproj.CoreCompileInputs.cache
+D:\projects\AssetsSystem\Vue.Net\VOL.System\obj\Release\netcoreapp3.1\VOL.System.csproj.CopyComplete
+D:\projects\AssetsSystem\Vue.Net\VOL.System\obj\Release\netcoreapp3.1\VOL.System.dll
+D:\projects\AssetsSystem\Vue.Net\VOL.System\obj\Release\netcoreapp3.1\VOL.System.pdb

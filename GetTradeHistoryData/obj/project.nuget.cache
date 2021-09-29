@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UdpUZ0J1IJ5urdyTBRqqXFg3x2qzDoLQRgmTL1ust0BtO1YpYy7BwEtMvxFk63Km9wWmt0fV5S4ZiYKcjON3hw==",
+  "dgSpecHash": "TsPAsJ3B/PXMEFC2raN98JTBL+3huxnZU0r969GHpyy1yVfZ1fmFzDt3XHuRunJ7mAVrPWpZDGYLhb3eMIRzUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Desktop\\EXCHANGESQL\\Trunk\\trunk\\GetTradeHistoryData\\GetTradeHistoryData.csproj",
+  "projectFilePath": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\GetTradeHistoryData\\GetTradeHistoryData.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\emitmappercore\\1.0.1\\emitmappercore.1.0.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\freeredis\\0.2.8\\freeredis.0.2.8.nupkg.sha512",

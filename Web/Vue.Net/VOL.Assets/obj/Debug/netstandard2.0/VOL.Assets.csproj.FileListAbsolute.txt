@@ -1,0 +1,9 @@
+D:\projects\AssetsSystem\Vue.Net\VOL.Assets\bin\Debug\netstandard2.0\VOL.Assets.deps.json
+D:\projects\AssetsSystem\Vue.Net\VOL.Assets\bin\Debug\netstandard2.0\VOL.Assets.dll
+D:\projects\AssetsSystem\Vue.Net\VOL.Assets\bin\Debug\netstandard2.0\VOL.Assets.pdb
+D:\projects\AssetsSystem\Vue.Net\VOL.Assets\obj\Debug\netstandard2.0\VOL.Assets.csprojAssemblyReference.cache
+D:\projects\AssetsSystem\Vue.Net\VOL.Assets\obj\Debug\netstandard2.0\VOL.Assets.AssemblyInfoInputs.cache
+D:\projects\AssetsSystem\Vue.Net\VOL.Assets\obj\Debug\netstandard2.0\VOL.Assets.AssemblyInfo.cs
+D:\projects\AssetsSystem\Vue.Net\VOL.Assets\obj\Debug\netstandard2.0\VOL.Assets.csproj.CoreCompileInputs.cache
+D:\projects\AssetsSystem\Vue.Net\VOL.Assets\obj\Debug\netstandard2.0\VOL.Assets.dll
+D:\projects\AssetsSystem\Vue.Net\VOL.Assets\obj\Debug\netstandard2.0\VOL.Assets.pdb

@@ -1,0 +1,16 @@
+D:\projects\AssetsSystem\Vue.Net\VOL.AppManager\bin\Release\netcoreapp3.1\VOL.AppManager.deps.json
+D:\projects\AssetsSystem\Vue.Net\VOL.AppManager\bin\Release\netcoreapp3.1\VOL.AppManager.dll
+D:\projects\AssetsSystem\Vue.Net\VOL.AppManager\bin\Release\netcoreapp3.1\VOL.AppManager.pdb
+D:\projects\AssetsSystem\Vue.Net\VOL.AppManager\bin\Release\netcoreapp3.1\VOL.Core.dll
+D:\projects\AssetsSystem\Vue.Net\VOL.AppManager\bin\Release\netcoreapp3.1\VOL.Entity.dll
+D:\projects\AssetsSystem\Vue.Net\VOL.AppManager\bin\Release\netcoreapp3.1\VOL.System.dll
+D:\projects\AssetsSystem\Vue.Net\VOL.AppManager\bin\Release\netcoreapp3.1\VOL.System.pdb
+D:\projects\AssetsSystem\Vue.Net\VOL.AppManager\bin\Release\netcoreapp3.1\VOL.Core.pdb
+D:\projects\AssetsSystem\Vue.Net\VOL.AppManager\bin\Release\netcoreapp3.1\VOL.Entity.pdb
+D:\projects\AssetsSystem\Vue.Net\VOL.AppManager\obj\Release\netcoreapp3.1\VOL.AppManager.csprojAssemblyReference.cache
+D:\projects\AssetsSystem\Vue.Net\VOL.AppManager\obj\Release\netcoreapp3.1\VOL.AppManager.AssemblyInfoInputs.cache
+D:\projects\AssetsSystem\Vue.Net\VOL.AppManager\obj\Release\netcoreapp3.1\VOL.AppManager.AssemblyInfo.cs
+D:\projects\AssetsSystem\Vue.Net\VOL.AppManager\obj\Release\netcoreapp3.1\VOL.AppManager.csproj.CoreCompileInputs.cache
+D:\projects\AssetsSystem\Vue.Net\VOL.AppManager\obj\Release\netcoreapp3.1\VOL.AppManager.csproj.CopyComplete
+D:\projects\AssetsSystem\Vue.Net\VOL.AppManager\obj\Release\netcoreapp3.1\VOL.AppManager.dll
+D:\projects\AssetsSystem\Vue.Net\VOL.AppManager\obj\Release\netcoreapp3.1\VOL.AppManager.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GcAy0ZQ61OqREc4W57Sw2tyCUgCaWdyJ0ZPO1QaWW7VhXypcg46+K4xdwbaD6AUN+1xQ7j0l2La58X74RYik1w==",
+  "dgSpecHash": "5oLoz3krfA9vWc7W1UcQ4UKoET1WeT/SykoHELqelBTuJXVu6XwRmXTXbl0/P+yYwQdS4Dnq7oKWaS6OL9KKWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Desktop\\EXCHANGESQL\\Trunk\\trunk\\websocket-sharp-core\\websocket-sharp-core.csproj",
+  "projectFilePath": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-core\\websocket-sharp-core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

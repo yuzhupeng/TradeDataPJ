@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Desktop\\EXCHANGESQL\\Trunk\\trunk\\websocket-sharp-core\\websocket-sharp-core.csproj",
+      "projectUniqueName": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-core\\websocket-sharp-core.csproj",
       "projectName": "websocketsharp.core",
-      "projectPath": "C:\\Users\\admin\\Desktop\\EXCHANGESQL\\Trunk\\trunk\\websocket-sharp-core\\websocket-sharp-core.csproj",
+      "projectPath": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-core\\websocket-sharp-core.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Desktop\\EXCHANGESQL\\Trunk\\trunk\\websocket-sharp-core\\obj\\",
+      "outputPath": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Desktop\\EXCHANGESQL\\Trunk\\trunk\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj": {}
+    "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Desktop\\EXCHANGESQL\\Trunk\\trunk\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj": {
+    "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj": {
       "version": "1.0.1-alpha.3",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\EXCHANGESQL\\Trunk\\trunk\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj",
+        "projectUniqueName": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj",
         "projectName": "WebSocketSharp.NetCore",
-        "projectPath": "C:\\Users\\admin\\Desktop\\EXCHANGESQL\\Trunk\\trunk\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj",
+        "projectPath": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\EXCHANGESQL\\Trunk\\trunk\\websocket-sharp-develop\\WebSocketSharp.NetCore\\obj\\",
+        "outputPath": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-develop\\WebSocketSharp.NetCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

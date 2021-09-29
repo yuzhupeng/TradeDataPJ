@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "23MSj/cEVgSgMRD1IU6/fN++yLnvAZ9w0BEPxEIIDvpkb2IeSFEqFnS50AWBdQDNhLLHBRchGEUdMQTl8rFvgA==",
+  "dgSpecHash": "wKVY1TeO5GuTc9bPCTfgyInTukS/5fG4IdZc/R7+y56+FKTutOu3cWkOQtLWo67weOmtGurhf9SbUNVBRQGgVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\admin\\Desktop\\EXCHANGESQL\\Trunk\\trunk\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj",
+  "projectFilePath": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

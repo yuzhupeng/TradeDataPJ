@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "JrKk8u7mIUV7zKtNHBlkPutS5zFEpKWQEk80Pg9uoG0x3EGdXerqI/VHlFBNK+w7RTSmzY+VyKrgRMIC5TYS+A==",
+  "success": true,
+  "projectFilePath": "D:\\projects\\AssetsSystem\\Vue.Net\\VOL.Assets\\VOL.Assets.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

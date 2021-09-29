@@ -4345,11 +4345,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\admin\\Desktop\\EXCHANGESQL\\Trunk\\trunk\\GetTradeHistoryData\\GetTradeHistoryData.csproj",
+      "projectUniqueName": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\GetTradeHistoryData\\GetTradeHistoryData.csproj",
       "projectName": "GetTradeHistoryData",
-      "projectPath": "C:\\Users\\admin\\Desktop\\EXCHANGESQL\\Trunk\\trunk\\GetTradeHistoryData\\GetTradeHistoryData.csproj",
+      "projectPath": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\GetTradeHistoryData\\GetTradeHistoryData.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\admin\\Desktop\\EXCHANGESQL\\Trunk\\trunk\\GetTradeHistoryData\\obj\\",
+      "outputPath": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\GetTradeHistoryData\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4366,11 +4366,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\admin\\Desktop\\EXCHANGESQL\\Trunk\\trunk\\websocket-sharp-core\\websocket-sharp-core.csproj": {
-              "projectPath": "C:\\Users\\admin\\Desktop\\EXCHANGESQL\\Trunk\\trunk\\websocket-sharp-core\\websocket-sharp-core.csproj"
+            "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-core\\websocket-sharp-core.csproj": {
+              "projectPath": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-core\\websocket-sharp-core.csproj"
             },
-            "C:\\Users\\admin\\Desktop\\EXCHANGESQL\\Trunk\\trunk\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj": {
-              "projectPath": "C:\\Users\\admin\\Desktop\\EXCHANGESQL\\Trunk\\trunk\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj"
+            "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj": {
+              "projectPath": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj"
             }
           }
         }
