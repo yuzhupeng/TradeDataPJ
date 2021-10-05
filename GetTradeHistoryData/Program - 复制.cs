@@ -53,11 +53,39 @@ namespace GetTradeHistoryData
             //Allrun t = new Allrun();
             //t.huobi();
 
+            //new Thread(() =>
+            //{
+            //    LogHelper.CreateInstance().Info("开始获取kraken数据");
+            //    KarkenSpotWSocketClient clients = new KarkenSpotWSocketClient("wss://ws.kraken.com");
+            //    clients.Start(clients.GetSendData());
+            //    clients.SendMessage(clients.GetSendData());
+
+            //}).Start();
+
+ 
+
+            //new Thread(() =>
+            //{
+            //    HuobiSpotWebscoket client = new HuobiSpotWebscoket("wss://api.huobi.pro/ws", "");
+            //    client.Start(client.GetSendData());
+            //    client.SendMessage("");
+            //}).Start();
 
 
-            //RunAll o = new RunAll();
+            //new Thread(() =>
+            //{
+            //    OkexWebscoketSpot okexclient = new OkexWebscoketSpot("wss://real.okex.com:8443/ws/v3", "");
+            //    okexclient.Start(okexclient.GetSendData());
+            //    okexclient.SendMessage("");
+            //}).Start();
+
+
+
+
+            RunAll o = new RunAll();
+            o.liquidationData();
             //o.runspots();
-
+            //o.runspot();
 
 
             //o.liquidationData();
@@ -98,15 +126,24 @@ namespace GetTradeHistoryData
 
 
 
-            LogHelper.CreateInstance().Info("开始获取huobi交割数据");
-            huobiWebScoketDeliveryFutures clients = new huobiWebScoketDeliveryFutures("wss://api.hbdm.com/ws", "BTC,LTC,BCH,ETH,EOS,LINK,DOT,XRP,ETC,BSV,ADA,FIL,ETC");
-            clients.Start(clients.GetSendData());
-            clients.SendMessage(clients.GetSendData());
+            //LogHelper.CreateInstance().Info("开始获取huobi交割数据");
+            //huobiWebScoketDeliveryFutures clients = new huobiWebScoketDeliveryFutures("wss://api.hbdm.com/ws", "BTC,LTC,BCH,ETH,EOS,LINK,DOT,XRP,ETC,BSV,ADA,FIL,ETC");
+            //clients.Start(clients.GetSendData());
+            //clients.SendMessage(clients.GetSendData());
+
+
+            //LogHelper.CreateInstance().Info("开始获取Okex永续币本位和USDT数据");
+            //OkexWebscoket OkexWebscoketclient = new OkexWebscoket("wss://real.okex.com:8443/ws/v3", "BTC,LTC,BCH,ETH,EOS,BSV,ETC,LINK,DOT,XRP,UNI,DOGE,SHUSI,ADA");
+            //OkexWebscoketclient.Start(OkexWebscoketclient.GetSendData());
+            //OkexWebscoketclient.SendMessage(OkexWebscoketclient.GetSendData());
 
 
 
             //RunAll o = new RunAll();
-
+            //LogHelper.CreateInstance().Info("开始获取Okex交割数据");
+            //OkexWebscoketDeliveryFutures Okexclient = new OkexWebscoketDeliveryFutures("wss://real.okex.com:8443/ws/v3", "BTC,LTC,BCH,ETH,EOS,LINK,DOT,XRP,ETC,BSV", "210326");
+            //Okexclient.Start(Okexclient.GetSendData());
+            //Okexclient.SendMessage(Okexclient.GetSendData());
 
             //o.FundingOpeninsert();
             //o.runspots();

@@ -477,14 +477,14 @@ namespace GetTradeHistoryData
             }).Start();
 
 
-            //new Thread(() =>
-            //{
-            //    while (true)
-            //    {
-            //        o.runall();
-            //        Thread.Sleep(1000);
-            //    }
-            //}).Start();
+            new Thread(() =>
+            {
+                while (true)
+                {
+                    o.runall();
+                    Thread.Sleep(1000);
+                }
+            }).Start();
 
 
             new Thread(() =>

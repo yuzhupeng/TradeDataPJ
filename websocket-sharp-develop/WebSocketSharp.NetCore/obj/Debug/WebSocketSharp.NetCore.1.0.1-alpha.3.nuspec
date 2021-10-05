@@ -18,6 +18,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\websocket-sharp-develop\WebSocketSharp.NetCore\bin\Debug\netcoreapp3.1\WebSocketSharp.NetCore.dll" target="lib\netcoreapp3.1\WebSocketSharp.NetCore.dll" />
+    <file src="E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-develop\WebSocketSharp.NetCore\bin\Debug\netcoreapp3.1\WebSocketSharp.NetCore.dll" target="lib\netcoreapp3.1\WebSocketSharp.NetCore.dll" />
   </files>
 </package>

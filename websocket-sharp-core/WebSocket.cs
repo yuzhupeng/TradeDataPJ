@@ -1822,7 +1822,8 @@ namespace WebSocketSharp
                 }
                 catch (Exception ex)
                 {
-                    throw new WebSocketException(CloseStatusCode.TlsHandshakeFailure, ex);
+                    Console.WriteLine("websocket³ö´í£¬´íÎóÐÅÏ¢£º" + ex.StackTrace);
+                    //throw new WebSocketException(CloseStatusCode.TlsHandshakeFailure, ex);
                 }
             }
         }

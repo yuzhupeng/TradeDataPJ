@@ -11,6 +11,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\websocket-sharp-core\bin\Debug\netstandard2.0\websocket-sharp-core.dll" target="lib\netstandard2.0\websocket-sharp-core.dll" />
+    <file src="E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\bin\Debug\netstandard2.0\websocket-sharp-core.dll" target="lib\netstandard2.0\websocket-sharp-core.dll" />
   </files>
 </package>

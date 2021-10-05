@@ -59,6 +59,7 @@ namespace GetTradeHistoryData
             this._webSocket.OnError += WebSocket_Error;
             this._webSocket.OnClose += WebSocket_Closed;
             this._webSocket.OnMessage += WebSocket_MessageReceived;
+            this._webSocket.SetProxy("http://127.0.0.1:1080", "", "");
         }
 
         #region "web socket "

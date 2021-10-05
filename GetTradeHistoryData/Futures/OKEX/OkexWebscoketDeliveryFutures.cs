@@ -253,6 +253,13 @@ namespace GetTradeHistoryData
                 try
                 {
                     var results = JsonConvert.DeserializeObject<dynamic>(message.ToString());
+                    if (((object)results.data) == null)
+                    {
+                        
+                        Console.WriteLine("数据为空，元数据：" + message.ToString());
+                        return;
+                    }
+
                     var resultdata = (((object)results.data).ToString()).ToList<Okex>();
                     List<string> maxlist = new List<string>();
                     if (resultdata != null && resultdata.Count > 0)

@@ -25,3 +25,12 @@ C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\websocket-sharp-develop\WebSocket
 C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\websocket-sharp-develop\WebSocketSharp.NetCore\obj\Debug\netcoreapp3.1\WebSocketSharp.NetCore.dll
 C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\websocket-sharp-develop\WebSocketSharp.NetCore\obj\Debug\netcoreapp3.1\WebSocketSharp.NetCore.pdb
 C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\websocket-sharp-develop\WebSocketSharp.NetCore\obj\Debug\netcoreapp3.1\WebSocketSharp.NetCore.csprojAssemblyReference.cache
+E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-develop\WebSocketSharp.NetCore\bin\Debug\netcoreapp3.1\WebSocketSharp.NetCore.deps.json
+E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-develop\WebSocketSharp.NetCore\bin\Debug\netcoreapp3.1\WebSocketSharp.NetCore.dll
+E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-develop\WebSocketSharp.NetCore\bin\Debug\netcoreapp3.1\WebSocketSharp.NetCore.pdb
+E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-develop\WebSocketSharp.NetCore\obj\Debug\netcoreapp3.1\WebSocketSharp.NetCore.csprojAssemblyReference.cache
+E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-develop\WebSocketSharp.NetCore\obj\Debug\netcoreapp3.1\WebSocketSharp.NetCore.AssemblyInfoInputs.cache
+E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-develop\WebSocketSharp.NetCore\obj\Debug\netcoreapp3.1\WebSocketSharp.NetCore.AssemblyInfo.cs
+E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-develop\WebSocketSharp.NetCore\obj\Debug\netcoreapp3.1\WebSocketSharp.NetCore.csproj.CoreCompileInputs.cache
+E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-develop\WebSocketSharp.NetCore\obj\Debug\netcoreapp3.1\WebSocketSharp.NetCore.dll
+E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-develop\WebSocketSharp.NetCore\obj\Debug\netcoreapp3.1\WebSocketSharp.NetCore.pdb
