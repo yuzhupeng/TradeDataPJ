@@ -1,0 +1,185 @@
+1.合约的价值计算(BINANCE,BITMEX)（还剩 ok，BYBIT,FTX）
+4.完善全网合约信息（huobi，ok，ftx，bybit，bitmex，binance,dir）还剩bitmex其他和大笔网（放假内出来）
+5.强平订单，资金费率，基差,持仓,分每小时三次收集（放假内处理）
+6.现货处理（放假内处理）
+7.处理 后台设定的方式设定不同平台的币种的交易信息（建立领域模型！）（放假后处理）
+3.监控
+8.大单的，价值的计算（放假后处理）
+9.实时数据全网全币种数据统计
+10.okex 的爆仓，持仓 费率还未处理 新增v5api 暂时延后，还需要更新webscoket
+11.交割日期的处理 binance ftx 的交易对 
+100bybit 的交割 未更新
+12.永续交割 qty校正的处理 剩余OKEX的计算
+ 
+14.现货数据的处理
+15.现货数据汇总
+16.数据检验 现货，汇总数据的校验 逐一校验- 20210411
+17过多的现货币对处理
+
+
+18 FTX现货 2021-0329 未更新
+现货 永续 交割
+13保存最新汇总的模型 包含 0-24净成交 爆仓 持仓 每小时净成交    ---mongodb 50%
+
+19.不同交易所不同币种的爆仓收集 未更新
+21 处理各个交易所的持仓和爆仓 费率
+22搭建后台 提交数据处理
+
+23 持仓 数据分类（交割，永续） ，持仓费率 不同交易所不同币对更新
+24 更改 爆仓 爆仓时间，改为天，正式未更新（webscoket，爆仓保存数据，爆仓数据收集）
+25 逐步取消保存sql 交割永续数据
+26将交割永续现货 以及处理好的汇总数据保存到mongodb（50%）
+27 okex 爆仓数据 交割期到时未处理（因为交割日期不存在爆仓数据）
+28 数据汇总跨天的处理（可能会跨日保存，需检查）
+20.解决爆仓数据重复的问题 2021-0329 未更新
+
+29 基于领域模型的方式处理不同模块的数据整理！！！！！！！！11
+30 BITMEX持仓和费率
+31.coinbase 数据收集
+32.处理历史数据sql和现有redis历史  合并存储到mongodb
+33.mongodb数据的合并和查询接口的设计
+34 存在的问题：binance和okex 存在数据量太大导致奔溃的问题，2.网络断线问题
+35.持仓，费率 ,爆仓的，汇总结束的监控
+36 基础币对信息显示模块的构思
+37.ftx 交割 永续 持仓信息混乱
+38.karken 期货 永续合约数据
+https://support.kraken.com/hc/en-us/articles/360022839491-API-URLs
+39.Deribit 期货数据
+40 bitmex  完善期货数据(部分M21交易对使用的是btc计价)暂时放一放，如果要算则使用 定时更新btc价格，在计算价格
+41. market = model.symbol; 由于bitmex 持仓交易对使用 XBTUSD
+42.小时汇总时持仓和费率的 bitmex XBT暂时处理不了(已处理)
+43.关于突破时间的放量情况统计
+46 持仓更新时间 费率更新时间 的增加
+44.okex  24小时成交量错误
+45 找个24点更新 perpdeal节点为hour
+46 深度数据的解读以及生产
+47 交割爆仓数据存在时间差的问题
+
+48.定时更新交易对 SymbolList -420
+49.多个交易所交易对的汇总保存 -420
+
+50 业务文档的整理，交易所 地址 api 地址， webscoket的调用方式  价值计算方式等
+
+51.查询
+1.单体所有查询（不包含条件） 不分页  直接查询 redis 和mongodb的数据
+
+2.单体查询包含条件（查询redis 所有 然后 过滤条件  ）（查询 mongodb 所有 然后在过滤条件）
+
+3.查询 list 包含条件 分页  查询redis 过滤条件，放到分页中处理，
+  查询mongodb  1. 需要处理数量的，则最后进行条件处理， 2.
+4.查询 数据缓存到redis中
+
+5
+
+
+
+交割 ，永续,  现货
+全网单一币对小时汇总 
+全网单一比对天汇总
+
+单一交易所单一币对小时汇总
+
+单一交易所单一币对天汇总
+
+
+现货 永续 交割
+
+  1 全网单币 天汇总
+
+  1.全网单币小时汇总
+
+  2.单一交易所 币本位和U本位数据 天汇总
+
+  2.单一交易所 币本位和U本位数据 小时汇总
+
+旧处理
+永续：pair
+交割：market
+
+
+
+
+新处理
+日，小时 币对汇总
+使用contactcode  like Symbol
+
+
+
+
+
+交易所 日 小时 币对分别汇总
+使用market
+
+
+
+
+
+持仓：
+使用market Symbol
+
+
+爆仓
+使用Symbol
+
+
+费率
+使用market Symbol
+
+
+持仓 和费率 Symbol 必须使用BTC 
+然后market
+
+
+
+
+1.前端
+2.后台
+限流
+提醒
+多语言
+缓存
+监控
+数据回传(直接对redis进行更新)
+
+3.数据全汇总（持仓（当日开始，每小时集中到一个字段中），资金费率，每小时净买卖，爆仓）
+数据7天汇总
+回顾功能设计
+MongoDB处理
+多个交易所，多个币对的处理
+https://aitrade.ga/books/tradingview/
+
+https://docs.bitfinex.com/docs/ws-public
+What's the difference between Coinbase prime and Coinbase pro?
+coinbase api
+https://docs.prime.coinbase.com/#get-products
+
+coinbase pro
+https://docs.pro.coinbase.com/#websocket-feed
+
+
+https://www.blockchaincenter.net/altcoin-season-index/
+
+var ws = new WebSocket("wss://ws-feed.pro.coinbase.com");
+ws.onopen = function() { 
+    ws.send("{\"type\":\"subscribe\",\"channels\":[{\"name\":\"matches\",\"product_ids\":[\"BTC-USD\",\"ETH-USD\"]}]}"); 
+};
+ws.onmessage = function(e) {
+    console.log("收到服务端的消息：" + e.data);
+};
+
+现货 永续 交割
+
+  1 全网单币 天汇总
+
+  1.全网单币小时汇总
+
+  2.单一交易所 币本位和U本位数据 天汇总
+
+  2.单一交易所 币本位和U本位数据 小时汇总
+
+https://coinmarketcap.com/zh/
+https://cryptoquant.com/overview/favorite
+   https://eth.tokenview.com/cn/
+https://cn.etherscan.com/
+https://etherscan.io/myaddress
+https://whale-alert.io/

@@ -209,13 +209,13 @@ namespace CoinWin.DataGeneration
 
 
 
-            //AllTradeProcess t = new AllTradeProcess();
+            AllTradeProcess t = new AllTradeProcess();
 
 
 
             //new Thread(() =>
             //{
-            //    t.CalcPere();
+                t.CalcPere();
             //}).Start();
 
             //new Thread(() =>

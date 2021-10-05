@@ -161,12 +161,12 @@ namespace CoinWin.DataGeneration
             }
 
 
-            var strat = Convert.ToDateTime(data.Min(p => Convert.ToDateTime(p.times)));
+            //var strat = Convert.ToDateTime(data.Min(p => Convert.ToDateTime(p.times)));
 
-            var end = Convert.ToDateTime(data.Max(p => Convert.ToDateTime(p.times)));
+            //var end = Convert.ToDateTime(data.Max(p => Convert.ToDateTime(p.times)));
 
 
-            var Minlist = TimeCore.GetStartAndEndTime(strat, end);
+            var Minlist = TimeCore.GetStartAndEndTime(st, en);
 
 
             foreach (var item in exchagelist)
@@ -367,12 +367,12 @@ namespace CoinWin.DataGeneration
             //var end = new DateTime(2021, 01, 29, 23, 59, 00);
 
 
-            var strat = Convert.ToDateTime(data.Min(p=>Convert.ToDateTime(p.times)));
+            //var strat = Convert.ToDateTime(data.Min(p=>Convert.ToDateTime(p.times)));
 
-            var end = Convert.ToDateTime(data.Max(p => Convert.ToDateTime(p.times)));
+            //var end = Convert.ToDateTime(data.Max(p => Convert.ToDateTime(p.times)));
 
 
-            var Minlist = TimeCore.GetStartAndEndTime(strat, end);
+            var Minlist = TimeCore.GetStartAndEndTime(st, en);
 
             foreach (var item in exchagelist)
             {

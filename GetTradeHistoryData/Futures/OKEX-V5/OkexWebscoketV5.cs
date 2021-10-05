@@ -72,13 +72,9 @@ namespace GetTradeHistoryData
                                 model = Mapping(item, pair, coin);
                             }
                             model.kind = CommandEnum.RedisKey.PERP;
-
-                            list.Add(model);
-
-                             
+                            list.Add(model);                            
                             //}
                         }
-
                         var sizes = list.Sum(p => Convert.ToDecimal(p.vol));
                         if (sizes >= 1000000)
                         {

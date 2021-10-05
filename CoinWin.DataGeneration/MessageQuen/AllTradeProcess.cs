@@ -91,6 +91,25 @@ namespace CoinWin.DataGeneration
 
                     var end = Convert.ToDateTime(list.Max(p => Convert.ToDateTime(p.times)));
                     var start = Convert.ToDateTime(list.Min(p => Convert.ToDateTime(p.times)));
+
+                    //ms: 发生在获取 队列信息是出现，不在这一时间段的数据，导致循环无限执行
+                    if (start < DateTime.Now.AddDays(-1))
+                    {
+                        Console.WriteLine("发生错误时间：" + start.ToString("yyyy-MM-dd HH"));
+                        LogHelper.WriteLog(typeof(DownExchangeData), "发生错误时间：" + start.ToString("yyyy-MM-dd HH"));
+                        var errorjson = list.FirstOrDefault(p => Convert.ToDateTime(p.times) == start);
+                        if (errorjson != null)
+                        {
+                            Console.WriteLine("发生错误时间的数据：" + errorjson.ToJson().ToString()) ;
+                            LogHelper.WriteLog(typeof(DownExchangeData), ("发生错误时间的数据：" + errorjson.ToJson().ToString()));
+                        }
+
+
+
+                        start = DateTime.Now.AddHours(-3);
+                    }
+                   
+
                     var timelist = TimeCore.GetStartAndEndTimeContent(start, end);
                     if (timelist != null && timelist.Count > 0)
                     {
