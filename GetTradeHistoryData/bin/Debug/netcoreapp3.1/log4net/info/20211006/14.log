@@ -1,0 +1,7 @@
+
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:09:55,066",     "description": "开始记录binance U本位合约（USDT）",   "level": "INFO",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:09:55,122",     "description": "开始记录binance 币本位合约（USD）",   "level": "INFO",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:13:08,978",     "description": "binance 币本位季度和永续 正在重连",   "level": "INFO",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:13:08,983",     "description": "binance U本位 正在重连",   "level": "INFO",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:13:09,116",     "description": "binance 币本位季度和永续 正在重连",   "level": "INFO",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:13:09,118",     "description": "binance 币本位 正在重连",   "level": "INFO",     "info": "" }

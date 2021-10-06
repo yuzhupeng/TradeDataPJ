@@ -1,0 +1,68 @@
+
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:08:44,914",     "description": "binance U本位 WebSocket_Opened",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:09:56,917",     "description": "binance 币本位 WebSocket_Opened",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:10:03,990",     "description": "binance U本位 WebSocket_Opened",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:10:10,967",     "description": "获取hash redis失败,失败的keyLQTimeStamphuobi_swap_liquidation_orders_WOO失败原因:Index was outside the bounds of the array.",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:10:11,134",     "description": "获取hash redis失败,失败的keyLQTimeStamphuobi_swap_liquidation_orders_XCH失败原因:Index was outside the bounds of the array.",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:11:26,700",     "description": "获取hash redis失败,失败的keyLQTimeStamphuobi_swap_liquidation_orders_WOO失败原因:Index was outside the bounds of the array.",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:11:26,861",     "description": "获取hash redis失败,失败的keyLQTimeStamphuobi_swap_liquidation_orders_XCH失败原因:Index was outside the bounds of the array.",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:11:54,973",     "description": "获取hash redis失败,失败的keyLQTimeStamphuobi_swap_liquidation_orders_WOO失败原因:Index was outside the bounds of the array.",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:11:55,158",     "description": "获取hash redis失败,失败的keyLQTimeStamphuobi_swap_liquidation_orders_XCH失败原因:Index was outside the bounds of the array.",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:12:18,022",     "description": "获取hash redis失败,失败的keyLQTimeStamphuobi_swap_liquidation_orders_WOO失败原因:Index was outside the bounds of the array.",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:12:18,187",     "description": "获取hash redis失败,失败的keyLQTimeStamphuobi_swap_liquidation_orders_XCH失败原因:Index was outside the bounds of the array.",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:12:27,319",     "description": "binance 币本位 WebSocket_Closed",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:12:27,856",     "description": "binance U本位 WebSocket_Closed",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:13:08,976",     "description": "binance U本位 WebSocket_Closed",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:13:09,116",     "description": "应用程序出现异常，请重新启动！异常情况如下:
+WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+ ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+   at WebSocketSharp.HttpBase.<>c__DisplayClass13_0.<readHeaders>b__0(Int32 i) in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\HttpBase.cs:line 128
+   at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action) in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\Ext.cs:line 389
+   at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength) in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\HttpBase.cs:line 134
+   at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout) in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\HttpBase.cs:line 172
+   --- End of inner exception stack trace ---
+   at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout) in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\HttpBase.cs:line 194
+   at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout) in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\HttpRequest.cs:line 162
+   at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout) in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\WebSocket.cs:line 1727
+   at WebSocketSharp.WebSocket.sendProxyConnectRequest() in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\WebSocket.cs:line 1744
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__139_1(Object state)
+   at System.Threading.QueueUserWorkItemCallbackDefaultContext.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:13:09,116",     "description": "binance 币本位 WebSocket_Closed",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:13:09,116",     "description": "应用程序出现异常，请重新启动！",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:17:07,145",     "description": "应用程序出现异常，请重新启动！异常情况如下:
+WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+ ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+   at WebSocketSharp.HttpBase.<>c__DisplayClass13_0.<readHeaders>b__0(Int32 i) in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\HttpBase.cs:line 128
+   at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action) in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\Ext.cs:line 389
+   at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength) in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\HttpBase.cs:line 134
+   at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout) in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\HttpBase.cs:line 172
+   --- End of inner exception stack trace ---
+   at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout) in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\HttpBase.cs:line 195
+   at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout) in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\HttpRequest.cs:line 162
+   at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout) in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\WebSocket.cs:line 1727
+   at WebSocketSharp.WebSocket.sendProxyConnectRequest() in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\WebSocket.cs:line 1744
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__139_1(Object state)
+   at System.Threading.QueueUserWorkItemCallbackDefaultContext.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:17:07,145",     "description": "应用程序出现异常，请重新启动！异常情况如下:
+WebSocketSharp.WebSocketException: An exception has occurred while reading an HTTP request/response.
+ ---> System.IO.EndOfStreamException: The header cannot be read from the data source.
+   at WebSocketSharp.HttpBase.<>c__DisplayClass13_0.<readHeaders>b__0(Int32 i) in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\HttpBase.cs:line 128
+   at WebSocketSharp.Ext.EqualsWith(Int32 value, Char c, Action`1 action) in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\Ext.cs:line 389
+   at WebSocketSharp.HttpBase.readHeaders(Stream stream, Int32 maxLength) in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\HttpBase.cs:line 134
+   at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout) in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\HttpBase.cs:line 172
+   --- End of inner exception stack trace ---
+   at WebSocketSharp.HttpBase.Read[T](Stream stream, Func`2 parser, Int32 millisecondsTimeout) in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\HttpBase.cs:line 195
+   at WebSocketSharp.HttpRequest.GetResponse(Stream stream, Int32 millisecondsTimeout) in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\HttpRequest.cs:line 162
+   at WebSocketSharp.WebSocket.sendHttpRequest(HttpRequest request, Int32 millisecondsTimeout) in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\WebSocket.cs:line 1727
+   at WebSocketSharp.WebSocket.sendProxyConnectRequest() in E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\WebSocket.cs:line 1744
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__139_1(Object state)
+   at System.Threading.QueueUserWorkItemCallbackDefaultContext.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:17:07,176",     "description": "应用程序出现异常，请重新启动！",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:17:07,173",     "description": "binance 币本位 WebSocket_Closed",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:17:07,176",     "description": "应用程序出现异常，请重新启动！",   "level": "ERROR",     "info": "" }
+ {     "system": "Meowv.Blog",     "datetime": "2021-10-06 14:17:07,173",     "description": "binance U本位 WebSocket_Closed",   "level": "ERROR",     "info": "" }

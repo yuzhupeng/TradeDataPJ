@@ -490,7 +490,8 @@ namespace GetTradeHistoryData
             new Thread(() =>
             {
                 LogHelper.CreateInstance().Info("开始记录binance U本位合约（USDT）");
-                binanceUSDWebscoket4NET binanceUSDT = new binanceUSDWebscoket4NET("", "USD");
+                binanceUSDWebscoketCore binanceUSDT = new binanceUSDWebscoketCore("", "USD");
+                //binanceUSDWebscoket4NET binanceUSDT = new binanceUSDWebscoket4NET("", "USD");
                 binanceUSDT.Start(binanceUSDT.GetSendData("1"));
                 binanceUSDT.SendMessage(binanceUSDT.GetSendData("1"));
 
@@ -501,7 +502,8 @@ namespace GetTradeHistoryData
             {
 
                 LogHelper.CreateInstance().Info("开始记录binance 币本位合约（USD）");
-                binanceUSDWebscoket4NET binanceUSD = new binanceUSDWebscoket4NET("", "USDT");
+                binanceUSDWebscoketCore binanceUSD = new binanceUSDWebscoketCore("", "USDT");
+                //binanceUSDWebscoket4NET binanceUSD = new binanceUSDWebscoket4NET("", "USDT");
                 binanceUSD.Start(binanceUSD.GetSendData("1"));
                 binanceUSD.SendMessage(binanceUSD.GetSendData("1"));
 

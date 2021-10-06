@@ -62,7 +62,7 @@ namespace GetTradeHistoryData
 
             //}).Start();
 
- 
+
 
             //new Thread(() =>
             //{
@@ -79,11 +79,12 @@ namespace GetTradeHistoryData
             //    okexclient.SendMessage("");
             //}).Start();
 
+            BybitLQhelper p = new BybitLQhelper();
+            p.runtest();
 
 
-
-            RunAll o = new RunAll();
-            o.liquidationData();
+            //RunAll o = new RunAll();
+            //o.liquidationData();
             //o.runspots();
             //o.runspot();
 
