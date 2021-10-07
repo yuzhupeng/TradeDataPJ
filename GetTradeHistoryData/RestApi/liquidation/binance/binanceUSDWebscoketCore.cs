@@ -504,20 +504,7 @@ namespace GetTradeHistoryData
         /// <param name="Message"></param>
         public void SendMessage(string Message)
         {
-
-          //  string[] arr1 = symbol.Split(',');
-          //int  a = 0;
-          //  string symbollist = "";
-          //  foreach (var item in arr1)
-          //  {
-          //      if (a != 0)
-          //      {
-          //          symbollist = symbollist + "/";
-          //      }
-          //      //return "{\"op\":\"subscribe\",\"args\":[\"trade.BTCUSD\"]}";
-          //        symbollist += $"{item}usdt@aggTrade";
-          //      a += 1;
-          //  }
+ 
 
              string topic = "subscribe";
             var op = ("{{ \"method\": \"{topic}\",\"params\": [\"!forceOrder@arr\"],\"id\": 1}}");

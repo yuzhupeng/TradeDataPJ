@@ -30,6 +30,8 @@ namespace GetTradeHistoryData
         /// 
         /// </summary>
         public decimal price { get; set; }
+
+        public DateTime actcualtime { get; set; }
     }
 
     public class BybitLQ

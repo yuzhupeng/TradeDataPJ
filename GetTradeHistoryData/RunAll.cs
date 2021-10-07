@@ -450,7 +450,7 @@ namespace GetTradeHistoryData
         /// </summary>
         public void liquidationData()
         {
-            BybitLQhelper p = new BybitLQhelper();
+            //BybitLQhelper p = new BybitLQhelper();
             HuobiliquidationHelper help = new HuobiliquidationHelper();
             OkexLQHelper o = new OkexLQHelper();
 
@@ -458,14 +458,14 @@ namespace GetTradeHistoryData
 
 
 
-            new Thread(() =>
-            {
-                while (true)
-                {
-                    p.runtest();
-                    Thread.Sleep(1000);
-                }
-            }).Start();
+            //new Thread(() =>
+            //{
+            //    while (true)
+            //    {
+            //        p.runtest();
+            //        Thread.Sleep(1000);
+            //    }
+            //}).Start();
 
             new Thread(() =>
             {
@@ -490,8 +490,8 @@ namespace GetTradeHistoryData
             new Thread(() =>
             {
                 LogHelper.CreateInstance().Info("开始记录binance U本位合约（USDT）");
-                binanceUSDWebscoketCore binanceUSDT = new binanceUSDWebscoketCore("", "USD");
-                //binanceUSDWebscoket4NET binanceUSDT = new binanceUSDWebscoket4NET("", "USD");
+                //binanceUSDWebscoketCore binanceUSDT = new binanceUSDWebscoketCore("", "USD");
+                binanceUSDWebscoket4NET binanceUSDT = new binanceUSDWebscoket4NET("", "USD");
                 binanceUSDT.Start(binanceUSDT.GetSendData("1"));
                 binanceUSDT.SendMessage(binanceUSDT.GetSendData("1"));
 
@@ -502,11 +502,19 @@ namespace GetTradeHistoryData
             {
 
                 LogHelper.CreateInstance().Info("开始记录binance 币本位合约（USD）");
-                binanceUSDWebscoketCore binanceUSD = new binanceUSDWebscoketCore("", "USDT");
-                //binanceUSDWebscoket4NET binanceUSD = new binanceUSDWebscoket4NET("", "USDT");
+                //binanceUSDWebscoketCore binanceUSD = new binanceUSDWebscoketCore("", "USDT");
+                binanceUSDWebscoket4NET binanceUSD = new binanceUSDWebscoket4NET("", "USDT");
                 binanceUSD.Start(binanceUSD.GetSendData("1"));
                 binanceUSD.SendMessage(binanceUSD.GetSendData("1"));
 
+            }).Start();
+
+
+            new Thread(() =>
+            {
+                bybitUSDWebscoketCore bybitlqdata = new bybitUSDWebscoketCore("wss://stream.bytick.com/realtime", "");
+                bybitlqdata.Start("");
+                bybitlqdata.SendMessage("");
             }).Start();
 
         }

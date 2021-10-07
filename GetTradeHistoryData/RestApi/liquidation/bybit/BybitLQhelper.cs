@@ -49,11 +49,7 @@ namespace GetTradeHistoryData
             {
                 var orderslist = result.result;
 
-                //long mintimestamp = orderslist.Min(p => p.time);
-                //long max = orderslist.Max(p => p.time);
-                //DateTime dd= GZipDecompresser.GetTimeFromUnixTimestamps(start_time.ToString());
-                //DateTime dt = GZipDecompresser.GetTimeFromUnixTimestamps(mintimestamp.ToString()).AddHours(8);
-                //DateTime ends=  GZipDecompresser.GetTimeFromUnixTimestamps(max.ToString()).AddHours(8);
+   
 
                 if (orderslist.Count > 0)
                 {

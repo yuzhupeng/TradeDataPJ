@@ -28,7 +28,7 @@ namespace GetTradeHistoryData
             //object temp2 = null;
             //string temp1 = temp2.ToString();
 
-            AppDomain.CurrentDomain.UnhandledException += new UnhandledExceptionEventHandler(CurrentDomain_UnhandledException); //;OnDomainUnhandledExceptio
+            //AppDomain.CurrentDomain.UnhandledException += new UnhandledExceptionEventHandler(CurrentDomain_UnhandledException); //;OnDomainUnhandledExceptio
 
 
             string yesORno;
@@ -79,12 +79,34 @@ namespace GetTradeHistoryData
             //    okexclient.SendMessage("");
             //}).Start();
 
-            BybitLQhelper p = new BybitLQhelper();
-            p.runtest();
+            //bybitUSDWebscoketCore bybitlqdata = new bybitUSDWebscoketCore("wss://stream.bytick.com/realtime", "");
+            //bybitlqdata.Start("");
+            //bybitlqdata.SendMessage("");
 
+
+
+            //BybitLQhelper p = new BybitLQhelper();
+            //p.runtest();
+
+            LogHelper.CreateInstance().Info("开始记录binance 币本位合约（USD）");
+            //binanceUSDWebscoketCore binanceUSD = new binanceUSDWebscoketCore("", "USDT");
+            binanceUSDWebscoket4NET binanceUSD = new binanceUSDWebscoket4NET("", "USDT");
+            binanceUSD.Start(binanceUSD.GetSendData("1"));
+            binanceUSD.SendMessage(binanceUSD.GetSendData("1"));
+
+
+
+            //LogHelper.CreateInstance().Info("开始记录binance U本位合约（USDT）");
+            ////binanceUSDWebscoketCore binanceUSDT = new binanceUSDWebscoketCore("", "USD");
+            //binanceUSDWebscoket4NET binanceUSDT = new binanceUSDWebscoket4NET("", "USD");
+            //binanceUSDT.Start(binanceUSDT.GetSendData("1"));
+            //binanceUSDT.SendMessage(binanceUSDT.GetSendData("1"));
 
             //RunAll o = new RunAll();
             //o.liquidationData();
+
+
+
             //o.runspots();
             //o.runspot();
 
