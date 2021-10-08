@@ -72,6 +72,7 @@ namespace GetTradeHistoryData
             {
                 LogHelpers.Info("WebSocket reconnecting...");
                 _WebSocket.Close();
+ 
                 _WebSocket.Connect();
                 Connect();
             }

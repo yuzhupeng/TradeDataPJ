@@ -354,22 +354,25 @@ namespace GetTradeHistoryData
                 var list = ApiHelper.GetExtx(url);
                 var results = ((object)list).ToString().ToList<OkexSwapModel>();
                 return results;
-
             }
+
+
 
             /// <summary>
             /// okex永续合约包含USDHE 信息列表Mdoel
             /// SPOT：币币
-            //SWAP：永续合约
-            //FUTURES：交割合约
-            //OPTION：期权
+             //       SPOT：币币
+             //MARGIN：币币杠杆
+             //SWAP：永续合约
+             //FUTURES：交割合约
+             //OPTION：期权
             /// </summary>
             /// <returns></returns>
             public static List<OkexSwapv5> GetSwapContract_size_V5(string type)
-            {
-                string url = string.Format("https://www.okex.com/api/v5/market/tickers?instType={0}",type);
+            {  
+                string url = string.Format("https://www.okex.com/api/v5/public/instruments?instType={0}", type);
                 var list = ApiHelper.GetExtx(url);
-                var results = ((object)list).ToString().ToList<OkexSwapv5>();
+                var results = ((object)list.data).ToString().ToList<OkexSwapv5>();
                 return results;
 
             }

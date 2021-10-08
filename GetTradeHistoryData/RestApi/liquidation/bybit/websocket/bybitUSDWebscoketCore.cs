@@ -126,11 +126,13 @@ namespace GetTradeHistoryData
             LogHelpers.Error("bybit 爆仓数据 "+Message.ToString());
             LogHelpers.Info("bybit 爆仓数据 " + Message.ToString());
             var results = JsonConvert.DeserializeObject<dynamic>(Message);
-            if (((object)results.e) == null)
+            if (((object)results.data) == null)
             {
                 Console.WriteLine("获取bybit爆仓信息为空！");
+             /*   string demodatas = "{\"topic\":\"liquidation.BTCUSD\",\"data\":{\"symbol\":\"BTCUSD\",\"side\":\"Sell\",\"price\":\"54524.00\",\"qty\":\"839\",\"time\":1633656435895}}"*/;
                 return;
             }
+           
             SaveforceOrder(results);
            
 
@@ -145,14 +147,14 @@ namespace GetTradeHistoryData
         {
             if (symbol == "USD")
             {
-                Console.WriteLine("bybit 爆仓数据 WebSocket_Closed" + e.ToString());
-                LogHelpers.Error("bybit 爆仓数据 WebSocket_Closed");
+                Console.WriteLine("bybit USD爆仓数据 WebSocket_Closed" + e.ToString());
+                LogHelpers.Error("bybit USD爆仓数据 WebSocket_Closed");
             }
             else
             {
                 //ServerPath = "wss://dstream.bybit.com/ws/!forceOrder@arr";//爆仓数据
-                Console.WriteLine("bybit 爆仓数据 WebSocket_Closed" + e.ToString());
-                LogHelpers.Error("bybit 爆仓数据 WebSocket_Closed");
+                Console.WriteLine("bybit USDT爆仓数据 WebSocket_Closed" + e.ToString());
+                LogHelpers.Error("bybit USDT爆仓数据 WebSocket_Closed");
             }
 
      
@@ -227,14 +229,14 @@ namespace GetTradeHistoryData
                         if (symbol == "USD")
                         {
                             //ServerPath = "wss://fstream.bybit.com/ws/!forceOrder@arr";//爆仓数据
-                            LogHelpers.Info("bybit 爆仓数据 正在重连");
-                            Console.WriteLine("bybit 爆仓数据 正在重连");
+                            LogHelpers.Info("bybit USD爆仓数据 正在重连");
+                            Console.WriteLine("bybit USD 爆仓数据 正在重连");
                         }
                         else
                         {
                             //ServerPath = "wss://dstream.bybit.com/ws/!forceOrder@arr";//爆仓数据
-                            LogHelpers.Info("bybit 爆仓数据 正在重连");
-                            Console.WriteLine("bybit 爆仓数据 正在重连");
+                            LogHelpers.Info("bybit USDT爆仓数据 正在重连");
+                            Console.WriteLine("bybit USDT爆仓数据 正在重连");
                         }
 
                     }
@@ -244,12 +246,12 @@ namespace GetTradeHistoryData
                         if (symbol == "USD")
                         {
                            
-                            Console.WriteLine("bybit 爆仓数据 度当前状态" + this._webSocket.ReadyState + "-----"   + DateTime.Now.ToString());
+                            Console.WriteLine("bybit USD爆仓数据 度当前状态" + this._webSocket.ReadyState + "-----"   + DateTime.Now.ToString());
                         }
                         else
                         {
                              
-                            Console.WriteLine("bybit 爆仓数据 度当前状态" + this._webSocket.ReadyState + "-----"   + DateTime.Now.ToString());
+                            Console.WriteLine("bybit USDT爆仓数据 度当前状态" + this._webSocket.ReadyState + "-----"   + DateTime.Now.ToString());
                         }
                     }
                 }
@@ -259,12 +261,12 @@ namespace GetTradeHistoryData
                     if (symbol == "USD")
                     {
                         
-                        Console.WriteLine("bybit 爆仓数据 重连websocket_Error" + this._webSocket.ReadyState + "-----" + DateTime.Now.ToString());
+                        Console.WriteLine("bybit USD爆仓数据 重连websocket_Error" + this._webSocket.ReadyState + "-----" + DateTime.Now.ToString());
                     }
                     else
                     {
                         
-                        Console.WriteLine("bybit 爆仓数据 重连websocket_Error" + this._webSocket.ReadyState + "-----" + DateTime.Now.ToString());
+                        Console.WriteLine("bybit USDT爆仓数据 重连websocket_Error" + this._webSocket.ReadyState + "-----" + DateTime.Now.ToString());
                     }
 
 
@@ -299,7 +301,7 @@ namespace GetTradeHistoryData
                     if (item != null)
                     {
  
-                        var times = GZipDecompresser.GetTimeFromUnixTimestamps(item.time.ToString());
+                        var times = GZipDecompresser.GetTimeFromUnixTimestampthree(item.time.ToString());
                         var key = times.ToString("g");
                         var keys = times.ToString("d");
                         item.actcualtime = times;                 
@@ -326,15 +328,15 @@ namespace GetTradeHistoryData
 
                     if (symbol == "USD")
                     {
-                        LogHelpers.Error("bybit 爆仓数据 信息转化错误，错误信息：" + e.Message.ToString());
-                        LogHelpers.Error("bybit 爆仓数据 信息转化错误，错误的信息源：" + ((object)results).ToString());
-                        Console.WriteLine("bybit 爆仓数据 信息转化错误，错误信息：" + e.Message.ToString());
+                        LogHelpers.Error("bybit USD爆仓数据 信息转化错误，错误信息：" + e.Message.ToString());
+                        LogHelpers.Error("bybit USD爆仓数据 信息转化错误，错误的信息源：" + ((object)results).ToString());
+                        Console.WriteLine("bybit USD爆仓数据 信息转化错误，错误信息：" + e.Message.ToString());
                     }
                     else
                     {
-                        LogHelpers.Error("bybit 爆仓数据 信息转化错误，错误信息：" + e.Message.ToString());
-                        LogHelpers.Error("bybit 爆仓数据 信息转化错误，错误的信息源：" + ((object)results).ToString());
-                        Console.WriteLine("bybit 爆仓数据 信息转化错误，错误信息：" + e.Message.ToString());
+                        LogHelpers.Error("bybit USDt爆仓数据 信息转化错误，错误信息：" + e.Message.ToString());
+                        LogHelpers.Error("bybit USDt爆仓数据 信息转化错误，错误的信息源：" + ((object)results).ToString());
+                        Console.WriteLine("bybit USDt爆仓数据 信息转化错误，错误信息：" + e.Message.ToString());
                     }
                 }
 
@@ -432,38 +434,30 @@ namespace GetTradeHistoryData
         /// </summary>
         /// <param name="Message"></param>
         public void SendMessage(string Message)
-        {
-            string ops = "";
-
+        {     
             string op = "{\"op\":\"subscribe\",\"args\":[\"liquidation\"]}";
             if (this.symbol.ToUpper() == "USDT")
             {
+                string ops = "";
                 var symbollist = CommandEnum.BybitData.GetContract_size().Where(p => p.quote_currency == "USDT").ToList();
                 foreach (var item in symbollist)
                 {
                     ops += $"liquidation.{item.base_currency},";
                 }
                 ops = ops.Remove(ops.Length - 1);
-
                 string topic = "subscribe";
                   op = ($"{{ \"op\": \"{topic}\",\"args\": [\"{ops}\"]}}");
             }
-
-
             Sendata = op;
-
             if (_webSocket != null && _webSocket.ReadyState == WebSocketState.Open)
             {
                 this._webSocket.Send(op);
             }
-
-
         }
 
 
         public string GetSendData(string symbols)
         {
-
             string[] pairs = symbols.Split(',');
             string pairParams = "";
             if (pairs != null)

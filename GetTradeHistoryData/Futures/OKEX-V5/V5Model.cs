@@ -6,7 +6,6 @@ namespace GetTradeHistoryData
 {
     public class OkexSwapv5
     {
-        /// <summary>
         /// 
         /// </summary>
         public string instType { get; set; }
@@ -17,58 +16,103 @@ namespace GetTradeHistoryData
         /// <summary>
         /// 
         /// </summary>
-        public string last { get; set; }
+        public string uly { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public string lastSz { get; set; }
+        public string category { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public string askPx { get; set; }
+        public string baseCcy { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public string askSz { get; set; }
+        public string quoteCcy { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public string bidPx { get; set; }
+        public string settleCcy { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public string bidSz { get; set; }
+        public string ctVal { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public string open24h { get; set; }
+        public string ctMult { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public string high24h { get; set; }
+        public string ctValCcy { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public string low24h { get; set; }
+        public string optType { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public string volCcy24h { get; set; }
+        public string stk { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public string vol24h { get; set; }
+        public string listTime { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public string ts { get; set; }
+        public string expTime { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public string sodUtc0 { get; set; }
+        public string lever { get; set; }
         /// <summary>
         /// 
         /// </summary>
-        public string sodUtc8 { get; set; }
+        public string tickSz { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string lotSz { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string minSz { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string ctType { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string @alias { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string state { get; set; }
     }
 }
+
+
+
+
+//"instType":"SWAP",
+//        "instId":"LTC-USD-SWAP",
+//        "uly":"LTC-USD",
+//        "category":"1",
+//        "baseCcy":"",
+//        "quoteCcy":"",
+//        "settleCcy":"LTC",
+//        "ctVal":"10",
+//        "ctMult":"1",
+//        "ctValCcy":"USD",
+//        "optType":"C",
+//        "stk":"",
+//        "listTime":"1597026383085",
+//        "expTime":"1597026383085",
+//        "lever":"10",
+//        "tickSz":"0.01",
+//        "lotSz":"1",
+//        "minSz":"1",
+//        "ctType":"linear",
+//        "alias":"this_week",
+//        "state":"live"

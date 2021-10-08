@@ -278,8 +278,7 @@ namespace GetTradeHistoryData
                         if (datas.Contains("perp"))
                         {
                             list.FirstOrDefault().kind = CommandEnum.RedisKey.PERP;
-                            RedisHelper.Pushdata(list.ToJson(), CommandEnum.RedisKey.bitmexRedis, DateTime.Now.ToString("yyyy-MM-dd HH") + CommandEnum.RedisKey.UPermanentFutures);
-                          
+                            RedisHelper.Pushdata(list.ToJson(), CommandEnum.RedisKey.bitmexRedis, DateTime.Now.ToString("yyyy-MM-dd HH") + CommandEnum.RedisKey.UPermanentFutures);                     
                             RedisMsgQueueHelper.EnQueue(CommandEnum.RedisKey.PERPQueueList, list.ToJson());
                              
                         }

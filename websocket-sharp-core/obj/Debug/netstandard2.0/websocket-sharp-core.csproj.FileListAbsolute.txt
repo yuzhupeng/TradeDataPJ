@@ -61,9 +61,9 @@ C:\Users\admin\Desktop\EXCHANGESQL\Trunk\trunk\websocket-sharp-core\obj\Debug\ne
 E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\bin\Debug\netstandard2.0\websocket-sharp-core.deps.json
 E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\bin\Debug\netstandard2.0\websocket-sharp-core.dll
 E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\bin\Debug\netstandard2.0\websocket-sharp-core.pdb
-E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\obj\Debug\netstandard2.0\websocket-sharp-core.csprojAssemblyReference.cache
 E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\obj\Debug\netstandard2.0\websocket-sharp-core.AssemblyInfoInputs.cache
 E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\obj\Debug\netstandard2.0\websocket-sharp-core.AssemblyInfo.cs
 E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\obj\Debug\netstandard2.0\websocket-sharp-core.csproj.CoreCompileInputs.cache
 E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\obj\Debug\netstandard2.0\websocket-sharp-core.dll
 E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\obj\Debug\netstandard2.0\websocket-sharp-core.pdb
+E:\Projext\gitAllTradeData\TradeDataPJ\websocket-sharp-core\obj\Debug\netstandard2.0\websocket-sharp-core.csprojAssemblyReference.cache

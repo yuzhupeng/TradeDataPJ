@@ -88,11 +88,11 @@ namespace GetTradeHistoryData
             //BybitLQhelper p = new BybitLQhelper();
             //p.runtest();
 
-            LogHelper.CreateInstance().Info("开始记录binance 币本位合约（USD）");
-            //binanceUSDWebscoketCore binanceUSD = new binanceUSDWebscoketCore("", "USDT");
-            binanceUSDWebscoket4NET binanceUSD = new binanceUSDWebscoket4NET("", "USDT");
-            binanceUSD.Start(binanceUSD.GetSendData("1"));
-            binanceUSD.SendMessage(binanceUSD.GetSendData("1"));
+            //LogHelper.CreateInstance().Info("开始记录binance 币本位合约（USD）");
+            ////binanceUSDWebscoketCore binanceUSD = new binanceUSDWebscoketCore("", "USDT");
+            //binanceUSDWebscoket4NET binanceUSD = new binanceUSDWebscoket4NET("", "USDT");
+            //binanceUSD.Start(binanceUSD.GetSendData("1"));
+            //binanceUSD.SendMessage(binanceUSD.GetSendData("1"));
 
 
 
@@ -102,19 +102,57 @@ namespace GetTradeHistoryData
             //binanceUSDT.Start(binanceUSDT.GetSendData("1"));
             //binanceUSDT.SendMessage(binanceUSDT.GetSendData("1"));
 
+
+
+            //bybitUSDWebscoketCore bybitlqdata = new bybitUSDWebscoketCore("wss://stream.bytick.com/realtime", "USD");
+            //string message = "{\"topic\":\"liquidation.BTCUSD\",\"data\":{\"symbol\":\"BTCUSD\",\"side\":\"Sell\",\"price\":\"54524.00\",\"qty\":\"839\",\"time\":1633656435895}}";
+
+            //bybitlqdata.WebSocket_MessageReceived(message);
+            //bybitlqdata.Start("");
+            //bybitlqdata.SendMessage("");
+
+           var  symbollist = CommandEnum.OkexMessage.GetSwapContract_size_V5("SWAP");
+
+            //OkexWebscoketV5DeliveryFutures okexv5delivery = new OkexWebscoketV5DeliveryFutures("wss://ws.okex.com:8443/ws/v5/public", "okex", true);
+            //okexv5delivery.Connect();
+
+            OkexWebscoketV5SWAP okexv5swap = new OkexWebscoketV5SWAP("wss://ws.okex.com:8443/ws/v5/public", "okex", true);
+            okexv5swap.Connect();
+
+
+
+
+
+
+
+            //new Thread(() =>
+            //{
+            //    bybitUSDWebscoketCore bybitlqdata = new bybitUSDWebscoketCore("wss://stream.bytick.com/realtime", "USD");
+            //    bybitlqdata.Start("");
+            //    bybitlqdata.SendMessage("");
+            //}).Start();
+
+
+            ////USDT
+            //new Thread(() =>
+            //{
+            //    bybitUSDWebscoketCore bybitlqdata = new bybitUSDWebscoketCore("wss://stream.bybit.com/realtime_public", "USDT");
+
+
+            //    bybitlqdata.Start("");
+            //    bybitlqdata.SendMessage("");
+            //}).Start();
+
+
+
             //RunAll o = new RunAll();
             //o.liquidationData();
-
-
 
             //o.runspots();
             //o.runspot();
 
-
             //o.liquidationData();
-
             //RunAll o = new RunAll();
-
 
             //new Thread(() =>
             //{

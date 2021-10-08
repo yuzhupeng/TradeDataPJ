@@ -240,8 +240,6 @@ namespace GetTradeHistoryData
         }
         #endregion
 
-
-
         /// <summary>
         /// 保存信息
         /// </summary>
@@ -336,7 +334,6 @@ namespace GetTradeHistoryData
 
         }
 
-
         private void SaveUSD(List<Okex> resultdata, List<UPermanentFutures> list, string pair)
         {
             foreach (var item in resultdata)
@@ -373,7 +370,6 @@ namespace GetTradeHistoryData
             RedisMsgQueueHelper.EnQueue(CommandEnum.RedisKey.DeliverQueueList, list.ToJson());
             
         }
-
 
 
         /// <summary>

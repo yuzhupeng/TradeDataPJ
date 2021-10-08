@@ -182,14 +182,12 @@ namespace WebSocketSharp
         timer.Dispose ();
       }
 
-      var msg = timeout
-                ? "A timeout has occurred while reading an HTTP request/response."
-                : exception != null
-                  ? "An exception has occurred while reading an HTTP request/response."
-                  : null;
+      var msg = timeout? "A timeout has occurred while reading an HTTP request/response.": exception != null
+                ? "An exception has occurred while reading an HTTP request/response.": null;
 
-      if (msg != null)
-        throw new WebSocketException (msg, exception);
+            if (msg != null)
+                throw new WebSocketException (msg, exception);
+              
 
       return http;
     }

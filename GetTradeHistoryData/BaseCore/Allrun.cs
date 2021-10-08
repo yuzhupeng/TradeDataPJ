@@ -13,12 +13,12 @@ namespace GetTradeHistoryData.BaseCore
         //o.Connect();
         // wss://api.btcgateway.pro/ws
       //  wss://api.hbdm.com/ws
-            huobiAcutalsWebSocketClient o = new huobiAcutalsWebSocketClient("wss://api.btcgateway.pro/ws", "huobi", false);
-            o.Connect();
+            //huobiAcutalsWebSocketClient o = new huobiAcutalsWebSocketClient("wss://api.btcgateway.pro/ws", "huobi", false);
+            //o.Connect();
 
 
-            //OkexAuctuals okex = new OkexAuctuals("wss://ws.okex.com:8443/ws/v5/public", "okex",true);
-            //okex.Connect();
+            OkexAuctuals okex = new OkexAuctuals("wss://ws.okex.com:8443/ws/v5/public", "okex", true);
+            okex.Connect();
 
         }
     }

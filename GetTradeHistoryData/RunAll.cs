@@ -509,13 +509,24 @@ namespace GetTradeHistoryData
 
             }).Start();
 
-
+            //USD
             new Thread(() =>
             {
                 bybitUSDWebscoketCore bybitlqdata = new bybitUSDWebscoketCore("wss://stream.bytick.com/realtime", "");
                 bybitlqdata.Start("");
                 bybitlqdata.SendMessage("");
             }).Start();
+
+
+            //USDT
+            new Thread(() =>
+            {
+                bybitUSDWebscoketCore bybitlqdata = new bybitUSDWebscoketCore("wss://stream.bybit.com/realtime_public", "USDT");
+                bybitlqdata.Start("");
+                bybitlqdata.SendMessage("");
+            }).Start();
+
+
 
         }
 

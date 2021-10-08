@@ -11,17 +11,17 @@ namespace GetTradeHistoryData
     /// <summary>
     /// Responsible to handle MBP data from WebSocket
     /// </summary>
-    public class OkexWebscoketV5 : WebSocketClientBase
+    public class OkexWebscoketV5SWAP : WebSocketClientBase
     {
-        private List<OkexSwapModel> symbollist;
+        private List<OkexSwapv5> symbollist;
 
         /// <summary>
         /// Constructor
         /// </summary>
         /// <param name="host">websockethost</param>
-        public OkexWebscoketV5(string host, string sendmessage, bool isporxy) : base(host, sendmessage, isporxy)
+        public OkexWebscoketV5SWAP(string host, string sendmessage, bool isporxy) : base(host, sendmessage, isporxy)
         {
-            symbollist= CommandEnum.OkexMessage.GetSwapContract_size();
+            symbollist= CommandEnum.OkexMessage.GetSwapContract_size_V5("SWAP");
             this.OnResponseReceived += MessageOperation;
             this.OnGetmessage += SendMessages;
         }
@@ -130,28 +130,12 @@ namespace GetTradeHistoryData
             o.Unit = "张";
             o.contractcode = pair;
 
-            //if (pair == CommandEnum.RedisKey.coin)
-            //{
-            //    if (coin.ToString().ToUpper() == "USDT")
-            //    {
-            //        o.vol = ((Convert.ToInt64(model.size) * 0.01M) * Convert.ToDecimal(model.price)).ToString();
-            //    }
-            //    else
-            //    {
-            //        o.vol = ((Convert.ToInt64(model.size) * 100)).ToString();//bbenwei
-            //    }
-            //}
-            //else
-            //{
-            //    o.vol = model.size.ToString();
-            //}
+       
             o.side = model.side;
             o.times = model.actcualtime;
             o.timestamp = model.timestamp;
             o.utctime = model.actcualtime;
-            //o.utctime = model.timestamp;
-            //o.times = model.actcualtime;
-            //o.timestamp = model.trade_time_ms;
+    
 
             return o;
         }
@@ -192,10 +176,10 @@ namespace GetTradeHistoryData
         {
             decimal salary = 0;
 
-            var result = this.symbollist.Where(p => p.instrument_id == coin).FirstOrDefault();
+            var result = this.symbollist.Where(p => p.uly == coin).FirstOrDefault();
             if (result != null)
             {
-                salary = Convert.ToDecimal(result.contract_val);
+                salary = Convert.ToDecimal(result.ctValCcy);
             }
             else
             {
@@ -228,13 +212,13 @@ namespace GetTradeHistoryData
         /// 发送消息
         /// </summary>
         /// <param name="Message"></param>
-        public void SendMessages()
+        public void SendMessagecopy()
         {
 
             string list = string.Empty;
             foreach (var item in this.symbollist)
             {
-                string topic = item.instrument_id;
+                string topic = item.uly;
                 list += "\"swap/trade:" + topic + "\",";
             }
             list = list.Remove(list.Length - 1);
@@ -254,7 +238,26 @@ namespace GetTradeHistoryData
 
         }
 
+        public void SendMessages()
+        {
+          
+            string list = string.Empty;
+            foreach (var item in this.symbollist)
+            {
+                string topic = item.uly;
+                list += "{\"channel\": \"trades\",\"instId\": \""+item.uly + "\"},";
+            }
+            list = list.Remove(list.Length - 1);
+            var ops = "{ \"op\": \"subscribe\", \"args\":  [ "+ list +" ]}";
 
+
+            if (this._WebSocket != null && _WebSocket.ReadyState == WebSocketState.Open)
+            {
+                this._WebSocket.Send(ops);
+            }
+
+
+        }
 
     }
 
