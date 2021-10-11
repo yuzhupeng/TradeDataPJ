@@ -23,8 +23,7 @@ ws.onmessage = function(e) {
 
 
 ﻿
-﻿
-var  ws = new WebSocket("wss://ws.okex.com:8443/ws/v5/public");
+
 var  ws = new WebSocket("wss://ws.okex.com:8443/ws/v5/public");
 ws.onopen = function() { 
     ws.send(JSON.stringify({"op": "subscribe","args":[{"channel":"instruments","instType":"FUTURES"},{"channel":"instruments","instType":"OPTION"},{"channel":"itn-status"},{"channel":"books","instId":"BTC-USDT"},{"channel":"tickers","instId":"BTC-USDT"},{"channel":"cup-tickers-3s","ccy":"USDT"},{"channel":"mark-price","instId":"BTC-USDT"},{"channel":"index-tickers","instId":"BTC-USDT"}]})); 
