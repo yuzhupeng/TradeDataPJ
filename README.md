@@ -109,3 +109,11 @@
  3.处理bybit api调用
  4.okex api处理
  
+ 
+    8.pending
+ 2021-10-26
+ 1.处理现货代理问题
+ 2.处理代理v2rayNcore 长时间后断开的问题
+ 3.处理bybit api调用
+ 4.okex api处理
+ 
