@@ -111,17 +111,17 @@ namespace GetTradeHistoryData
             //bybitlqdata.Start("");
             //bybitlqdata.SendMessage("");
 
-           var  symbollist = CommandEnum.OkexMessage.GetSwapContract_size_V5("SWAP");
+           //var  symbollist = CommandEnum.OkexMessage.GetSwapContract_size_V5("SWAP");
 
             //OkexWebscoketV5DeliveryFutures okexv5delivery = new OkexWebscoketV5DeliveryFutures("wss://ws.okex.com:8443/ws/v5/public", "okex", true);
             //okexv5delivery.Connect();
 
-            OkexWebscoketV5SWAP okexv5swap = new OkexWebscoketV5SWAP("wss://ws.okex.com:8443/ws/v5/public", "okex", true);
-            okexv5swap.Connect();
+            //OkexWebscoketV5SWAP okexv5swap = new OkexWebscoketV5SWAP("wss://ws.okex.com:8443/ws/v5/public", "okex", true);
+            //okexv5swap.Connect();
 
 
 
-
+             
 
 
 

@@ -26,7 +26,7 @@ namespace CoinWin.DataGeneration
             //t.downdata("");
 
 
-            strategyThread();
+            //  strategyThread();
 
 
             //LiqudationData d = new LiqudationData();
@@ -97,44 +97,44 @@ namespace CoinWin.DataGeneration
             //t.RunAll(DateTime.Now);
 
 
-            //LiqudationData d = new LiqudationData();
+            LiqudationData d = new LiqudationData();
 
-            //new Thread(() =>
-            //{
-            //    d.SendEmails();
-            //}).Start();
+            new Thread(() =>
+            {
+                d.SendEmails();
+            }).Start();
 
-            //InsterestProcess o = new InsterestProcess();
+            InsterestProcess o = new InsterestProcess();
             ////////o.CalcInsterestHour();
             ////////o.CalcInsterestDay();
 
 
-            //new Thread(() =>
-            //{
-            //    while (true)
-            //    {
+            new Thread(() =>
+            {
+                while (true)
+                {
 
 
-            //        Console.WriteLine("持仓日统计开始！" + DateTime.Now);
-            //        o.CalcInsterestDay();
-            //        Console.WriteLine("持仓日统计结束！" + DateTime.Now);
-            //        Thread.Sleep(300000);
-            //    }
+                    Console.WriteLine("持仓日统计开始！" + DateTime.Now);
+                    o.CalcInsterestDay();
+                    Console.WriteLine("持仓日统计结束！" + DateTime.Now);
+                    Thread.Sleep(300000);
+                }
 
 
-            //}).Start();
+            }).Start();
 
 
-            //new Thread(() =>
-            //{
-            //    while (true)
-            //    {
-            //        Console.WriteLine("持仓小时统计开始！" + DateTime.Now);
-            //        o.CalcInsterestHour(DateTime.Now.AddHours(-1));
-            //        Console.WriteLine("持仓小时统计结束！" + DateTime.Now);
-            //        Thread.Sleep(300000);
-            //    }
-            //}).Start();
+            new Thread(() =>
+            {
+                while (true)
+                {
+                    Console.WriteLine("持仓小时统计开始！" + DateTime.Now);
+                    o.CalcInsterestHour(DateTime.Now.AddHours(-1));
+                    Console.WriteLine("持仓小时统计结束！" + DateTime.Now);
+                    Thread.Sleep(300000);
+                }
+            }).Start();
 
 
             //CRDataOut t = new CRDataOut();
@@ -209,13 +209,13 @@ namespace CoinWin.DataGeneration
 
 
 
-            AllTradeProcess t = new AllTradeProcess();
+          //  AllTradeProcess t = new AllTradeProcess();
 
 
 
             //new Thread(() =>
             //{
-                t.CalcPere();
+              //  t.CalcPere();
             //}).Start();
 
             //new Thread(() =>

@@ -41,7 +41,7 @@ namespace CoinWin.DataGeneration
 
             foreach (var hour in datelist)
             {
-                var resultopendata = openlist.Where(p => Convert.ToDateTime(p.times).ToString("yyyy-MM-dd HH") == hour.ToString("yyyy-MM-dd HH")).ToList();
+                var resultopendata = openlist.Where(p =>p!=null&& Convert.ToDateTime(p.times).ToString("yyyy-MM-dd HH") == hour.ToString("yyyy-MM-dd HH")).ToList();
 
                 //var resultopendata = openlist.Where(p => Convert.ToDateTime(p.times).ToString("yyyy-MM-dd HH") == hour.ToString("yyyy-MM-dd HH") && p.kind == types).ToList();
                 //var resultopendata = openlist.Where(p => Convert.ToDateTime(p.times).ToString("yyyy-MM-dd") == hour.ToString("yyyy-MM-dd")).ToList();
@@ -145,7 +145,7 @@ namespace CoinWin.DataGeneration
                 CRDataOut t = new CRDataOut();
                 var openlist = t.GetDataObject<OpenInterest>(CommandEnum.RedisKey.OpenInterest + date.ToString("yyyy-MM-dd"));
                 //var resultopendata = openlist.Where(p => Convert.ToDateTime(p.times).ToString("yyyy-MM-dd") == date.ToString("yyyy-MM-dd") && p.kind == types).ToList();
-                var resultopendata = openlist.Where(p => Convert.ToDateTime(p.times).ToString("yyyy-MM-dd") == date.ToString("yyyy-MM-dd")).ToList();
+                var resultopendata = openlist.Where(p => p!=null&&Convert.ToDateTime(p.times).ToString("yyyy-MM-dd") == date.ToString("yyyy-MM-dd")).ToList();
 
                 if (resultopendata.Count == 0)
                 {
