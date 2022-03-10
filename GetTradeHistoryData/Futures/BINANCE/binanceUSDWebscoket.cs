@@ -333,12 +333,9 @@ namespace GetTradeHistoryData
                     {
                         var datas = (((object)results.stream).ToString());
 
-
-
                         string[] arr3 = item.s.Split('_');
 
                         var market = arr3[0].Replace("USD", "");
-
 
                         var times = GZipDecompresser.GetTimeFromUnixTimestamps(item.E.ToString());
                         var key = times.ToString("g");

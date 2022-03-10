@@ -125,7 +125,7 @@ namespace CoinWin.DataGeneration
                 httpClients.DefaultRequestHeaders.Add("accept-language", "zh-CN,zh;q=0.9,en;q=0.8,fil;q=0.7,zh-TW;q=0.6");
 
                 httpClients.DefaultRequestHeaders.Add("Origin", "https://aggr.trade");// 
-                httpClients.DefaultRequestHeaders.Add("Referer", "https://aggr.trade");// 
+                httpClients.DefaultRequestHeaders.Add("Referer", "https://aggr.trade/");// 
                 httpClients.DefaultRequestHeaders.Add("sec-ch-ua", "\"Chromium\";v=\"92\", \" Not A; Brand\";v=\"99\", \"Google Chrome\";v=\"92\"");
                 //登录页
                 httpClients.DefaultRequestHeaders.Add("sec-ch-ua-mobile", "?0");

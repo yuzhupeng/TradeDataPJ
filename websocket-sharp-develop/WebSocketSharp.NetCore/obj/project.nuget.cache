@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wKVY1TeO5GuTc9bPCTfgyInTukS/5fG4IdZc/R7+y56+FKTutOu3cWkOQtLWo67weOmtGurhf9SbUNVBRQGgVA==",
+  "dgSpecHash": "lhQUm7A3VyBm8dovDZNojbwsvDfVPfRlG+Y1KLXHKRycEwjw/Kw18ftB9ruCLoikSX7yQJbGn1XEjhAbxdT+qg==",
   "success": true,
   "projectFilePath": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
