@@ -1,7 +1,7 @@
 ﻿
 using Dapper;
 using DapperExtensions;
- 
+using Npgsql;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -20,6 +20,15 @@ namespace CoinWin.DataGeneration
         static string connStrRead =  ConfigurationManager.AppSettings["Read"];
            
         static string connStrWrite = System.Configuration.ConfigurationManager.AppSettings["Write"];
+
+
+        static string pgsqlconnStrWrite = System.Configuration.ConfigurationManager.AppSettings["pgsql"];
+
+
+        private IDbConnection Connection => new NpgsqlConnection(pgsqlconnStrWrite);
+
+
+
         //ConfigurationManager.ConnectionStrings["Write"].ConnectionString;
 
         static int commandTimeout = 30;
@@ -35,6 +44,24 @@ namespace CoinWin.DataGeneration
             conn.Open();
             return conn;
         }
+
+
+        public static NpgsqlConnection GetOpenConnectionNpgsqlConnection()
+        {
+            var conn = new NpgsqlConnection(pgsqlconnStrWrite);
+            if (conn.State == ConnectionState.Closed)
+            {
+                conn.Open();
+            }
+            return conn;
+        }
+
+
+
+
+
+
+
 
 
         /// <summary>
@@ -79,6 +106,19 @@ namespace CoinWin.DataGeneration
                 return conn.Query<T>(sql, param, commandTimeout: commandTimeout, transaction: transaction).ToList();
             }
         }
+
+        public static List<T> ExecuteReaderReturnListpgsql<T>(string sql, object param = null, bool useWriteConn = false, IDbTransaction transaction = null)
+        {
+            using (NpgsqlConnection conn = GetOpenConnectionNpgsqlConnection())
+            {
+               
+
+                return conn.Query<T>(sql, param, commandTimeout: commandTimeout, transaction: transaction).ToList();
+            }
+        }
+
+
+
         ///// <summary>
         ///// 执行sql返回一个对象--异步
         ///// </summary>
@@ -297,6 +337,48 @@ namespace CoinWin.DataGeneration
             }
 
         }
+
+
+
+        /// <summary>
+        /// 批量插入实体
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="list"></param>
+        /// <param name="transaction"></param>
+        public static void ExecuteInsertLists<T>(IEnumerable<T> list, IDbTransaction transaction = null) where T : class
+        {
+            try
+            {
+               
+                if (transaction == null)
+                {
+                    using (NpgsqlConnection conn = GetOpenConnectionNpgsqlConnection())
+                    {
+                        
+                        conn.Insert<T>(list, commandTimeout: commandTimeout);
+                    }
+                }
+                else
+                {
+                    var conn = transaction.Connection;
+                    conn.Insert(list, transaction: transaction, commandTimeout: commandTimeout);
+                }
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+
+        }
+
+
+
+
+
+
+
+
 
         /// <summary>
         /// 更新单个实体

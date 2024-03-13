@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29519.181
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinWin.DataGeneration", "CoinWin.DataGeneration.csproj", "{87EF8D62-8C8D-478F-BF3A-5C67C2A22A20}"
 EndProject
@@ -28,6 +28,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bitmex.Net.Client", "..\Bitmex.Net-master\Bitmex.Net\Bitmex.Net.Client.csproj", "{E1BCD561-8B0E-4C45-BD0C-4104AF0E1235}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bitmex.Net.Tests", "..\Bitmex.Net-master\Bitmex.Net.Tests\Bitmex.Net.Tests.csproj", "{D76F2463-F21E-4B14-8717-3C08D6BDF0BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "..\Test\Test.csproj", "{BAA53F51-E0D8-486F-BFD6-798FC498EB15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,6 +139,14 @@ Global
 		{D76F2463-F21E-4B14-8717-3C08D6BDF0BF}.Release_Ubuntu|Any CPU.Build.0 = Release|Any CPU
 		{D76F2463-F21E-4B14-8717-3C08D6BDF0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D76F2463-F21E-4B14-8717-3C08D6BDF0BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAA53F51-E0D8-486F-BFD6-798FC498EB15}.Debug_Ubuntu|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA53F51-E0D8-486F-BFD6-798FC498EB15}.Debug_Ubuntu|Any CPU.Build.0 = Debug|Any CPU
+		{BAA53F51-E0D8-486F-BFD6-798FC498EB15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA53F51-E0D8-486F-BFD6-798FC498EB15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA53F51-E0D8-486F-BFD6-798FC498EB15}.Release_Ubuntu|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA53F51-E0D8-486F-BFD6-798FC498EB15}.Release_Ubuntu|Any CPU.Build.0 = Release|Any CPU
+		{BAA53F51-E0D8-486F-BFD6-798FC498EB15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA53F51-E0D8-486F-BFD6-798FC498EB15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

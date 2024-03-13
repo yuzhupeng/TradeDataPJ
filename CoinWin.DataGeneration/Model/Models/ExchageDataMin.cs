@@ -19,7 +19,7 @@ namespace CoinWin.DataGeneration
         {
             this.ID = 0;
             this.DID= QPP.Core.GuidHelper.NewSID12();
-            this.SYS_CreateDate = DateTime.Now.ToString(); 
+            this.SYS_CreateDate = DateTime.Now; 
             this.SYS_Status = "@CLOSED";
             this.SYS_Createby = "SYSTEM";
         }
@@ -118,7 +118,7 @@ namespace CoinWin.DataGeneration
         /// <summary>
         /// 创建日期
         /// </summary>
-        public string SYS_CreateDate { get; set; }
+        public DateTime SYS_CreateDate { get; set; }
 
         /// <summary>
         /// 状态
@@ -133,7 +133,7 @@ namespace CoinWin.DataGeneration
     {
         public ExchageDataMinMapper()
         {
-            Table("Coin_ExchageDataByMin");
+            Table("coin_exchagedatabymin_hour");
             Map(m => m.ID)
               .Key(KeyType.Identity);// 主键的类型		
             //Map(m => m.hourlist).Ignore();

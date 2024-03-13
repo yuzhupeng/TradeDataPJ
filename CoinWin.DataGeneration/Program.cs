@@ -15,6 +15,12 @@ namespace CoinWin.DataGeneration
     {
         static void Main(string[] args)
         {
+            AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+            AppContext.SetSwitch("Npgsql.DisableDateTimeInfinityConversions", true);
+
+
+            strategyThread();
+
             //DownExchangeData helper = new DownExchangeData();
             //helper.UpdateExchageDataBydate("1pass");
 
@@ -26,7 +32,6 @@ namespace CoinWin.DataGeneration
             //t.downdata("");
 
 
-              strategyThread();
 
 
             //LiqudationData d = new LiqudationData();
@@ -196,7 +201,7 @@ namespace CoinWin.DataGeneration
 
             //   Dictionary<string, List<BinanceFuturesSymbol>> dit = new Dictionary<string, List<BinanceFuturesSymbol>>();
 
-            //var   dit = RedisHelper.GetAllHash<List<BinanceFuturesSymbol>>("SymbolList");
+           // var   dit = RedisHelper.GetAllHash<List<BinanceFuturesSymbol>>("SymbolList");
             //   var list = dit.Values.FirstOrDefault();
 
 
@@ -539,7 +544,7 @@ namespace CoinWin.DataGeneration
                 //   helper.UpdateExchageDataBymin("pass");
 
                 //获取现在
-                helper.UpdateExchageDataBymin("1pass");
+                helper.UpdateExchageDataBymin("pass");
 
                 Thread.Sleep(120000);
             }

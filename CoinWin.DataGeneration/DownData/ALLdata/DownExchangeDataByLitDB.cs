@@ -1,21 +1,15 @@
-﻿using Dapper;
-using DapperExtensions;
-using HtmlAgilityPack;
-using MongoDB.Driver.Core.Configuration;
-using Npgsql;
+﻿using HtmlAgilityPack;
+ 
 using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Data.SqlClient;
-using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml;
 
 namespace CoinWin.DataGeneration
 {
-    public class DownExchangeData
+    public class DownExchangeDataByLitDB
     {
         /// <summary>
         /// 根据时间戳换算为
@@ -134,11 +128,7 @@ namespace CoinWin.DataGeneration
             var sql = string.Format("select top 1* from Coin_ExchageData order by Times");
 
 
-            var starttime = SqlDapperHelper.ExecuteReaderReturnListpgsql<ExchageDataModel>(sql).FirstOrDefault();
-
-
-
-
+            var starttime = SqlDapperHelper.ExecuteReaderReturnList<ExchageDataModel>(sql).FirstOrDefault();
 
             if (starttime != null)
             {
@@ -210,19 +200,18 @@ namespace CoinWin.DataGeneration
 
             if (type == "pass")
             {
-                 sql = string.Format("select * from Coin_ExchageDataByMin order by Times desc limit 1");
+                 sql = string.Format("select top 1* from Coin_ExchageDataByMin order by Times");
             }
             else
             {
-                sql = string.Format("select * from Coin_ExchageDataByMin order by Times desc limit 1 ");
+                sql = string.Format("select top 1* from Coin_ExchageDataByMin order by Times desc ");
             }
+          
 
 
+            var starttime = SqlDapperHelper.ExecuteReaderReturnList<ExchageDataModel>(sql).FirstOrDefault();
 
-            //var starttime = SqlDapperHelper.ExecuteReaderReturnListpgsql<ExchageDataModel>(sql).FirstOrDefault();
 
-            ExchageDataModel starttime = null;
-            //starttime = SqlDapperHelper.ExecuteReaderReturnListpgsql<ExchageDataModel>(sql).FirstOrDefault();
 
             if (starttime != null)
             {
@@ -262,101 +251,9 @@ namespace CoinWin.DataGeneration
             }
             else
             {
-                              //1707264000000
-                string start = "1707350400000";
-                //long end = ToLong(start) + 14200000;
-                string end = "1709541239000";
+                string start = "1587330000000";
+                long end = ToLong(start) + 14200000;
                 data.Add(start.ToString(), end.ToString());
-            }
-
-
-            return data;
-
-        }
-
-
-
-        public Dictionary<string, string> GettypehourTime(string type)
-        {
-            Dictionary<string, string> data = new Dictionary<string, string>();
-
-
-            LogHelper.WriteLog(typeof(DownExchangeData), "开始获最后一次获取的数据");
-
-
-            string endtime = DateTime.UtcNow.ToShortDateString();
-
-            string sql = "";
-
-            if (type == "pass")
-            {
-                sql = string.Format("select * from coin_exchagedatabyonemin order by Times asc limit 1");
-            }
-            else
-            {
-                sql = string.Format("select * from coin_exchagedatabyonemin order by Times asc limit 1 ");
-            }
-
-
-
-            var starttime = SqlDapperHelper.ExecuteReaderReturnListpgsql<ExchageDataModel>(sql).FirstOrDefault();
-
-         
-          
-            if (starttime != null)
-            {
-                if (type != "pass")//往前取
-                {
-
-                    var start = Convert.ToUInt64(starttime.utime) * 1000;
-                    DateTimeOffset currentTime = DateTimeOffset.UtcNow;
-                    long end = currentTime.ToUnixTimeMilliseconds();
-                    //1581120000000
-                    //string start = "1709553707000";
-                    //long end = ToLong(start) + 14200000;
-                    //end = 1709690983018;
-                    data.Add(start.ToString(), end.ToString());
-
-
-
-              
-
-
-                }
-                else//往后取
-                {
-                    var end =  Convert.ToUInt64(starttime.utime) * 1000;
-                    //end = end - 60000;
-                    long start = ToLong(end) - 21200000;
-                    data.Add(start.ToString(), end.ToString());
-                }
-
-
-            }
-            else
-            {
-                starttime = SqlDapperHelper.ExecuteReaderReturnListpgsql<ExchageDataModel>(sql).FirstOrDefault();
-
-                if (starttime != null)
-                {
-                    var start = Convert.ToUInt64(starttime.utime) * 1000;
-                    DateTimeOffset currentTime = DateTimeOffset.UtcNow;
-                    long end = currentTime.ToUnixTimeMilliseconds();
-                    //1581120000000
-                    //string start = "1709553707000";
-                    //long end = ToLong(start) + 14200000;
-                    //end = 1709690983018;
-                    data.Add(start.ToString(), end.ToString());
-                }
-                else
-                {
-                    //1581120000000
-                    string start = "1707638113000";
-                    DateTimeOffset currentTime = DateTimeOffset.UtcNow;
-                    long end = currentTime.ToUnixTimeMilliseconds();
-                    //end = 1709690983018;
-                    data.Add(start.ToString(), end.ToString());
-                }
             }
 
 
@@ -656,15 +553,15 @@ namespace CoinWin.DataGeneration
 
             LogHelper.WriteLog(typeof(DownExchangeData), "开始更新通用数据");
 
-            var startend = GettypehourTime(type);
+            var startend = GettypeTime(type);
             if (startend.Count != 0)
             {
                 try
                 {
                     LogHelper.WriteLog(typeof(DownExchangeData), "开始获取价格数据");
-                    string dates = DateTime.Now.ToString();//14400000
-                    //string url = string.Format("https://api.aggr.trade/btcusd/historical/{0}/{1}/{2}", startend.FirstOrDefault().Key, startend.FirstOrDefault().Value, "86400000");
-                    string url = string.Format("https://api.aggr.trade/historical/{0}/{1}/{2}/{3}", startend.FirstOrDefault().Key, startend.FirstOrDefault().Value, "60000", "BINANCE_FUTURES%3Abtcusd_perp%2BBITFINEX%3ABTCUSD%2BBITMEX%3AXBTUSD%2BBYBIT%3ABTCUSD%2BCOINBASE%3ABTC-USD%2BDERIBIT%3ABTC-PERPETUAL%2BBINANCE%3Abtcusdt%2BBINANCE_FUTURES%3Abtcusdt%2BBINANCE%3Abtcbusd%2BBINANCE_FUTURES%3Abtcbusd%2BBITFINEX%3ABTCUST%2BBITFINEX%3ABTCF0%3AUSTF0%2BBITMEX%3AXBTUSDT%2BBYBIT%3ABTCUSDT%2BCOINBASE%3ABTC-USDT%2BBITSTAMP%3Abtcusd%2BKRAKEN%3API_XBTUSD%2BOKEX%3ABTC-USD-SWAP%2BOKEX%3ABTC-USDT-SWAP");
+                    string dates = DateTime.Now.ToString();
+                    //string url = string.Format("https://api.aggr.trade/btcusd/historical/{0}/{1}/{2}", startend.FirstOrDefault().Key, startend.FirstOrDefault().Value, "60000");
+                    string url = string.Format("https://api.aggr.trade/historical/{0}/{1}/{2}/{3}", startend.FirstOrDefault().Key, startend.FirstOrDefault().Value, "60000", "BITFINEX:BTCUSD+BINANCE:btcusdt+OKEX:BTC-USDT+KRAKEN:XBT/USD+COINBASE:BTC-USD+POLONIEX:USDT_BTC+HUOBI:btcusdt+BITSTAMP:btcusd+BITMEX:XBTUSD+BITFINEX:BTCF0:USTF0+OKEX:BTC-USD-SWAP+OKEX:BTC-USDT-SWAP+BINANCE_FUTURES:btcusdt+BINANCE_FUTURES:btcusd_perp+HUOBI:BTC-USD+KRAKEN:PI_XBTUSD+DERIBIT:BTC-PERPETUAL+FTX:BTC-PERP+BYBIT:BTCUSD");
                     string start =  (startend.FirstOrDefault().Key);
                     string end =  (startend.FirstOrDefault().Value); //long.Parse
 
@@ -759,7 +656,7 @@ namespace CoinWin.DataGeneration
 
 
 
-                    InsertBulk(savelist);
+                    SaveListone(savelist);
 
 
 
@@ -911,17 +808,45 @@ namespace CoinWin.DataGeneration
 
         public void SaveListone(List<ExchageDataMin> savelist)
         {
+            using (SqlConnection con = SqlDapperHelper.GetOpenConnection())
+            {
+               
+                    foreach (var item in savelist)
+                {
+                    using (var transaction = con.BeginTransaction())
+                    {
+                        try
+                        {
+                            SqlDapperHelper.ExecuteInsert<ExchageDataMin>(item, transaction);
+                            transaction.Commit();
 
-            using (NpgsqlConnection con = SqlDapperHelper.GetOpenConnectionNpgsqlConnection())
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine("重复数据：" + item.ToJson().ToString());
+                            LogHelper.WriteLog(typeof(object), "保存价格数据发生错误，错误信息:" + ex.Message.ToString());
+                            transaction.Rollback();
+                            //throw ex;
+                        }
+
+                    }
+                }
+            }
+        }
+
+
+
+
+        public void SaveListDelivery(List<DeliveryFutures> savelist)
+        {
+            using (SqlConnection con = SqlDapperHelper.GetOpenConnection())
             {
                 using (var transaction = con.BeginTransaction())
                 {
                     try
                     {
-
-                        SqlDapperHelper.ExecuteInsertLists(savelist, transaction);
-                    
-                        
+                        SqlDapperHelper.ExecuteInsertList(savelist, transaction);
+                        transaction.Commit();
 
                     }
                     catch (Exception ex)
@@ -932,108 +857,27 @@ namespace CoinWin.DataGeneration
                     }
                 }
             }
-
-
-            //using (SqlConnection con = SqlDapperHelper.GetOpenConnection())
-            //{
-               
-            //        foreach (var item in savelist)
-            //    {
-            //        using (var transaction = con.BeginTransaction())
-            //        {
-            //            try
-            //            {
-            //                SqlDapperHelper.ExecuteInsert<ExchageDataMin>(item, transaction);
-            //                transaction.Commit();
-
-            //            }
-            //            catch (Exception ex)
-            //            {
-            //                Console.WriteLine("重复数据：" + item.ToJson().ToString());
-            //                LogHelper.WriteLog(typeof(object), "保存价格数据发生错误，错误信息:" + ex.Message.ToString());
-            //                transaction.Rollback();
-            //                //throw ex;
-            //            }
-
-            //        }
-            //    }
-            //}
         }
 
-        /// <summary>
-        /// dapper直接传list参数
-        /// </summary>
-        public long InsertBulk(List<ExchageDataMin> list)
+        public void SaveList(List<ExchageDataModel> savelist)
         {
-
-              string pgsqlconnStrWrite = System.Configuration.ConfigurationManager.AppSettings["pgsql"];
-
-            string SqlText = @"INSERT INTO coin_exchagedatabyonemin (DID, Times, utime, close, count, count_buy, count_sell, exchange, high, liquidation_buy, liquidation_sell, liquidation, low, open, pair, vol, vol_buy, vol_sell, Unit, SYS_Createby, SYS_CreateDate, SYS_Status)
-VALUES (@DID, @Times, @utime, @close, @count, @count_buy, @count_sell, @exchange, @high, @liquidation_buy, @liquidation_sell, @liquidation, @low, @open, @pair, @vol, @vol_buy, @vol_sell, @Unit, @SYS_Createby, @SYS_CreateDate, @SYS_Status)
-ON CONFLICT (Times, Unit) DO NOTHING; ";
-            Stopwatch sw = new Stopwatch();
-            sw.Start();
-            int result = 0;
-            using (NpgsqlConnection conn = new NpgsqlConnection(pgsqlconnStrWrite))
+            using (SqlConnection con = SqlDapperHelper.GetOpenConnection())
             {
-                if (conn.State == ConnectionState.Closed)
-                    conn.Open();
-                result = conn.Execute(SqlText, list, commandType: System.Data.CommandType.Text);
-            }
-            sw.Stop();
-            return sw.ElapsedMilliseconds;
-        }
-
-
-
-        public void SaveList(List<ExchageDataModel> savelist,string tpye="")
-        {
-            if (string.IsNullOrEmpty(tpye))
-            {
-
-                using (SqlConnection con = SqlDapperHelper.GetOpenConnection())
+                using (var transaction = con.BeginTransaction())
                 {
-                    using (var transaction = con.BeginTransaction())
+                    try
                     {
-                        try
-                        {
-                            SqlDapperHelper.ExecuteInsertList(savelist, transaction);
-                            transaction.Commit();
+                        SqlDapperHelper.ExecuteInsertList(savelist, transaction);
+                        transaction.Commit();
 
-                        }
-                        catch (Exception ex)
-                        {
-                            LogHelper.WriteLog(typeof(object), "保存价格数据发生错误，错误信息:" + ex.Message.ToString());
-                            transaction.Rollback();
-                            throw ex;
-                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        LogHelper.WriteLog(typeof(object), "保存价格数据发生错误，错误信息:" + ex.Message.ToString());
+                        transaction.Rollback();
+                        throw ex;
                     }
                 }
-            }
-            else
-            {
-                using (NpgsqlConnection con = SqlDapperHelper.GetOpenConnectionNpgsqlConnection())
-                {
-                    using (var transaction = con.BeginTransaction())
-                    {
-                        try
-                        {
-                            using (IDbConnection conn = SqlDapperHelper.GetOpenConnectionNpgsqlConnection())
-                            {
-                                conn.Open();
-                                conn.Insert<ExchageDataModel>(savelist);
-                            }
-
-                        }
-                        catch (Exception ex)
-                        {
-                            LogHelper.WriteLog(typeof(object), "保存价格数据发生错误，错误信息:" + ex.Message.ToString());
-                            transaction.Rollback();
-                            throw ex;
-                        }
-                    }
-                }
-                 
             }
         }
 
