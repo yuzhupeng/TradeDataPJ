@@ -368,6 +368,9 @@ namespace GetTradeHistoryData
             //邮件服务器验证信息， qq邮箱授权码通过设
         }
 
+        /// <summary>
+        /// 保存币安交易对
+        /// </summary>
         public static void UpdateSymbolList()
         {
           var list  =BinanceFuturesUsdtMarket.GetSymbolFutureList().Where(p=>p.ContractType!= "CURRENT_QUARTER");
