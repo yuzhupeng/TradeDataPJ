@@ -9,6 +9,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
+using MySql.Data.MySqlClient;
 
 namespace CoinWin.DataGeneration
 {
@@ -23,6 +24,8 @@ namespace CoinWin.DataGeneration
 
 
         static string pgsqlconnStrWrite = System.Configuration.ConfigurationManager.AppSettings["pgsql"];
+
+        static string mysqlConnStr = ConfigurationManager.AppSettings["mysql"];
 
 
         private IDbConnection Connection => new NpgsqlConnection(pgsqlconnStrWrite);
@@ -53,6 +56,15 @@ namespace CoinWin.DataGeneration
             {
                 conn.Open();
             }
+            return conn;
+        }
+
+
+        public static MySqlConnection GetOpenConnectionMySql()
+        {
+            var conn = new MySqlConnection(mysqlConnStr);
+            if (conn.State == ConnectionState.Closed)
+                conn.Open();
             return conn;
         }
 

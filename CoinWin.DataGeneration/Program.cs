@@ -19,6 +19,27 @@ namespace CoinWin.DataGeneration
             AppContext.SetSwitch("Npgsql.DisableDateTimeInfinityConversions", true);
 
 
+            // 首次运行：先回填日线、4小时历史数据（从2021年开始），再进入策略循环
+            DownExchangeData backfill = new DownExchangeData();
+            long start2021 = 1609459200000; // 2021-01-01 00:00:00 UTC
+
+            Console.WriteLine("=== 开始日线回填（2021→今） ===");
+            backfill.UpdateExchageDataByTimeframe("pass", "86400000", "coin_exchagedatabyday", 86400000 * 2, start2021);
+            Console.WriteLine("=== 日线回填完成 ===");
+
+            Console.WriteLine("=== 开始4小时回填（2021→今） ===");
+            backfill.UpdateExchageDataByTimeframe("pass", "14400000", "coin_exchagedatabyhour", 14400000 * 2, start2021);
+            Console.WriteLine("=== 4小时回填完成 ===");
+
+            // 分钟级：只能拉最近7天，增量回填
+            Console.WriteLine("=== 开始分钟级回填 ===");
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"分钟回填第{i + 1}/5次");
+                backfill.UpdateExchageDataByTimeframe("pass", "60000", "coin_exchagedatabyonemin");
+            }
+            Console.WriteLine("=== 分钟级回填完成 ===");
+
             strategyThread();
 
             //DownExchangeData helper = new DownExchangeData();
@@ -537,66 +558,35 @@ namespace CoinWin.DataGeneration
         public static void strategyThread()
         {
             DownExchangeData helper = new DownExchangeData();
-
-            for (int i = 0; i < 1000000000; i++)
+            int cycleCount = 0;
+            while (true)
             {
-                //获取过去
-                //   helper.UpdateExchageDataBymin("pass");
+                try
+                {
+                    // 1-min data every cycle (2 min)
+                    helper.UpdateExchageDataByTimeframe("pass", "60000", "coin_exchagedatabyonemin");
 
-                //获取现在
-                helper.UpdateExchageDataBymin("pass");
-
+                    cycleCount++;
+                    // 4h data every 30 cycles (60 min)
+                    if (cycleCount % 30 == 0)
+                    {
+                        helper.UpdateExchageDataByTimeframe("pass", "14400000", "coin_exchagedatabyhour", 14400000 * 2);
+                    }
+                    // Daily data every 720 cycles (24h)
+                    if (cycleCount % 720 == 0)
+                    {
+                        helper.UpdateExchageDataByTimeframe("pass", "86400000", "coin_exchagedatabyday", 86400000 * 2);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    LogHelper.WriteLog(typeof(Program), "strategyThread error: " + ex.ToString());
+                }
                 Thread.Sleep(120000);
             }
-
-
-            // helper.UpdateExchageDataBymin("pass");
-            //helper.UpdateExchangeDataNow();
-            //helper.UpdateExchageData();
-
         }
 
-        public void DownDataByhttp()
-        {
-            string urlss = "https://jingci.wjx.cn/corplogin.aspx";
-            var handlers = new HttpClientHandler();
-            handlers.UseCookies = true;
-            //注意：登錄之後不設置跳轉
-            handlers.AllowAutoRedirect = true;
-            //var cookies = new CookieContainer();
-            //handlers.CookieContainer = cookies;
-            HttpClient httpClients = new HttpClient(handlers);
-            httpClients.DefaultRequestHeaders.Add("Upgrade-Insecure-Requests", "1");
-            httpClients.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36");
-            httpClients.DefaultRequestHeaders.Add("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9");
-            httpClients.DefaultRequestHeaders.Add("Accept-Encoding", "gzip, deflate, br");// 
-            httpClients.DefaultRequestHeaders.Add("Accept-Language", "zh-CN,zh;q=0.9,en;q=0.8,fil;q=0.7,zh-TW;q=0.6");// 
-            httpClients.DefaultRequestHeaders.Add("Origin", "https://jingci.wjx.cn");// 
-            httpClients.DefaultRequestHeaders.Add("Referer", "https://jingci.wjx.cn/corplogin.aspx");// 
-            httpClients.DefaultRequestHeaders.Add("Connection", "keep-alive");
-            //登录页
-            var response = httpClients.PostAsync(new Uri(urlss), new FormUrlEncodedContent(paramhelper.getwjxParma())).Result;
-            var result = response.Content.ReadAsStringAsync().Result;
-            var cookie = handlers.CookieContainer;
-
-
-            Console.WriteLine("进入登录页：");
-            Console.WriteLine("登录成功！");
-
-
-
-            var cookies = new CookieContainer();
-            cookies.Add(handlers.CookieContainer.GetCookies(new Uri(urlss)));
-
-            var handl = new HttpClientHandler();
-            handl.AllowAutoRedirect = true;
-            handl.UseCookies = true;
-            handl.CookieContainer = cookies;
-            HttpClient httpClientfile = new HttpClient(handl);
-
-            //DownFile(httpClientfile, cookies);
-        }
-
+ 
         public static void strategyThreadPASS()
         {
 

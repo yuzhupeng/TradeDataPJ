@@ -12,6 +12,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using MySql.Data.MySqlClient;
 
 namespace CoinWin.DataGeneration
 {
@@ -276,92 +277,66 @@ namespace CoinWin.DataGeneration
 
 
 
-        public Dictionary<string, string> GettypehourTime(string type)
+        public Dictionary<string, string> GetTimeRange(string type, string tableName, long overlapMs = 21200000, long fallbackStartMs = 0)
         {
             Dictionary<string, string> data = new Dictionary<string, string>();
-
-
             LogHelper.WriteLog(typeof(DownExchangeData), "开始获最后一次获取的数据");
 
+            string sql = $"select * from {tableName} order by Times asc limit 1";
 
-            string endtime = DateTime.UtcNow.ToShortDateString();
-
-            string sql = "";
-
-            if (type == "pass")
+            ExchageDataModel starttime = null;
+            using (var conn = SqlDapperHelper.GetOpenConnectionMySql())
             {
-                sql = string.Format("select * from coin_exchagedatabyonemin order by Times asc limit 1");
-            }
-            else
-            {
-                sql = string.Format("select * from coin_exchagedatabyonemin order by Times asc limit 1 ");
+                starttime = conn.QueryFirstOrDefault<ExchageDataModel>(sql, commandTimeout: 30);
             }
 
 
-
-            var starttime = SqlDapperHelper.ExecuteReaderReturnListpgsql<ExchageDataModel>(sql).FirstOrDefault();
-
-         
-          
             if (starttime != null)
             {
                 if (type != "pass")//往前取
                 {
-
                     var start = Convert.ToUInt64(starttime.utime) * 1000;
                     DateTimeOffset currentTime = DateTimeOffset.UtcNow;
                     long end = currentTime.ToUnixTimeMilliseconds();
-                    //1581120000000
-                    //string start = "1709553707000";
-                    //long end = ToLong(start) + 14200000;
-                    //end = 1709690983018;
                     data.Add(start.ToString(), end.ToString());
-
-
-
-              
-
-
                 }
                 else//往后取
                 {
-                    var end =  Convert.ToUInt64(starttime.utime) * 1000;
-                    //end = end - 60000;
-                    long start = ToLong(end) - 21200000;
+                    var end = Convert.ToUInt64(starttime.utime) * 1000;
+                    long start = ToLong(end) - overlapMs;
                     data.Add(start.ToString(), end.ToString());
                 }
-
-
             }
             else
             {
-                starttime = SqlDapperHelper.ExecuteReaderReturnListpgsql<ExchageDataModel>(sql).FirstOrDefault();
+                starttime = null;
+                using (var conn = SqlDapperHelper.GetOpenConnectionMySql())
+                {
+                    starttime = conn.QueryFirstOrDefault<ExchageDataModel>(sql, commandTimeout: 30);
+                }
 
                 if (starttime != null)
                 {
                     var start = Convert.ToUInt64(starttime.utime) * 1000;
                     DateTimeOffset currentTime = DateTimeOffset.UtcNow;
                     long end = currentTime.ToUnixTimeMilliseconds();
-                    //1581120000000
-                    //string start = "1709553707000";
-                    //long end = ToLong(start) + 14200000;
-                    //end = 1709690983018;
                     data.Add(start.ToString(), end.ToString());
                 }
                 else
                 {
-                    //1581120000000
-                    string start = "1707638113000";
+                    // 表为空，用 fallbackStartMs（指定则从该时间开始，否则往回拉7天）
                     DateTimeOffset currentTime = DateTimeOffset.UtcNow;
                     long end = currentTime.ToUnixTimeMilliseconds();
-                    //end = 1709690983018;
+                    long start = fallbackStartMs > 0 ? fallbackStartMs : (end - 604800000);
                     data.Add(start.ToString(), end.ToString());
                 }
             }
-
-
             return data;
+        }
 
+        public Dictionary<string, string> GettypehourTime(string type)
+        {
+            return GetTimeRange(type, "coin_exchagedatabyonemin", 21200000);
         }
 
 
@@ -865,10 +840,84 @@ namespace CoinWin.DataGeneration
 
         }
 
+        public void UpdateExchageDataByTimeframe(string type, string intervalMs, string tableName, long overlapMs = 21200000, long fallbackStartMs = 0)
+        {
+            LogHelper.WriteLog(typeof(DownExchangeData), $"开始更新{tableName}数据");
 
+            var startend = GetTimeRange(type, tableName, overlapMs, fallbackStartMs);
+            if (startend.Count != 0)
+            {
+                try
+                {
+                    LogHelper.WriteLog(typeof(DownExchangeData), "开始获取价格数据");
+                    string url = string.Format("https://api.aggr.trade/historical/{0}/{1}/{2}/{3}",
+                        startend.FirstOrDefault().Key, startend.FirstOrDefault().Value, intervalMs,
+                        "BINANCE_FUTURES%3Abtcusd_perp%2BBITFINEX%3ABTCUSD%2BBITMEX%3AXBTUSD%2BBYBIT%3ABTCUSD%2BCOINBASE%3ABTC-USD%2BDERIBIT%3ABTC-PERPETUAL%2BBINANCE%3Abtcusdt%2BBINANCE_FUTURES%3Abtcusdt%2BBINANCE%3Abtcbusd%2BBINANCE_FUTURES%3Abtcbusd%2BBITFINEX%3ABTCUST%2BBITFINEX%3ABTCF0%3AUSTF0%2BBITMEX%3AXBTUSDT%2BBYBIT%3ABTCUSDT%2BCOINBASE%3ABTC-USDT%2BBITSTAMP%3Abtcusd%2BKRAKEN%3API_XBTUSD%2BOKEX%3ABTC-USD-SWAP%2BOKEX%3ABTC-USDT-SWAP");
 
+                    string start = startend.FirstOrDefault().Key;
+                    string end = startend.FirstOrDefault().Value;
 
+                    LogHelper.WriteLog(typeof(DownExchangeData), url);
+                    Console.WriteLine("开始时间：" + DownExchangeData.GetTimeFromUnixTimestamps(start));
+                    Console.WriteLine("结束时间：" + DownExchangeData.GetTimeFromUnixTimestamps(end));
+                    Console.WriteLine(url);
 
+                    HttpClientDataDown dd = new HttpClientDataDown();
+                    var results = dd.downdatas(url);
+
+                    Console.WriteLine("done");
+                    List<ExchageDataMin> savelist = new List<ExchageDataMin>();
+
+                    if (results != null && results.Count() != 0)
+                    {
+                        foreach (var item in results)
+                        {
+                            ExchageDataMin model = new ExchageDataMin();
+                            ObjectUtil.MapTo(item, model);
+                            model.Times = ReadTime(item.time);
+                            model.utime = item.time;
+
+                            if (model.vol_sell != null)
+                                model.vol_sell = Math.Round(model.vol_sell.Value, 2);
+                            else
+                                model.vol_sell = 0;
+
+                            if (model.vol_buy != null)
+                                model.vol_buy = Math.Round(model.vol_buy.Value, 2);
+                            else
+                                model.vol_buy = 0;
+
+                            model.count = model.count_buy + model.count_sell;
+                            model.vol = model.vol_buy + model.vol_sell;
+
+                            string[] arr3 = model.exchange.Split(':');
+                            var exchange = arr3[0];
+                            var pair = arr3[1];
+
+                            model.exchange = exchange;
+                            model.pair = pair;
+                            model.Unit = item.exchange;
+                            model.high = Math.Round(model.high, 2);
+                            model.low = Math.Round(model.low, 2);
+                            model.open = Math.Round(model.open, 2);
+                            model.close = Math.Round(model.close, 2);
+                            model.liquidation_buy = Math.Round(model.liquidation_buy, 2);
+                            model.liquidation_sell = Math.Round(model.liquidation_sell, 2);
+                            model.liquidation = model.liquidation_buy + model.liquidation_sell;
+
+                            savelist.Add(model);
+                        }
+                    }
+                    LogHelper.WriteLog(typeof(DownExchangeData), "结束获取价格数据");
+                    InsertBulkTimeframe(savelist, tableName);
+                }
+                catch (Exception e)
+                {
+                    LogHelper.WriteLog(typeof(DownExchangeData), $"获取{tableName}数据表异常,错误信息:" + e.ToString());
+                }
+            }
+            LogHelper.WriteLog(typeof(DownExchangeData), $"结束更新{tableName}数据");
+        }
 
         public  DateTime ReadTime(string times)
         {
@@ -965,25 +1014,47 @@ namespace CoinWin.DataGeneration
         /// </summary>
         public long InsertBulk(List<ExchageDataMin> list)
         {
-
-              string pgsqlconnStrWrite = System.Configuration.ConfigurationManager.AppSettings["pgsql"];
-
-            string SqlText = @"INSERT INTO coin_exchagedatabyonemin (DID, Times, utime, close, count, count_buy, count_sell, exchange, high, liquidation_buy, liquidation_sell, liquidation, low, open, pair, vol, vol_buy, vol_sell, Unit, SYS_Createby, SYS_CreateDate, SYS_Status)
-VALUES (@DID, @Times, @utime, @close, @count, @count_buy, @count_sell, @exchange, @high, @liquidation_buy, @liquidation_sell, @liquidation, @low, @open, @pair, @vol, @vol_buy, @vol_sell, @Unit, @SYS_Createby, @SYS_CreateDate, @SYS_Status)
-ON CONFLICT (Times, Unit) DO NOTHING; ";
-            Stopwatch sw = new Stopwatch();
-            sw.Start();
-            int result = 0;
-            using (NpgsqlConnection conn = new NpgsqlConnection(pgsqlconnStrWrite))
+            string mysqlConnStr = System.Configuration.ConfigurationManager.AppSettings["mysql"];
+            string SqlText = @"INSERT INTO coin_exchagedatabyonemin
+                (DID, Times, utime, `close`, `count`, count_buy, count_sell, exchange, high,
+                 liquidation_buy, liquidation_sell, liquidation, low, `open`, pair, vol, vol_buy, vol_sell, Unit,
+                 SYS_Createby, SYS_CreateDate, SYS_Status)
+                VALUES (@DID, @Times, @utime, @close, @count, @count_buy, @count_sell, @exchange, @high,
+                        @liquidation_buy, @liquidation_sell, @liquidation, @low, @open, @pair, @vol, @vol_buy, @vol_sell, @Unit,
+                        @SYS_Createby, @SYS_CreateDate, @SYS_Status)
+                ON DUPLICATE KEY UPDATE `close`=VALUES(`close`), high=VALUES(high), low=VALUES(low),
+                        `open`=VALUES(`open`), vol=VALUES(vol), vol_buy=VALUES(vol_buy), vol_sell=VALUES(vol_sell),
+                        liquidation=VALUES(liquidation), liquidation_buy=VALUES(liquidation_buy), liquidation_sell=VALUES(liquidation_sell);";
+            using (var conn = new MySqlConnection(mysqlConnStr))
             {
                 if (conn.State == ConnectionState.Closed)
                     conn.Open();
-                result = conn.Execute(SqlText, list, commandType: System.Data.CommandType.Text);
+                return conn.Execute(SqlText, list, commandType: CommandType.Text);
             }
-            sw.Stop();
-            return sw.ElapsedMilliseconds;
         }
 
+        public long InsertBulkTimeframe(List<ExchageDataMin> list, string tableName)
+        {
+            if (list == null || list.Count == 0) return 0;
+
+            string mysqlConnStr = System.Configuration.ConfigurationManager.AppSettings["mysql"];
+            string SqlText = $@"INSERT INTO {tableName}
+                (DID, Times, utime, `close`, `count`, count_buy, count_sell, exchange, high,
+                 liquidation_buy, liquidation_sell, liquidation, low, `open`, pair, vol, vol_buy, vol_sell, Unit,
+                 SYS_Createby, SYS_CreateDate, SYS_Status)
+                VALUES (@DID, @Times, @utime, @close, @count, @count_buy, @count_sell, @exchange, @high,
+                        @liquidation_buy, @liquidation_sell, @liquidation, @low, @open, @pair, @vol, @vol_buy, @vol_sell, @Unit,
+                        @SYS_Createby, @SYS_CreateDate, @SYS_Status)
+                ON DUPLICATE KEY UPDATE `close`=VALUES(`close`), high=VALUES(high), low=VALUES(low),
+                        `open`=VALUES(`open`), vol=VALUES(vol), vol_buy=VALUES(vol_buy), vol_sell=VALUES(vol_sell),
+                        liquidation=VALUES(liquidation), liquidation_buy=VALUES(liquidation_buy), liquidation_sell=VALUES(liquidation_sell);";
+            using (var conn = new MySqlConnection(mysqlConnStr))
+            {
+                if (conn.State == ConnectionState.Closed)
+                    conn.Open();
+                return conn.Execute(SqlText, list, commandType: CommandType.Text);
+            }
+        }
 
 
         public void SaveList(List<ExchageDataModel> savelist,string tpye="")

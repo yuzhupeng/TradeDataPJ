@@ -147,6 +147,11 @@ namespace CoinWin.DataGeneration
 
 
                 var resut = (results.ToJson() as dynamic);
+                if (resut == null || resut.results == null)
+                {
+                    Console.WriteLine("API返回结果为空或错误: " + (results?.Length > 200 ? results.Substring(0, 200) : results));
+                    return re;
+                }
                 var resultss = ((object)resut.results).ToString();
 
                 //var re=((results as dynamic).results).ToString();
