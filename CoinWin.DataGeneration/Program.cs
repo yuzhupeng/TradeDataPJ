@@ -19,26 +19,26 @@ namespace CoinWin.DataGeneration
             AppContext.SetSwitch("Npgsql.DisableDateTimeInfinityConversions", true);
 
 
-            // 首次运行：先回填日线、4小时历史数据（从2021年开始），再进入策略循环
-            DownExchangeData backfill = new DownExchangeData();
-            long start2021 = 1609459200000; // 2021-01-01 00:00:00 UTC
+            //// 首次运行：先回填日线、4小时历史数据（从2021年开始），再进入策略循环
+            //DownExchangeData backfill = new DownExchangeData();
+            //long start2021 = 1609459200000; // 2021-01-01 00:00:00 UTC
 
-            Console.WriteLine("=== 开始日线回填（2021→今） ===");
-            backfill.UpdateExchageDataByTimeframe("pass", "86400000", "coin_exchagedatabyday", 86400000 * 2, start2021);
-            Console.WriteLine("=== 日线回填完成 ===");
+            //Console.WriteLine("=== 开始日线回填（2021→今） ===");
+            //backfill.UpdateExchageDataByTimeframe("pass", "86400000", "coin_exchagedatabyday", 86400000 * 2, start2021);
+            //Console.WriteLine("=== 日线回填完成 ===");
 
-            Console.WriteLine("=== 开始4小时回填（2021→今） ===");
-            backfill.UpdateExchageDataByTimeframe("pass", "14400000", "coin_exchagedatabyhour", 14400000 * 2, start2021);
-            Console.WriteLine("=== 4小时回填完成 ===");
+            //Console.WriteLine("=== 开始4小时回填（2021→今） ===");
+            //backfill.UpdateExchageDataByTimeframe("pass", "14400000", "coin_exchagedatabyhour", 14400000 * 2, start2021);
+            //Console.WriteLine("=== 4小时回填完成 ===");
 
-            // 分钟级：只能拉最近7天，增量回填
-            Console.WriteLine("=== 开始分钟级回填 ===");
-            for (int i = 0; i < 5; i++)
-            {
-                Console.WriteLine($"分钟回填第{i + 1}/5次");
-                backfill.UpdateExchageDataByTimeframe("pass", "60000", "coin_exchagedatabyonemin");
-            }
-            Console.WriteLine("=== 分钟级回填完成 ===");
+            //// 分钟级：只能拉最近7天，增量回填
+            //Console.WriteLine("=== 开始分钟级回填 ===");
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    Console.WriteLine($"分钟回填第{i + 1}/5次");
+            //    backfill.UpdateExchageDataByTimeframe("pass", "60000", "coin_exchagedatabyonemin");
+            //}
+            //Console.WriteLine("=== 分钟级回填完成 ===");
 
             strategyThread();
 
@@ -563,19 +563,19 @@ namespace CoinWin.DataGeneration
             {
                 try
                 {
-                    // 1-min data every cycle (2 min)
-                    helper.UpdateExchageDataByTimeframe("pass", "60000", "coin_exchagedatabyonemin");
+                    // 1-min: 每次都从最新记录向前填充（删除当前不完整bar后重拉）
+                    helper.UpdateExchageDataByTimeframe("forward", "60000", "coin_exchagedatabyonemin");
 
                     cycleCount++;
-                    // 4h data every 30 cycles (60 min)
+                    // 4h: 每30轮（~60min）向前填充
                     if (cycleCount % 30 == 0)
                     {
-                        helper.UpdateExchageDataByTimeframe("pass", "14400000", "coin_exchagedatabyhour", 14400000 * 2);
+                        helper.UpdateExchageDataByTimeframe("forward", "14400000", "coin_exchagedatabyhour");
                     }
-                    // Daily data every 720 cycles (24h)
+                    // 日线: 每720轮（~24h）向前填充
                     if (cycleCount % 720 == 0)
                     {
-                        helper.UpdateExchageDataByTimeframe("pass", "86400000", "coin_exchagedatabyday", 86400000 * 2);
+                        helper.UpdateExchageDataByTimeframe("forward", "86400000", "coin_exchagedatabyday");
                     }
                 }
                 catch (Exception ex)

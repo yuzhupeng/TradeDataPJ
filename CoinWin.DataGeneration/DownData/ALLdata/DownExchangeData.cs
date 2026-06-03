@@ -282,7 +282,36 @@ namespace CoinWin.DataGeneration
             Dictionary<string, string> data = new Dictionary<string, string>();
             LogHelper.WriteLog(typeof(DownExchangeData), "开始获最后一次获取的数据");
 
-            string sql = $"select * from {tableName} order by Times asc limit 1";
+            string sql;
+            if (type == "forward")
+            {
+                // 向前填充：取最新记录作为起点
+                sql = $"select * from {tableName} order by Times desc limit 1";
+                ExchageDataModel newest = null;
+                using (var conn = SqlDapperHelper.GetOpenConnectionMySql())
+                {
+                    newest = conn.QueryFirstOrDefault<ExchageDataModel>(sql, commandTimeout: 30);
+                }
+                if (newest != null)
+                {
+                    var start = Convert.ToUInt64(newest.utime) * 1000;
+                    DateTimeOffset currentTime = DateTimeOffset.UtcNow;
+                    long end = currentTime.ToUnixTimeMilliseconds();
+                    data.Add(start.ToString(), end.ToString());
+                }
+                else
+                {
+                    // 表为空，用 fallbackStartMs
+                    DateTimeOffset currentTime = DateTimeOffset.UtcNow;
+                    long end = currentTime.ToUnixTimeMilliseconds();
+                    long start = fallbackStartMs > 0 ? fallbackStartMs : (end - 604800000);
+                    data.Add(start.ToString(), end.ToString());
+                }
+                return data;
+            }
+
+            // "pass" 模式：向后回填历史
+            sql = $"select * from {tableName} order by Times asc limit 1";
 
             ExchageDataModel starttime = null;
             using (var conn = SqlDapperHelper.GetOpenConnectionMySql())
@@ -849,6 +878,11 @@ namespace CoinWin.DataGeneration
             {
                 try
                 {
+                    // 前向模式：删除最新bar（当前时间段数据不完整），再重新拉取覆盖
+                    if (type == "forward")
+                    {
+                        DeleteLastBar(tableName);
+                    }
                     LogHelper.WriteLog(typeof(DownExchangeData), "开始获取价格数据");
                     string url = string.Format("https://api.aggr.trade/historical/{0}/{1}/{2}/{3}",
                         startend.FirstOrDefault().Key, startend.FirstOrDefault().Value, intervalMs,
@@ -1030,6 +1064,24 @@ namespace CoinWin.DataGeneration
                 if (conn.State == ConnectionState.Closed)
                     conn.Open();
                 return conn.Execute(SqlText, list, commandType: CommandType.Text);
+            }
+        }
+
+        /// <summary>
+        /// 删除表中最新时间的数据（当前bar不完整，需重新拉取覆盖）
+        /// </summary>
+        public int DeleteLastBar(string tableName)
+        {
+            string mysqlConnStr = System.Configuration.ConfigurationManager.AppSettings["mysql"];
+            string sql = $@"DELETE FROM {tableName} WHERE Times = (SELECT * FROM (SELECT MAX(Times) FROM {tableName}) AS t)";
+            using (var conn = new MySqlConnection(mysqlConnStr))
+            {
+                if (conn.State == ConnectionState.Closed)
+                    conn.Open();
+                int deleted = conn.Execute(sql, commandType: CommandType.Text);
+                if (deleted > 0)
+                    Console.WriteLine($"删除{tableName}最新时间数据: {deleted} 行");
+                return deleted;
             }
         }
 
