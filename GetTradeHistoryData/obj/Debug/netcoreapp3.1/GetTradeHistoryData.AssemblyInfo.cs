@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GetTradeHistoryData")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c1c0dd86d645dc2d6b5996d0c0aa77030da5da1")]
 [assembly: System.Reflection.AssemblyProductAttribute("GetTradeHistoryData")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GetTradeHistoryData")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

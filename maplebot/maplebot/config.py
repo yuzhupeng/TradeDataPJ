@@ -1,0 +1,624 @@
+"""載入與驗證 YAML 設定（全域 config + 地圖 profile）。
+
+支援 config/local.yaml 覆寫層（參考 MapleStoryAutoLevelUp 的
+config_default + config_custom 設計）：個人設定放 local.yaml，
+不用動版本控管的 default.yaml。
+"""
+import os
+from dataclasses import dataclass, field
+from typing import Dict, List, Optional, Tuple
+
+import yaml
+
+Region = Tuple[int, int, int, int]  # x, y, w, h（遊戲視窗 client 區座標）
+
+# 所有「畫面像素」類的設定值都是對這個 playfield 寬度校正的。
+# 楓谷 800x600 視窗扣掉 UI 之後大約就是這個寬度。實際畫面比較大時，
+# 同一個世界距離會佔更多像素，所以門檻要等比例放大——否則同一組設定
+# 只在某一種視窗大小下有效（面積門檻與攻擊距離都踩過這個坑）。
+REFERENCE_WIDTH = 790
+
+LOCAL_NAME = "local.yaml"
+LOCAL_OVERRIDE = os.path.join("config", LOCAL_NAME)   # 僅供顯示訊息用
+
+# 使用者自己截的 UI 模板（小地圖角落、角色名牌）放這裡。
+# 用模組常數而不是寫死在 dataclass 預設值裡，測試才有辦法指到乾淨的空目錄——
+# 否則開發機上有沒有這些個人模板，測試結果就會不一樣。
+UI_TEMPLATES_DIR = os.path.join("data", "templates", "ui")
+
+
+class ConfigError(Exception):
+    pass
+
+
+def _region(raw, name: str) -> Region:
+    if not (isinstance(raw, (list, tuple)) and len(raw) == 4):
+        raise ConfigError(f"regions.{name} 必須是 [x, y, w, h]，拿到: {raw!r}")
+    x, y, w, h = (int(v) for v in raw)
+    if w <= 0 or h <= 0:
+        raise ConfigError(f"regions.{name} 的寬高必須為正: {raw!r}")
+    return (x, y, w, h)
+
+
+def _deep_merge(base: dict, override: dict) -> dict:
+    out = dict(base)
+    for k, v in override.items():
+        if isinstance(v, dict) and isinstance(out.get(k), dict):
+            out[k] = _deep_merge(out[k], v)
+        else:
+            out[k] = v
+    return out
+
+
+@dataclass
+class VisionCfg:
+    minimap_player_rgb: Tuple[int, int, int] = (255, 255, 0)
+    minimap_other_rgb: Tuple[int, int, int] = (255, 0, 0)
+    color_tolerance: int = 60
+    min_dot_pixels: int = 2
+    max_dot_pixels: int = 60          # 大於此面積的色塊視為地形而非玩家點
+    ui_templates_dir: str = field(default_factory=lambda: UI_TEMPLATES_DIR)
+    minimap_border: int = 6           # auto 定位小地圖時向內縮的邊框厚度
+    bar_colors: Dict[str, str] = field(default_factory=lambda: {"hp": "red", "mp": "blue", "exp": "yellow"})
+    # 血條讀值去雜訊：被撞到時血條會閃，那一幀會讀成 0%
+    bar_max_drop: float = 0.35        # 一幀掉超過這個比例就先不信，下一幀再確認
+    bar_confirm_frames: int = 2       # 連續幾幀都是低值才承認
+    mob_detector: str = "outline"   # outline | template | yolo | remote
+    outline_black_level: int = 8       # 判定為描邊的最大亮度（JPEG 測試時調高到 12~20）
+    outline_min_area: int = 300        # 太小的黑塊當雜訊（790px 寬為基準）
+    outline_max_area: int = 20000      # 太大的當背景/UI（790px 寬為基準）
+    outline_auto_scale: bool = True    # 依實際畫面寬度等比例縮放上面的門檻
+    outline_close_kernel: int = 20     # 把斷續描邊連成整塊
+    outline_player_box: Tuple[int, int] = (100, 140)   # 挖掉角色自己的範圍
+    # 外框大於這個尺寸就不可能是怪（790px 寬為基準）。地形平台的暗邊會連成
+    # 一條很寬很扁的長條，面積剛好落在合理區間裡，只有比例擋得掉。
+    outline_max_size: Tuple[int, int] = (160, 160)
+    # 長寬比超過這個值就不是怪（0=不檢查）。平台暗邊被閉合切斷後會留下
+    # 又扁又長的片段，尺寸過得了關、比例過不了。
+    outline_max_aspect: float = 4.0
+    # 怪物頭上的綠色血條：被打過的怪一定有，是遊戲畫的 UI。
+    # **預設關閉**：這招成立的前提是「那個綠只有血條會出現」，而草地/樹葉的綠
+    # 只差十幾階。先用 tools/debug_view.py --snapshot 確認框有落在真的血條上
+    # （框上標 hpbar）再開。詳見 vision/mob_hpbar.py
+    detect_hp_bars: bool = False
+    hp_bar_tolerance: int = 0         # 各通道容許誤差。0 = 精確比色，調大就會誤判草地
+    # 用組隊紅條找角色在畫面上的精確位置（要自己跟自己組隊）。
+    # 鏡頭有跟隨延遲、走到地圖邊緣還會卡住，「角色永遠在正中央」是錯的。
+    # 抓不到就退回畫面中央，等於原本的行為，所以沒組隊也不會壞。
+    locate_player_bar: bool = True
+    # 用角色名牌找角色（見 vision/nametag.py）。比組隊紅條優先，因為它不用
+    # 進遊戲做任何設定；沒有模板檔就自動略過，退回組隊紅條再退回畫面中央。
+    locate_nametag: bool = True
+    nametag_offset: Tuple[int, int] = (0, -24)   # 名牌中心 -> 角色中心（790 基準）
+    # 0.70 是照**跟背景的差距**訂的，不是照分數高低。實拍：自己的名牌 0.784、
+    # 整張圖其他地方最高 0.545、旁邊那位路人的名牌連 0.537 都不到。
+    nametag_threshold: float = 0.70
+    mob_match_threshold: float = 0.72
+    yolo_model: str = ""              # .pt 或 .onnx（ONNX 不需要 PyTorch，見 yolo_mobs.py）
+    yolo_confidence: float = 0.5
+    yolo_device: str = ""             # ""=自動；"cpu" / "0" / "cuda:1" 指定裝置
+    yolo_imgsz: int = 0               # 推理解析度（0=模型預設 640）
+    # YOLO 模型只把這些類別當成「怪」回報。多類別模型（同時標出 item/npc/
+    # character/ui）必須過濾——fsm 不分類別一律攻擊，不過濾會去打物品和 NPC。
+    # None = 不過濾（只訓練了怪類的舊模型維持原行為）。
+    yolo_keep_classes: Optional[List[str]] = field(default_factory=lambda: ["mob"])
+    remote_endpoint: str = ""          # mob_detector=remote：推理伺服器位址
+    remote_timeout: float = 1.0
+    remote_jpeg_quality: int = 80
+    remote_max_width: int = 640        # 送出前先縮到這個寬度（0=不縮）
+    mob_interval: float = 0.0          # 每幾秒才做一次怪物偵測（0=每個 tick 都做）
+    # 只在角色周圍這個大小的框內找怪（None=整個 playfield）。
+    # 角色永遠在畫面中央，打不到的地方本來就不用看——省時間也少誤判。
+    mob_search_box: Optional[Tuple[int, int]] = None
+    # 疊在主畫面上、不該拿去找怪的 UI 區塊（client 區座標 [x, y, w, h]）。
+    # 小地圖面板的標題文字、聊天視窗的字都有黑色描邊，會被當成怪。
+    mob_exclude: List[Region] = field(default_factory=list)
+    # 濾掉跟著角色跑的東西（寵物）。角色移動時，怪會在畫面上滑動，寵物不會。
+    # 預設關閉：判別得靠鏡頭捲動，而窄地圖鏡頭根本不捲，這時分不出誰是寵物。
+    # 最可靠的做法還是進遊戲把寵物收起來。詳見 vision/follower.py
+    filter_followers: bool = False
+    follower_min_shift_px: int = 90   # 鏡頭至少捲這麼多 px 才敢下判斷
+    follower_hits: int = 3            # 累積幾次才判定為跟隨物
+    follower_tol_px: int = 45         # 兩個位置差多少內算「同一個地方」
+    follower_max: int = 2             # 一次判出超過這麼多隻就整組撤銷（判斷失準）
+    player_move_px: int = 3           # 小地圖座標變化超過此值才算「角色有移動」
+
+
+@dataclass
+class SafetyCfg:
+    stop_key: str = "f12"
+    pause_key: str = "f9"
+    critical_hp_ratio: float = 0.25
+    critical_hp_frames: int = 3       # 連續幾幀都讀到低血才停機（防辨識誤判）
+    # 低血還要**持續**這麼多秒才停機。停機不是安全動作——角色會站在原地繼續
+    # 被打（實測掛整晚就是這樣死的）。這段時間裡補血照常進行，撐得回來
+    # 就繼續打，撐不回來才承認救不了。
+    critical_hp_seconds: float = 4.0
+    pause_when_players: bool = True
+    lost_player_timeout: float = 5.0
+    sound_alerts: bool = True         # 危險事件用 winsound 嗶聲提醒
+    black_screen_pause: bool = True   # 黑屏（斷線/讀圖）自動暫停
+    # 黑屏要**持續**這麼多秒才暫停。走進傳送門的換圖淡出也是全黑，但一兩秒
+    # 就結束——立刻暫停的話，巡邏路過自動傳送門就會把整晚掛機停在那裡等人。
+    # 斷線/當機是持續黑，幾秒的緩衝不影響它該觸發的暫停。
+    black_screen_seconds: float = 3.0
+    exp_stall_minutes: float = 10.0   # 幾分鐘沒賺到經驗就暫停（0=不檢查）
+    attack_stall_seconds: float = 12.0  # 連續攻擊這麼久位置還沒變就先去巡邏（0=不檢查）
+    attack_break_seconds: float = 3.0   # 讓路給巡邏幾秒
+    # 跑滿這麼多分鐘就自己收工（0=不限）。這不是反偵測，是「無人看管的
+    # 程式應該有個盡頭」：睡前開的 bot 不該在你醒來前一直跑，卡在某個
+    # 沒人預期的狀態上耗一整個白天
+    max_runtime_minutes: float = 0.0
+
+    # 死亡自動復活：偵測到死亡復活對話框就點「確定」原地復活繼續。
+    # 無人值守掛整晚，偶發死亡（被圍、lag、搶怪被拉走）不能只會停機白掛。
+    auto_revive: bool = True
+    # 熔斷：這麼多分鐘內死超過 max_deaths 次就真的停機報警——復活點一直
+    # 送死（例如復活就被圍）時，別無限復活把角色餵給怪，該叫人來看。
+    death_window_minutes: float = 10.0
+    max_deaths: int = 3
+
+
+@dataclass
+class MonitorCfg:
+    """系統/遊戲行程監看（需要 psutil，沒裝就自動停用）。詳見 sysmon.py。"""
+    enabled: bool = True
+    interval: float = 5.0             # 幾秒取樣一次（psutil 掃行程有成本）
+    stop_when_game_exits: bool = True  # 遊戲行程消失就停機（強烈建議開著）
+    process: str = ""                 # 行程名關鍵字；留空 = 從遊戲視窗自動取 PID
+    cpu_threshold: float = 92.0       # 系統 CPU 高於此值就警告一次
+    mem_threshold: float = 90.0       # 系統記憶體同上
+    game_mem_threshold_mb: float = 4096.0   # 遊戲行程記憶體上限提醒（0=不檢查）
+
+
+@dataclass
+class ReportCfg:
+    """收工報告。詳見 report.py。"""
+    enabled: bool = True
+    dir: str = "logs/reports"
+    sample_interval: float = 10.0     # 曲線取樣間隔（0=不記曲線）
+    chart: bool = True                # 產生 PNG（需要 matplotlib，沒裝就跳過）
+
+
+@dataclass
+class AdvisorCfg:
+    enabled: bool = False
+    endpoint: str = "http://127.0.0.1:11434/v1/chat/completions"  # Ollama 預設埠
+    model: str = "qwen2.5vl:7b"
+    interval: float = 20.0
+    timeout: float = 15.0
+    # 要連續幾輪都判定異常才真的暫停。VLM 偶爾會把常駐 HUD（勳章名牌、
+    # 任務面板）看成彈出視窗，一次誤判就暫停等於整晚白掛。
+    confirm: int = 2
+
+
+@dataclass
+class AppCfg:
+    window_title: str = "MapleStory"
+    capture_method: str = "auto"      # auto | printwindow | screen
+    # 校正當下的 client 區大小。視窗尺寸改了 regions 就全錯，開場先擋下來
+    calibrated_for: Optional[Tuple[int, int]] = None
+    fps: float = 8.0
+    regions: Dict[str, Region] = field(default_factory=dict)
+    minimap_auto: bool = False        # regions.minimap: auto 時用角落模板自動定位
+    vision: VisionCfg = field(default_factory=VisionCfg)
+    safety: SafetyCfg = field(default_factory=SafetyCfg)
+    monitor: MonitorCfg = field(default_factory=MonitorCfg)
+    report: ReportCfg = field(default_factory=ReportCfg)
+    advisor: AdvisorCfg = field(default_factory=AdvisorCfg)
+    sources: List[str] = field(default_factory=list)   # 實際載入了哪些檔案
+
+    def region(self, name: str) -> Region:
+        if name not in self.regions:
+            raise ConfigError(f"config 缺少 regions.{name}，請先執行 tools/calibrate.py 校正")
+        return self.regions[name]
+
+
+@dataclass
+class Waypoint:
+    x: float                          # >1 = 小地圖絕對 px；<=1 = 佔小地圖寬度比例
+    y: Optional[float] = None         # 同上（比例是佔小地圖高度）；None = 只對 x（單層地圖）
+    descend: str = "rope"             # 往下的方式：rope（抓繩下降）| jump（下跳平台）
+    keys: List[str] = field(default_factory=list)  # 抵達時依序敲的鍵（跳躍/技能等）
+    tolerance: Optional[int] = None   # 這個點的 x 對位容差（None = 用 patrol.tolerance）。
+                                      # 爬繩點的抓取窗口只有 ±1~2px，需要比走路更準
+
+
+@dataclass
+class PatrolCfg:
+    waypoints: List[Waypoint] = field(default_factory=list)
+    auto: bool = False                # waypoints: auto -> 開場撞牆量出可走範圍自動生成
+    tolerance: int = 4
+    step_seconds_per_px: float = 0.02
+    max_step_seconds: float = 0.45
+    stuck_seconds: float = 4.0        # 走了這麼久位置都沒變 -> 判定卡住
+    stuck_px: int = 3
+    jump_key: str = "alt"             # 卡住脫困用的跳躍鍵
+    # --- waypoints: auto 的探邊參數 ---
+    probe_seconds: float = 0.35       # 每次往同方向試探走多久
+    probe_stall_px: int = 2           # x 變化在此之內視為沒動
+    probe_stall_seconds: float = 1.2  # 累積這麼久沒前進就判定撞牆（不含戰鬥時間）
+    probe_retries: int = 2            # 量到不合理範圍時重試幾次再放棄
+    probe_margin_px: int = 6          # 量到的邊界往內縮多少當巡邏點
+    probe_min_span_px: int = 12       # 可走範圍小於此值視為校正失敗（按鍵沒生效等）
+    # --- 垂直移動（爬繩／下平台）---
+    y_tolerance: int = 3              # 小地圖 y 差多少內算到位
+    climb_seconds: float = 0.45       # 每步按住上/下鍵多久
+    climb_stall_px: int = 2           # y 變化在此之內視為沒爬動
+    climb_stalls: int = 3             # 連續幾步沒爬動 -> 判定沒抓到繩子
+    climb_retries: int = 2            # 重新對位幾次後放棄這個巡邏點
+    climb_up_key: str = "up"
+    climb_down_key: str = "down"
+
+
+@dataclass
+class AttackCfg:
+    """一個攻擊技能。多技能輪替時 profile.skills 就是一串這個。"""
+    key: str = "ctrl"                 # 楓谷預設攻擊鍵
+    type: str = "directional"         # directional（要面向）| aoe（原地放）
+    range_px: int = 320
+    vertical_range_px: int = 90
+    cast_seconds: float = 0.6
+    repeat: int = 1
+    cooldown: float = 0.2
+    min_mp: float = 0.0               # MP 低於此比例就不放技能（0=不檢查）
+    min_mobs: int = 1                 # 範圍內至少幾隻才放（大絕別浪費在單隻怪）
+
+
+@dataclass
+class BuffCfg:
+    key: str = ""
+    every: float = 120.0
+    cast_seconds: float = 1.2
+    min_mp: float = 0.0               # MP 不夠時延後補 buff，等回魔
+
+
+@dataclass
+class LootCfg:
+    """打完怪自動撿物。"""
+    key: str = ""                     # 撿取鍵（楓谷預設 Z）
+    every: float = 2.0                # 兩次撿取的最短間隔
+    taps: int = 4                     # 一次按幾下（掉落物散落成一排）
+    after_combat: float = 6.0         # 只在最後一次攻擊後這麼多秒內撿（0=隨時）
+
+
+@dataclass
+class PotionCfg:
+    key: str = ""
+    below_ratio: float = 0.0
+    cooldown: float = 1.0
+
+
+@dataclass
+class Profile:
+    name: str = "unnamed"
+    templates_dir: str = "data/templates/mobs"
+    # 無怪時怎麼移動：
+    #   patrol  走 profile.patrol.waypoints 錄製的路線（預設，要先錄製）
+    #   hunt    沒路線時的兜底——無怪自動左右晃找怪，找到就打、找不到返回原位
+    #           不用錄製路線，適合怪物隨機刷新在同一片平地的地圖
+    mode: str = "patrol"
+    patrol: PatrolCfg = field(default_factory=PatrolCfg)
+    attack: AttackCfg = field(default_factory=AttackCfg)   # 單技能寫法（相容舊 profile）
+    skills: List[AttackCfg] = field(default_factory=list)  # 多技能輪替；空的話用 attack
+    buffs: List[BuffCfg] = field(default_factory=list)
+    potions: Dict[str, PotionCfg] = field(default_factory=dict)
+    loot: LootCfg = field(default_factory=LootCfg)
+    panic_return_key: str = ""        # 設定後，Panic 時會先按回城卷再停止
+    # 看得到怪但不在攻擊範圍內時，先走過去打（0 = 關掉，照原本的巡邏路線走）。
+    # 跟 attack.range_px 一樣以 REFERENCE_WIDTH 為基準自動縮放。
+    # 設成攻擊距離的 3~5 倍：太小等於沒開，太大會被畫面邊緣的怪一直拉走。
+    chase_px: int = 0
+    # 怪靠得比這個近就先退開再打（0 = 關掉）。遠程職業站樁輸出時，怪貼上來
+    # 只會挨打；近戰不需要，貼臉本來就是它要的。同樣以 REFERENCE_WIDTH 縮放。
+    keep_away_px: int = 0
+    # 攻擊距離依 playfield 寬度自動縮放（基準 REFERENCE_WIDTH）。
+    # 關掉的話 range_px 就是你這個視窗大小的實際像素，換視窗要自己重調。
+    attack_auto_scale: bool = True
+
+    def active_skills(self) -> List[AttackCfg]:
+        """依優先權排好的技能清單。沒設定 skills 就退回單一 attack。"""
+        return self.skills or [self.attack]
+
+
+def _load_yaml(path: str) -> dict:
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = yaml.safe_load(f) or {}
+    except FileNotFoundError:
+        raise ConfigError(f"找不到設定檔: {path}")
+    except yaml.YAMLError as e:
+        raise ConfigError(f"設定檔 {path} 格式錯誤: {e}")
+    if not isinstance(data, dict):
+        raise ConfigError(f"設定檔 {path} 的頂層必須是 mapping")
+    return data
+
+
+def _parse_attack(raw: dict, cfg: AttackCfg) -> AttackCfg:
+    """把 YAML 的攻擊設定填進 AttackCfg。attack: 與 skills: 共用同一份解析。"""
+    cfg.key = str(raw.get("key", cfg.key)).lower()
+    cfg.type = str(raw.get("type", cfg.type)).lower()
+    if cfg.type not in ("directional", "aoe"):
+        raise ConfigError(f"attack.type 只能是 directional 或 aoe，拿到: {cfg.type!r}")
+    cfg.range_px = int(raw.get("range_px", cfg.range_px))
+    cfg.vertical_range_px = int(raw.get("vertical_range_px", cfg.vertical_range_px))
+    cfg.cast_seconds = float(raw.get("cast_seconds", cfg.cast_seconds))
+    cfg.repeat = int(raw.get("repeat", cfg.repeat))
+    cfg.cooldown = float(raw.get("cooldown", cfg.cooldown))
+    cfg.min_mp = float(raw.get("min_mp", cfg.min_mp))
+    cfg.min_mobs = int(raw.get("min_mobs", cfg.min_mobs))
+    return cfg
+
+
+def _parse_waypoint(raw) -> Waypoint:
+    if isinstance(raw, dict):
+        if "x" not in raw:
+            raise ConfigError(f"waypoint 少了 x: {raw!r}")
+        keys = raw.get("keys", [])
+        if not isinstance(keys, list):
+            raise ConfigError(f"waypoint keys 必須是清單: {raw!r}")
+        descend = str(raw.get("descend", "rope")).lower()
+        if descend not in ("rope", "jump"):
+            raise ConfigError(
+                f"waypoint descend 只能是 rope（抓繩下降）或 jump（下跳平台），"
+                f"拿到: {descend!r}")
+        y = raw.get("y")
+        tol = raw.get("tolerance")
+        if tol is not None and int(tol) < 1:
+            raise ConfigError(f"waypoint tolerance 至少要是 1，拿到: {tol!r}")
+        return Waypoint(x=float(raw["x"]),
+                        y=None if y is None else float(y),
+                        descend=descend,
+                        keys=[str(k).lower() for k in keys],
+                        tolerance=None if tol is None else int(tol))
+    if isinstance(raw, (int, float)):
+        return Waypoint(x=float(raw))
+    raise ConfigError(f"看不懂的 waypoint 格式: {raw!r}")
+
+
+def resolve_local_path(config_path: str) -> str:
+    """local.yaml 找的是**設定檔旁邊**那一個，不是當前目錄底下的。
+
+    用相對於 CWD 的路徑會讓「從別的目錄執行」時靜靜地讀不到個人設定。
+    """
+    return os.path.join(os.path.dirname(os.path.abspath(config_path)), LOCAL_NAME)
+
+
+def load_config(path: str, local_path: Optional[str] = None) -> AppCfg:
+    """local_path=None 自動找設定檔旁的 local.yaml；傳 "" 則完全不套用覆寫。"""
+    data = _load_yaml(path)
+    cfg = AppCfg()
+    cfg.sources.append(path)
+    if local_path is None:
+        local_path = resolve_local_path(path)
+    if local_path and os.path.exists(local_path):
+        data = _deep_merge(data, _load_yaml(local_path))
+        cfg.sources.append(local_path)
+
+    win = data.get("window", {})
+    cfg.window_title = str(win.get("title", cfg.window_title))
+    cfg.capture_method = str(win.get("capture", cfg.capture_method)).lower()
+    if cfg.capture_method not in ("auto", "printwindow", "screen"):
+        raise ConfigError(
+            f"window.capture 只能是 auto / printwindow / screen，"
+            f"拿到: {cfg.capture_method!r}")
+    size = win.get("calibrated_for")
+    if size is not None:
+        if not (isinstance(size, (list, tuple)) and len(size) == 2):
+            raise ConfigError(f"window.calibrated_for 要是 [寬, 高]，拿到: {size!r}")
+        cfg.calibrated_for = (int(size[0]), int(size[1]))
+    cfg.fps = float(data.get("loop", {}).get("fps", cfg.fps))
+
+    regions = data.get("regions") or {}
+    if not isinstance(regions, dict):
+        raise ConfigError(f"regions 要是 mapping（區域名: [x, y, w, h]），拿到: {regions!r}")
+    for name, raw in regions.items():
+        if name == "minimap" and raw == "auto":
+            cfg.minimap_auto = True
+            continue
+        cfg.regions[name] = _region(raw, name)
+
+    v = data.get("vision", {})
+    vc = cfg.vision
+    vc.minimap_player_rgb = tuple(v.get("minimap_player_rgb", vc.minimap_player_rgb))  # type: ignore
+    vc.minimap_other_rgb = tuple(v.get("minimap_other_rgb", vc.minimap_other_rgb))  # type: ignore
+    vc.color_tolerance = int(v.get("color_tolerance", vc.color_tolerance))
+    vc.min_dot_pixels = int(v.get("min_dot_pixels", vc.min_dot_pixels))
+    vc.max_dot_pixels = int(v.get("max_dot_pixels", vc.max_dot_pixels))
+    vc.ui_templates_dir = str(v.get("ui_templates_dir", vc.ui_templates_dir))
+    vc.minimap_border = int(v.get("minimap_border", vc.minimap_border))
+    vc.bar_colors.update(v.get("bars", {}))
+    vc.bar_max_drop = float(v.get("bar_max_drop", vc.bar_max_drop))
+    vc.bar_confirm_frames = max(int(v.get("bar_confirm_frames",
+                                          vc.bar_confirm_frames)), 1)
+    vc.mob_detector = str(v.get("mob_detector", vc.mob_detector)).lower()
+    if vc.mob_detector not in ("outline", "template", "yolo", "remote"):
+        raise ConfigError(
+            f"vision.mob_detector 只能是 outline / template / yolo / remote，"
+            f"拿到: {vc.mob_detector!r}")
+    vc.outline_black_level = int(v.get("outline_black_level", vc.outline_black_level))
+    vc.outline_min_area = int(v.get("outline_min_area", vc.outline_min_area))
+    vc.outline_max_area = int(v.get("outline_max_area", vc.outline_max_area))
+    vc.outline_close_kernel = int(v.get("outline_close_kernel", vc.outline_close_kernel))
+    vc.outline_auto_scale = bool(v.get("outline_auto_scale", vc.outline_auto_scale))
+    if "outline_player_box" in v:
+        pb = v["outline_player_box"]
+        vc.outline_player_box = (int(pb[0]), int(pb[1]))
+    if "outline_max_size" in v:
+        ms = v["outline_max_size"]
+        vc.outline_max_size = (int(ms[0]), int(ms[1]))
+    vc.outline_max_aspect = float(v.get("outline_max_aspect", vc.outline_max_aspect))
+    vc.locate_player_bar = bool(v.get("locate_player_bar", vc.locate_player_bar))
+    vc.locate_nametag = bool(v.get("locate_nametag", vc.locate_nametag))
+    if "nametag_offset" in v:
+        no = v["nametag_offset"]
+        vc.nametag_offset = (int(no[0]), int(no[1]))
+    vc.nametag_threshold = float(v.get("nametag_threshold", vc.nametag_threshold))
+    vc.detect_hp_bars = bool(v.get("detect_hp_bars", vc.detect_hp_bars))
+    vc.hp_bar_tolerance = int(v.get("hp_bar_tolerance", vc.hp_bar_tolerance))
+    vc.mob_match_threshold = float(v.get("mob_match_threshold", vc.mob_match_threshold))
+    vc.yolo_model = str(v.get("yolo_model", vc.yolo_model))
+    vc.yolo_confidence = float(v.get("yolo_confidence", vc.yolo_confidence))
+    vc.yolo_device = str(v.get("yolo_device", vc.yolo_device))
+    vc.yolo_imgsz = int(v.get("yolo_imgsz", vc.yolo_imgsz))
+    keep = v.get("yolo_keep_classes")
+    if keep is None:
+        pass          # 沿用預設 ["mob"]
+    elif keep == "" or keep is False:
+        vc.yolo_keep_classes = None    # 空字串/False = 關閉過濾
+    elif isinstance(keep, list):
+        vc.yolo_keep_classes = [str(c) for c in keep]
+    vc.remote_endpoint = str(v.get("remote_endpoint", vc.remote_endpoint))
+    vc.remote_timeout = float(v.get("remote_timeout", vc.remote_timeout))
+    vc.remote_jpeg_quality = int(v.get("remote_jpeg_quality", vc.remote_jpeg_quality))
+    vc.remote_max_width = int(v.get("remote_max_width", vc.remote_max_width))
+    vc.mob_interval = float(v.get("mob_interval", vc.mob_interval))
+    vc.filter_followers = bool(v.get("filter_followers", vc.filter_followers))
+    vc.follower_min_shift_px = int(v.get("follower_min_shift_px",
+                                         vc.follower_min_shift_px))
+    vc.follower_hits = int(v.get("follower_hits", vc.follower_hits))
+    vc.follower_tol_px = int(v.get("follower_tol_px", vc.follower_tol_px))
+    vc.follower_max = int(v.get("follower_max", vc.follower_max))
+    vc.player_move_px = int(v.get("player_move_px", vc.player_move_px))
+    if v.get("mob_search_box"):
+        sb = v["mob_search_box"]
+        vc.mob_search_box = (int(sb[0]), int(sb[1]))
+    vc.mob_exclude = [_region(r, "vision.mob_exclude")
+                      for r in (v.get("mob_exclude") or [])]
+    if vc.mob_detector == "remote" and not vc.remote_endpoint:
+        raise ConfigError("vision.mob_detector=remote 必須設定 vision.remote_endpoint")
+
+    s = data.get("safety", {})
+    sc = cfg.safety
+    sc.stop_key = str(s.get("stop_key", sc.stop_key)).lower()
+    sc.pause_key = str(s.get("pause_key", sc.pause_key)).lower()
+    sc.critical_hp_ratio = float(s.get("critical_hp_ratio", sc.critical_hp_ratio))
+    sc.critical_hp_frames = max(int(s.get("critical_hp_frames",
+                                          sc.critical_hp_frames)), 1)
+    sc.critical_hp_seconds = max(float(s.get("critical_hp_seconds",
+                                             sc.critical_hp_seconds)), 0.0)
+    sc.pause_when_players = bool(s.get("pause_when_players", sc.pause_when_players))
+    sc.lost_player_timeout = float(s.get("lost_player_timeout", sc.lost_player_timeout))
+    sc.sound_alerts = bool(s.get("sound_alerts", sc.sound_alerts))
+    sc.black_screen_pause = bool(s.get("black_screen_pause", sc.black_screen_pause))
+    sc.black_screen_seconds = float(s.get("black_screen_seconds", sc.black_screen_seconds))
+    sc.exp_stall_minutes = float(s.get("exp_stall_minutes", sc.exp_stall_minutes))
+    sc.attack_stall_seconds = float(s.get("attack_stall_seconds", sc.attack_stall_seconds))
+    sc.attack_break_seconds = max(
+        float(s.get("attack_break_seconds", sc.attack_break_seconds)), 0.0)
+    sc.max_runtime_minutes = max(
+        float(s.get("max_runtime_minutes", sc.max_runtime_minutes)), 0.0)
+    sc.auto_revive = bool(s.get("auto_revive", sc.auto_revive))
+    sc.death_window_minutes = max(
+        float(s.get("death_window_minutes", sc.death_window_minutes)), 0.0)
+    sc.max_deaths = max(int(s.get("max_deaths", sc.max_deaths)), 1)
+
+    m = data.get("monitor", {})
+    mc = cfg.monitor
+    mc.enabled = bool(m.get("enabled", mc.enabled))
+    mc.interval = max(float(m.get("interval", mc.interval)), 1.0)
+    mc.stop_when_game_exits = bool(m.get("stop_when_game_exits",
+                                         mc.stop_when_game_exits))
+    mc.process = str(m.get("process", mc.process))
+    mc.cpu_threshold = float(m.get("cpu_threshold", mc.cpu_threshold))
+    mc.mem_threshold = float(m.get("mem_threshold", mc.mem_threshold))
+    mc.game_mem_threshold_mb = float(m.get("game_mem_threshold_mb",
+                                           mc.game_mem_threshold_mb))
+
+    r = data.get("report", {})
+    rc = cfg.report
+    rc.enabled = bool(r.get("enabled", rc.enabled))
+    rc.dir = str(r.get("dir", rc.dir))
+    rc.sample_interval = max(float(r.get("sample_interval", rc.sample_interval)), 0.0)
+    rc.chart = bool(r.get("chart", rc.chart))
+
+    a = data.get("advisor", {})
+    ac = cfg.advisor
+    ac.enabled = bool(a.get("enabled", ac.enabled))
+    ac.endpoint = str(a.get("endpoint", ac.endpoint))
+    ac.model = str(a.get("model", ac.model))
+    ac.interval = float(a.get("interval", ac.interval))
+    ac.timeout = float(a.get("timeout", ac.timeout))
+    ac.confirm = max(int(a.get("confirm", ac.confirm)), 1)
+    return cfg
+
+
+def load_profile(path: str) -> Profile:
+    data = _load_yaml(path)
+    p = Profile()
+    p.name = str(data.get("name", p.name))
+    p.templates_dir = str(data.get("templates_dir", p.templates_dir))
+    p.mode = str(data.get("mode", p.mode)).lower()
+    if p.mode not in ("patrol", "hunt"):
+        raise ConfigError(f"profile.mode 只能是 patrol 或 hunt，拿到: {p.mode!r}")
+    p.panic_return_key = str(data.get("panic_return_key", "")).lower()
+    p.attack_auto_scale = bool(data.get("attack_auto_scale", p.attack_auto_scale))
+    p.chase_px = int(data.get("chase_px", p.chase_px))
+    p.keep_away_px = int(data.get("keep_away_px", p.keep_away_px))
+
+    pa = data.get("patrol", {})
+    raw_wps = pa.get("waypoints", pa.get("waypoints_x", []))
+    if isinstance(raw_wps, str):
+        if raw_wps.strip().lower() != "auto":
+            raise ConfigError(
+                f"patrol.waypoints 是字串時只能是 auto（開場自動量測），拿到: {raw_wps!r}")
+        p.patrol.auto = True
+    else:
+        p.patrol.waypoints = [_parse_waypoint(w) for w in raw_wps]
+    pt = p.patrol
+    pt.tolerance = int(pa.get("tolerance", pt.tolerance))
+    pt.step_seconds_per_px = float(pa.get("step_seconds_per_px", pt.step_seconds_per_px))
+    pt.max_step_seconds = float(pa.get("max_step_seconds", pt.max_step_seconds))
+    pt.stuck_seconds = float(pa.get("stuck_seconds", pt.stuck_seconds))
+    pt.stuck_px = int(pa.get("stuck_px", pt.stuck_px))
+    pt.jump_key = str(pa.get("jump_key", pt.jump_key)).lower()
+    pt.probe_seconds = float(pa.get("probe_seconds", pt.probe_seconds))
+    pt.probe_stall_px = int(pa.get("probe_stall_px", pt.probe_stall_px))
+    pt.probe_stall_seconds = float(
+        pa.get("probe_stall_seconds", pt.probe_stall_seconds))
+    pt.probe_retries = int(pa.get("probe_retries", pt.probe_retries))
+    pt.probe_margin_px = int(pa.get("probe_margin_px", pt.probe_margin_px))
+    pt.probe_min_span_px = int(pa.get("probe_min_span_px", pt.probe_min_span_px))
+    pt.y_tolerance = int(pa.get("y_tolerance", pt.y_tolerance))
+    pt.climb_seconds = float(pa.get("climb_seconds", pt.climb_seconds))
+    pt.climb_stall_px = int(pa.get("climb_stall_px", pt.climb_stall_px))
+    pt.climb_stalls = int(pa.get("climb_stalls", pt.climb_stalls))
+    pt.climb_retries = int(pa.get("climb_retries", pt.climb_retries))
+    pt.climb_up_key = str(pa.get("climb_up_key", pt.climb_up_key)).lower()
+    pt.climb_down_key = str(pa.get("climb_down_key", pt.climb_down_key)).lower()
+
+    _parse_attack(data.get("attack", {}), p.attack)
+    for raw in data.get("skills", []) or []:
+        if not isinstance(raw, dict):
+            raise ConfigError(f"skills 的每一項都要是 mapping，拿到: {raw!r}")
+        p.skills.append(_parse_attack(raw, AttackCfg()))
+    if p.skills and not all(s.key for s in p.skills):
+        raise ConfigError("skills 裡每個技能都必須有 key")
+
+    for b in data.get("buffs", []) or []:
+        p.buffs.append(BuffCfg(
+            key=str(b.get("key", "")).lower(),
+            every=float(b.get("every", 120.0)),
+            cast_seconds=float(b.get("cast_seconds", 1.2)),
+            min_mp=float(b.get("min_mp", 0.0)),
+        ))
+
+    lt = data.get("loot", {}) or {}
+    p.loot.key = str(lt.get("key", p.loot.key)).lower()
+    p.loot.every = float(lt.get("every", p.loot.every))
+    p.loot.taps = int(lt.get("taps", p.loot.taps))
+    p.loot.after_combat = float(lt.get("after_combat", p.loot.after_combat))
+
+    for kind, pot in (data.get("potions") or {}).items():
+        p.potions[kind] = PotionCfg(
+            key=str(pot.get("key", "")).lower(),
+            below_ratio=float(pot.get("below_ratio", 0.0)),
+            cooldown=float(pot.get("cooldown", 1.0)),
+        )
+    # hunt 模式不需要巡邏點（無怪自動左右晃找怪），只有 patrol 模式才要求
+    if p.mode == "patrol" and not p.patrol.auto and not p.patrol.waypoints:
+        raise ConfigError(
+            "profile 至少要有一個 patrol.waypoints 巡邏點，"
+            "或設 patrol.waypoints: auto 讓程式開場自己量，"
+            "或設 mode: hunt 改用無路線尋怪模式")
+    return p

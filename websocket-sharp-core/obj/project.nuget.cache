@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "24OxgMBBBunP7cq4Vbfxc9BrpB0OK5szul+al/MCWK/boe1syrRkhd02akCENVn4rHbk3HuqhIUvwLZUzWFOgQ==",
+  "dgSpecHash": "fGqnubcI0UQ=",
   "success": true,
-  "projectFilePath": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-core\\websocket-sharp-core.csproj",
+  "projectFilePath": "E:\\GITHUP\\TradeDataPJ\\websocket-sharp-core\\websocket-sharp-core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\fish.yuzhupeng\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\fish.yuzhupeng\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

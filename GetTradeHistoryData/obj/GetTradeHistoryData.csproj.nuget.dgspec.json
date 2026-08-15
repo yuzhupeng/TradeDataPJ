@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\GetTradeHistoryData\\GetTradeHistoryData.csproj": {}
+    "E:\\GITHUP\\TradeDataPJ\\GetTradeHistoryData\\GetTradeHistoryData.csproj": {}
   },
   "projects": {
-    "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\GetTradeHistoryData\\GetTradeHistoryData.csproj": {
+    "E:\\GITHUP\\TradeDataPJ\\GetTradeHistoryData\\GetTradeHistoryData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\GetTradeHistoryData\\GetTradeHistoryData.csproj",
+        "projectUniqueName": "E:\\GITHUP\\TradeDataPJ\\GetTradeHistoryData\\GetTradeHistoryData.csproj",
         "projectName": "GetTradeHistoryData",
-        "projectPath": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\GetTradeHistoryData\\GetTradeHistoryData.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\GetTradeHistoryData\\obj\\",
+        "projectPath": "E:\\GITHUP\\TradeDataPJ\\GetTradeHistoryData\\GetTradeHistoryData.csproj",
+        "packagesPath": "C:\\Users\\fish.yuzhupeng\\.nuget\\packages\\",
+        "outputPath": "E:\\GITHUP\\TradeDataPJ\\GetTradeHistoryData\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\fish.yuzhupeng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +32,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-core\\websocket-sharp-core.csproj": {
-                "projectPath": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-core\\websocket-sharp-core.csproj"
+              "E:\\GITHUP\\TradeDataPJ\\websocket-sharp-core\\websocket-sharp-core.csproj": {
+                "projectPath": "E:\\GITHUP\\TradeDataPJ\\websocket-sharp-core\\websocket-sharp-core.csproj"
               },
-              "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj": {
-                "projectPath": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj"
+              "E:\\GITHUP\\TradeDataPJ\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj": {
+                "projectPath": "E:\\GITHUP\\TradeDataPJ\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj"
               }
             }
           }
@@ -41,7 +45,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -86,40 +96,35 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-core\\websocket-sharp-core.csproj": {
+    "E:\\GITHUP\\TradeDataPJ\\websocket-sharp-core\\websocket-sharp-core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-core\\websocket-sharp-core.csproj",
+        "projectUniqueName": "E:\\GITHUP\\TradeDataPJ\\websocket-sharp-core\\websocket-sharp-core.csproj",
         "projectName": "websocketsharp.core",
-        "projectPath": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-core\\websocket-sharp-core.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-core\\obj\\",
+        "projectPath": "E:\\GITHUP\\TradeDataPJ\\websocket-sharp-core\\websocket-sharp-core.csproj",
+        "packagesPath": "C:\\Users\\fish.yuzhupeng\\.nuget\\packages\\",
+        "outputPath": "E:\\GITHUP\\TradeDataPJ\\websocket-sharp-core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\fish.yuzhupeng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -139,7 +144,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "netstandard2.0": {
@@ -158,25 +169,30 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj": {
+    "E:\\GITHUP\\TradeDataPJ\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj": {
       "version": "1.0.1-alpha.3",
       "restore": {
-        "projectUniqueName": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj",
+        "projectUniqueName": "E:\\GITHUP\\TradeDataPJ\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj",
         "projectName": "WebSocketSharp.NetCore",
-        "projectPath": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "E:\\Projext\\gitAllTradeData\\TradeDataPJ\\websocket-sharp-develop\\WebSocketSharp.NetCore\\obj\\",
+        "projectPath": "E:\\GITHUP\\TradeDataPJ\\websocket-sharp-develop\\WebSocketSharp.NetCore\\WebSocketSharp.NetCore.csproj",
+        "packagesPath": "C:\\Users\\fish.yuzhupeng\\.nuget\\packages\\",
+        "outputPath": "E:\\GITHUP\\TradeDataPJ\\websocket-sharp-develop\\WebSocketSharp.NetCore\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\fish.yuzhupeng\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -196,7 +212,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -207,26 +229,17 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     }

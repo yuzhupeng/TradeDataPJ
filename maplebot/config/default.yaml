@@ -1,0 +1,221 @@
+# maplebot 全域設定
+# regions 的預設值是對 tests/fixtures/mapleaga_800x600.jpg（MapleSaga 800x600 視窗）校正的，
+# 你的解析度/UI 位置不同時，執行 python tools/calibrate.py 重新框選。
+
+window:
+  # 遊戲視窗標題，子字串比對、不分大小寫。找不到時 log 會列出目前開著的視窗，
+  # 直接照抄一段進來即可（有些客戶端標題是英文的 MapleStory）
+  title: "新楓之谷：經典版"
+  # 擷取方式：
+  #   auto        啟動時自動測試，優先用 printwindow（建議）
+  #   printwindow 直接向視窗要畫面，被其他視窗蓋住也正確
+  #   screen      抓螢幕座標；快，但任何蓋在遊戲上的視窗都會被拍進去
+  capture: auto
+
+loop:
+  fps: 8                    # 主迴圈頻率（擷取+辨識+決策 每秒次數）
+
+# 個人覆寫請放 config/local.yaml（同結構、只寫要改的欄位，不進版本控管）
+
+regions:                    # 都是遊戲視窗 client 區座標 [x, y, w, h]
+  # minimap 可設 "auto"：用角落模板自動定位（小地圖拖動/展開都不用重校正）。
+  # 先用 tools/grab_template.py --dir data/templates/ui --name minimap_tl 截左上角，
+  # 再 --name minimap_br 截右下角，然後把下行改成  minimap: auto
+  minimap:   [18, 98, 128, 58]
+  hp_bar:    [223, 609, 105, 10]
+  mp_bar:    [332, 609, 103, 10]
+  exp_bar:   [444, 609, 115, 10]
+  playfield: [8, 60, 790, 520]
+
+vision:
+  minimap_player_rgb: [255, 255, 0]   # 玩家在小地圖上的點色（黃）
+  minimap_other_rgb:  [255, 0, 0]     # 其他玩家的點色（紅）
+  color_tolerance: 60                 # 各通道容許誤差；誤判/漏判時用 tools/debug_view.py 調
+  min_dot_pixels: 2
+  max_dot_pixels: 60                  # 面積大於此值的色塊視為地形，不會誤認成玩家
+  ui_templates_dir: data/templates/ui # 小地圖角落/玩家點模板位置
+  minimap_border: 6                   # auto 定位時向內縮的邊框厚度
+  bars:                               # 各 bar 的顏色（見 vision/status.py 的 COLOR_PRESETS）
+    hp: red
+    mp: blue
+    exp: yellow
+  # 被怪撞到時血條會閃一下，那一幀顏色抓不到就會讀成 0%——下游會灌藥再判定
+  # 瀕死停機。真實傷害會留著、閃爍不會，所以暴跌要下一幀再確認一次才算數。
+  bar_max_drop: 0.35        # 一幀掉超過這個比例（35%）就先不信
+  bar_confirm_frames: 2     # 連續幾幀都是低值才承認。閃比較久就調成 3
+  # 怪物偵測方式：
+  #   outline  【預設，零設定】靠 sprite 的黑色描邊找怪。不用模板、
+  #            不用訓練、不用標註，換地圖換怪都直接能用
+  #   template 模板匹配（要先用 grab_template.py 截圖）
+  #   yolo     本機 GPU 跑訓練好的模型（最穩，但要先訓練）
+  #   remote   送到另一台有 GPU 的機器推理（那台跑 tools/serve_yolo.py）
+  mob_detector: outline
+
+  # --- outline 模式參數（用 tools/debug_view.py 邊看邊調）---
+  outline_black_level: 8      # 判定為描邊的最大亮度。即時擷取是無損的用 0~8；
+                              # 拿 JPEG 截圖離線測試時要調到 12~20
+  outline_min_area: 300       # 小於此面積視為雜訊（以 790px 寬的畫面為基準）
+  outline_max_area: 20000     # 大於此面積視為背景/UI（同上）
+  outline_auto_scale: true    # 依實際畫面寬度自動縮放上面兩個門檻。
+                              # 關掉的話，為某一種視窗大小調的值換個解析度就失效
+  outline_close_kernel: 20    # 把斷續的描邊連成一整塊
+  outline_player_box: [100, 140]   # 挖掉角色自己的範圍（位置見 locate_nametag）
+  # 形狀不可能是怪的黑塊直接擋掉。地形平台的暗邊會被閉合連成又寬又扁的
+  # 長條，面積剛好落在合理區間裡，只有尺寸與長寬比擋得住。
+  # 真的漏抓到超大隻的怪才調大（同樣以 790px 寬為基準）。
+  outline_max_size: [160, 160]
+  outline_max_aspect: 4.0     # 長寬比超過就不是怪（0 = 不檢查）
+
+  # --- 疊在主畫面上的 UI，不拿去找怪 ---
+  # 小地圖面板的標題、系統公告跑馬燈的文字都有黑色描邊，描邊偵測分不出那是
+  # 文字還是怪。座標是遊戲視窗 client 區的 [x, y, w, h]，可以列好幾塊。
+  # mob_exclude:
+  #   - [0, 0, 1920, 32]      # 最上方系統公告
+  #   - [0, 24, 178, 180]     # 小地圖面板
+
+  # --- 跟隨物過濾（把寵物從怪物清單剔除）---
+  # 寵物也有黑色描邊，描邊偵測分不出牠跟怪。判別方式：鏡頭捲動時世界上的怪會
+  # 在畫面上滑動，寵物不會（牠一直待在角色旁邊）。
+  #
+  # 預設關閉，因為判別需要鏡頭真的在捲動：**窄地圖鏡頭根本不捲**，走到地圖邊緣
+  # 也會卡住，這時全場的怪看起來都「跟著你」——開著就會變成完全不攻擊。
+  # 最可靠的做法還是進遊戲把寵物收起來（撿物讓 loot.key 代勞）；
+  # 次之是把 outline_player_box 調大到 [220, 200] 直接把寵物那塊挖掉。
+  filter_followers: false
+  follower_min_shift_px: 90   # 鏡頭至少捲這麼多 px 才敢下判斷（不到就整幀不判）
+  follower_hits: 3            # 累積幾次才判定為跟隨物（調小=更快但更容易誤判）
+  follower_tol_px: 45         # 兩個位置差多少內算「同一個地方」
+  follower_max: 2             # 一次判出超過這麼多隻就整組撤銷（代表判斷失準）
+  player_move_px: 3           # 小地圖座標變化超過此值才值得去量鏡頭位移
+
+  # --- 怪物血條偵測（補描邊偵測的漏網之魚）---
+  # 怪被打過之後頭上會出現綠色小血條，那是遊戲畫的 UI。抓到就一定有怪，
+  # 可以補上描邊漏掉的（太大/太小/跟地形連在一起），重疊的用 IoU 合併。
+  #
+  # **預設關閉**：這招成立的前提是「那個綠只有血條會出現」，但草地、樹葉的綠
+  # 只跟它差十幾階。開之前先跑 tools/debug_view.py --snapshot 看標 hpbar 的框
+  # 有沒有落在真的血條上——長草的地圖很可能整片草地都被框起來。
+  # 除了顏色也會檢查形狀（夠扁、寬度合理、實心矩形），但顏色仍是主要依據。
+  detect_hp_bars: false
+  hp_bar_tolerance: 0         # 0 = 精確比色。調大就會開始誤判草地，別動
+
+  # --- 角色在畫面上的位置（組隊紅條）---
+  # 程式原本假設「角色永遠在畫面正中央」。這個假設在楓谷是錯的：鏡頭有跟隨
+  # 延遲，走動時角色會跑在鏡頭前面；走到地圖邊緣鏡頭更會直接卡住。實測 1920
+  # 視窗上角色可以偏離中心 200px 以上，後果是 (1) 挖掉「自己」挖錯地方，
+  # 角色被當成一隻怪打 (2) 攻擊範圍框沒對準角色。
+  #
+  # 有兩招，會依序嘗試，都失敗才退回畫面中央（也就是原本的行為，不會壞）：
+  #
+  # 1. locate_nametag：認**角色名牌**。名牌本來就掛在角色腳下，不用進遊戲做
+  #    任何設定，而且上面是你的角色名，別人的名字比不中——天生只找得到自己。
+  #    先截一次模板：
+  #      python tools/grab_template.py --dir data/templates/ui --name player_nametag
+  #    （框住名牌那塊深色底的文字，不用框很準）。沒有模板檔就自動跳過。
+  #    nametag_offset 是「名牌中心 -> 角色中心」的位移，以 790px 寬為基準；
+  #    往上是負的。用 tools/debug_view.py --snapshot 看洋紅色十字有沒有落在
+  #    角色身上，沒有就調這個值。
+  #
+  # 2. locate_player_bar：認**組隊紅條**（跟 MapleStoryAutoLevelUp 同一招）。
+  #    要自己跟自己組隊，角色頭上才會出現那條紅條。
+  locate_nametag: true
+  nametag_offset: [0, -24]
+  # 門檻是照「跟背景的差距」訂的，不是照分數高低——半透明底會讓分數整體偏低。
+  # 實拍：自己的名牌 0.784、整張圖其他地方最高 0.545、旁邊路人的連 0.537 都不到。
+  nametag_threshold: 0.70
+  locate_player_bar: true
+
+  mob_match_threshold: 0.72   # template 模式用
+  yolo_model: ""                      # mob_detector=yolo 時填訓練好的 .pt 路徑
+  yolo_confidence: 0.5                # yolo 與 remote 共用的信心門檻
+  remote_endpoint: ""                 # 例: "http://192.168.1.50:8100/detect"
+  remote_timeout: 1.0                 # 逾時就當作這幀沒看到怪，不會中斷 bot
+  remote_jpeg_quality: 80             # 降低可省頻寬（VPN/WiFi 可調到 60）
+  remote_max_width: 640               # 送出前縮到這個寬度；YOLO 內部本來就會
+                                      # 縮到 640，所以這是免費的頻寬節省（0=不縮）
+  # 每幾秒才做一次怪物偵測（0 = 每個 tick 都做）。
+  # 怪物偵測很貴時（遠端推理走 VPN、畫面很大）設 0.3~0.5，
+  # 主迴圈仍然全速跑——HP/位置這些攸關安全的辨識不受影響。
+  mob_interval: 0.0
+
+  # 只在角色周圍這個大小的框內找怪（角色永遠在畫面中央）。
+  # 打不到的地方本來就不用看：省時間、少誤判，遠端推理的封包也變小。
+  # 大視窗（>1500px）強烈建議設定，實測 2554x1430 從 135ms 降到 12ms。
+  # 設成攻擊範圍的兩倍左右即可。留空 = 掃整個 playfield。
+  # mob_search_box: [700, 400]
+
+safety:
+  stop_key: f12             # 緊急停止
+  pause_key: f9             # 暫停 / 繼續
+  critical_hp_ratio: 0.25   # HP 低於此比例直接停止程式並截圖
+  critical_hp_frames: 3     # 要連續幾幀都讀到低血才停機。血條被特效蓋住或
+                            # 擷取抖一下都會讀成 0，一幀就停機等於整晚白掛
+  pause_when_players: true  # 小地圖出現其他玩家時暫停動作
+  lost_player_timeout: 5.0  # 連續幾秒找不到玩家黃點就自動暫停
+  sound_alerts: true        # 危險事件嗶聲提醒（Panic/黑屏/有人出現）
+  black_screen_pause: true  # 畫面全黑（斷線/換頻道/讀圖）自動暫停
+  # 幾分鐘沒賺到經驗就暫停（0=不檢查）。這是最有效的健康檢查——它驗證
+  # 「辨識→決策→按鍵→遊戲有反應」整條鏈路，技能鍵設錯、怪抓不到、
+  # 卡在打不到怪的地方，都只有這個看得出來。
+  exp_stall_minutes: 10
+
+  # 連續攻擊這麼多秒、角色位置卻完全沒變，就強制去巡邏幾秒（0=不檢查）。
+  # 正常打怪一定會有進展（怪死了就往下一個點走）；打不停又不移動代表在打
+  # 一個打不死也不會走的東西——最常見是寵物被當成怪，其次是隔著地形打不到。
+  # 讓路的那幾秒也剛好給跟隨物過濾器判別寵物需要的移動樣本。
+  attack_stall_seconds: 12
+  attack_break_seconds: 3
+
+  # 跑滿這麼多分鐘就自己收工（0=不限）。這不是反偵測，是「無人看管的程式
+  # 該有個盡頭」：睡前開的 bot 不該在你醒來前卡在某個沒人預期的狀態上
+  # 空轉一整個白天。收工時照常產生報告。
+  max_runtime_minutes: 0
+
+# 系統與遊戲行程監看（需要 psutil，沒裝就自動停用，不影響主迴圈）。
+# 存在的理由是兩個主迴圈看不到的失敗：
+#   1. 遊戲當掉/被關掉——視窗一消失，bot 會開始把技能鍵送進桌面。
+#      「行程還在不在」比黑屏偵測、比找不到玩家點都更明確
+#   2. 機器扛不住——CPU 滿載時主迴圈會掉幀，這時「反應變鈍」不是辨識參數的錯
+monitor:
+  enabled: true
+  interval: 5.0               # 幾秒取樣一次
+  stop_when_game_exits: true  # 遊戲行程消失就停機（強烈建議開著）
+  process: ""                 # 行程名關鍵字；留空 = 從遊戲視窗自動反查 PID（較準）
+  cpu_threshold: 92           # 系統 CPU 高於此值警告一次（同類警報 2 分鐘內不重複）
+  mem_threshold: 90           # 系統記憶體同上
+  game_mem_threshold_mb: 4096 # 遊戲行程記憶體提醒（0=不檢查）
+
+# 收工報告：logs/reports/session_<時間>.{json,md,png}
+# log 是給「當下在看」的人寫的流水帳；報告回答的是隔天早上的問題——
+# 賺了多少、出過幾次事、慢在哪、遊戲有沒有掛掉。
+report:
+  enabled: true
+  dir: logs/reports
+  sample_interval: 10.0       # 曲線取樣間隔秒數（0=不記曲線，只出摘要）
+  chart: true                 # 產生 PNG 曲線（需要 matplotlib，沒裝就自動跳過）
+
+# 選配：本地 VLM 督導層（slow loop）。
+# 每 interval 秒看一次畫面，判斷卡死/對話框/斷線等異常，異常時只會把 bot 暫停。
+# 必須是「視覺」模型（要看截圖），純文字模型不行。
+#
+# Ollama（最簡單）：
+#   ollama pull qwen2.5vl:7b        # 6GB，判斷異常綽綽有餘（相容最廣的安全預設）
+#   較新版 Ollama 也可用 qwen3-vl:8b（新一代、同級大小），
+#   或任何你已有的視覺模型（例如 qwen3.6 系列非 -mlx 標籤都有 vision，
+#   用 `ollama show <model>` 確認 capabilities 含 vision）。
+#   然後把 enabled 改 true 即可（endpoint/model 預設就是 Ollama）
+#
+#   跟其他大模型共存的原則（advisor 每 interval 秒呼叫會讓模型常駐 VRAM）：
+#   32GB 卡 = 一顆大文字模型（17~21GB）+ 一顆小 VL（6~7GB）可同時駐留；
+#   兩顆大的塞不下會被 Ollama LRU 換出，若 log 出現督導呼叫逾時，
+#   把 timeout 調高或改用小 VL 專職督導。
+#
+# vLLM 使用者改成：
+#   endpoint: "http://127.0.0.1:8000/v1/chat/completions"
+#   model: "Qwen/Qwen2.5-VL-7B-Instruct"
+advisor:
+  enabled: false
+  endpoint: "http://127.0.0.1:11434/v1/chat/completions"
+  model: "qwen2.5vl:7b"
+  interval: 20.0
+  timeout: 15.0
